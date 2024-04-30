@@ -1,14 +1,12 @@
 import { Controller, Get, Query, Post, Body, Patch, Param, Delete } from '@nestjs/common';
 import { ApiService } from './api.service';
-import { CreateApiDto } from './dto/create-api.dto';
-import { UpdateApiDto } from './dto/update-api.dto';
 import { Stats } from './dto/stats.dto'
-import { EsdtToken } from './dto/EsdtToken.dto';
+import { EsdtToken } from './dto/esdtToken.dto';
 import { NftCollection } from './dto/nftCollection.dto';
 import { NftToken } from './dto/nftToken.dto';
-import { ApiQuery } from '@nestjs/swagger';
+import { ApiQuery, ApiResponse } from '@nestjs/swagger';
 
-@Controller('api')
+@Controller('')
 export class ApiController {
   constructor(private readonly apiService: ApiService) {}
 
@@ -30,7 +28,7 @@ export class ApiController {
   @Get('accounts/:address')
   async getAccountStats(
     @Param('address') address: string
-  ): Promise<Stats> {
+  ): Promise<any | undefined> {
     return await this.apiService.getAccountStats(address);
   }
 
@@ -41,25 +39,25 @@ export class ApiController {
     return await this.apiService.getToken(tokenID);
   }
 
-  @Get('collections/:tokenID')
+  @Get('collections/:collectionID')
   async getNftCollection(
-    @Param('tokenID') tokenID: string
+    @Param('collectionID') collectionID: string
   ): Promise<NftCollection> {
-    return new NftCollection();
+    return this.apiService.getNftCollection(collectionID);
   }
 
   @Get('accounts/:address/tokens/count')
   async getTokensCountForUser(
     @Param('address') address: string
   ): Promise<number> {
-    return 0;
+    return this.apiService.getTokensCountForUser(address);
   }
 
   @Get('accounts/:address/nfts/count')
   async getNftsCountForUser(
     @Param('address') address: string
   ): Promise<number> {
-    return 1;
+    return this.apiService.getNftsCountForUser(address);
   }
 
   @Get('accounts/:address/tokens')
@@ -68,7 +66,7 @@ export class ApiController {
     @Query('from') from: number = 0,
     @Query('size') size: number = 100
   ): Promise<EsdtToken[]> {
-    return [new EsdtToken()];
+    return this.apiService.getTokensForUser(address);
   }
 
   @Get('accounts/:address/tokens/:tokenID')

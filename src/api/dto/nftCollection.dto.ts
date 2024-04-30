@@ -1,15 +1,17 @@
 // import { ObjectType } from '@nestjs/graphql';
-// import { AssetsModel } from './assets.model';
+import { AssetsModel } from './assets.dto';
 // import { INFTCollection } from './nft.interface';
-// import { RolesModel } from './roles.model';
+import { RolesModel } from './roles.dto';
 
 // @ObjectType({
 //     implements: () => [INFTCollection],
 // })
 export class NftCollection { // implements INFTCollection {
     collection: string;
+    type: string;
     name: string;
     ticker: string;
+    owner: string;
     decimals: number;
     issuer: string;
     timestamp: number;
@@ -21,12 +23,13 @@ export class NftCollection { // implements INFTCollection {
     canFreeze: boolean;
     canWipe: boolean;
     canAddSpecialRoles: boolean;
-    canTransferNFTCreateRole: boolean;
+    canTransferNftCreateRole: boolean;
     NFTCreateStopped: boolean;
-    // assets?: AssetsModel;
-    // roles?: RolesModel;
-
-    // constructor(init?: Partial<NftCollection>) {
-    //     Object.assign(this, init);
-    // }
+    assets?: AssetsModel;
+    roles?: RolesModel[];
+    traits: string;
+    canTransfer: boolean;
+    constructor(init?: Partial<NftCollection>) {
+        Object.assign(this, init);
+    }
 }
