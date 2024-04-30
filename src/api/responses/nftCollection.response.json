@@ -1,0 +1,42 @@
+{
+    "collection": "ONXCRDS-ab712e",
+    "type": "SemiFungibleESDT",
+    "name": "OnionXCardS",
+    "ticker": "ONXCRDS-ab712e",
+    "owner": "erd1knr6ha4xat3juryp47x3duj4lykjhlxqhdu67vtj4ey9apy6aa5sg0hlem",
+    "timestamp": 1714476300,
+    "canFreeze": false,
+    "canWipe": false,
+    "canPause": false,
+    "canTransferNftCreateRole": true,
+    "canChangeOwner": false,
+    "canUpgrade": true,
+    "canAddSpecialRoles": true,
+    "traits": "{\"Deck Number\":{\"1\":1},\"Rarity\":{\"⬛️ Investors\":1},\"Burnable 🔥\":{\"Not recommended\":1},\"Subject\":{\"Bull investor\":1}}",
+    "canTransfer": true,
+    "roles": [
+      {
+        "canCreate": false,
+        "canBurn": false,
+        "canAddQuantity": false,
+        "canUpdateAttributes": false,
+        "canAddUri": false,
+        "roles": [
+          "ESDTRoleBurnForAll"
+        ]
+      },
+      {
+        "address": "erd1knr6ha4xat3juryp47x3duj4lykjhlxqhdu67vtj4ey9apy6aa5sg0hlem",
+        "canCreate": true,
+        "canBurn": true,
+        "canAddQuantity": true,
+        "canUpdateAttributes": false,
+        "canAddUri": false,
+        "roles": [
+          "ESDTRoleNFTCreate",
+          "ESDTRoleNFTBurn",
+          "ESDTRoleNFTAddQuantity"
+        ]
+      }
+    ]
+  }

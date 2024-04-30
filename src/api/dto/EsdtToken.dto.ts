@@ -45,8 +45,6 @@ export class EsdtToken {
         this.assets = new AssetsModel(init.assets);
         if (init?.roles) {
             this.roles = init.roles.map(role => new RolesModel(role));
-        } else {
-            this.roles = [];
         }
     }
 }

@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { Stats } from './dto/stats.dto'
 import { EsdtToken } from './dto/esdtToken.dto';
 import { createJsonObject } from './utils/readJsonFile';
+import { NftCollection } from './dto/nftCollection.dto';
 
 @Injectable()
 export class ApiService {
@@ -32,46 +33,39 @@ async getShardBlockCountInEpoch(
 }
 
 async getAccountStats(address: string): Promise<any | undefined> {
-    // return await this.doGetGeneric(
-    //     this.getAccountStats.name,
-    //     `accounts/${address}`,
-    // );
-    return {
-        "address": address,
-        "balance": "162486906126924046",
-        "nonce": 45,
-        "timestamp": 1694012940,
-        "shard": 0,
-        "rootHash": "9B2w5VHA7jm3cgAsZEmBVfz7XSGDwVzwFIWau6yRFgw=",
-        "username": "alice.elrond",
-        "developerReward": "0",
-        "txCount": 55,
-        "scrCount": 52
-      };
+    // valid address = erd1rf4hv70arudgzus0ymnnsnc4pml0jkywg2xjvzslg0mz4nn2tg7q7k0t6p
+    if(address === "erd1rf4hv70arudgzus0ymnnsnc4pml0jkywg2xjvzslg0mz4nn2tg7q7k0t6p")
+        return {
+            "address": "erd1rf4hv70arudgzus0ymnnsnc4pml0jkywg2xjvzslg0mz4nn2tg7q7k0t6p",
+            "balance": "2661751756278434900912045",
+            "nonce": 164,
+            "timestamp": 1713970002,
+            "shard": 0,
+            "assets": {
+              "name": "Exchange: Binance Staking",
+              "description": "Account containing all staked amounts on the Binance platform",
+              "tags": [
+                "exchange",
+                "binance",
+                "staking"
+              ],
+              "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/binance.png",
+              "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/binance.svg"
+            },
+            "rootHash": "Xryqow3bWnUzxzHi5p9qgQIgkRIYkmIeM1jdaO67VHc=",
+            "developerReward": "0",
+            "txCount": 323,
+            "scrCount": 37
+          };
+    else
+        return undefined;
 }
 
 async getToken(tokenID: string): Promise<EsdtToken> {
-    //try {
-        // const rawToken = await this.doGetGeneric<EsdtToken>(
-        //     this.getToken.name,
-        //     `tokens/${tokenID}`,
-        // );
-        //const rawToken = 
-        //const esdtToken = new EsdtToken(rawToken);
-        // if (!isEsdtToken(esdtToken)) {
-        //     return undefined;
-        // }
-
-        // if (!isEsdtTokenValid(esdtToken)) {
-        //     const gatewayToken = await this.mxProxy
-        //         .getService()
-        //         .getDefinitionOfFungibleToken(tokenID);
-        //     esdtToken.identifier = gatewayToken.identifier;
-        //     esdtToken.decimals = gatewayToken.decimals;
-        // }
         try {
             const filePath: string = "./src/api/responses/esdtToken.response.json";
             const jsonObject = createJsonObject(filePath);
+            //valid token identifier = MEX-455c57 
             if(jsonObject.identifier === tokenID)
                 return new EsdtToken(jsonObject);
             else
@@ -81,63 +75,51 @@ async getToken(tokenID: string): Promise<EsdtToken> {
         }
 }
 
-// async getNftCollection(tokenID: string): Promise<NftCollection> {
-//     try {
-//         const rawCollection = await this.doGetGeneric(
-//             this.getNftCollection.name,
-//             `collections/${tokenID}`,
-//         );
-//         const collection = new NftCollection(rawCollection);
-//         if (!isNftCollection(collection)) {
-//             return undefined;
-//         }
-//         if (!isNftCollectionValid(collection)) {
-//             const gatewayCollection = await this.mxProxy
-//                 .getService()
-//                 .getDefinitionOfTokenCollection(tokenID);
-//             collection.decimals = gatewayCollection.decimals;
-//         }
-//         return collection;
-//     } catch (error) {
-//         return undefined;
-//     }
-// }
+async getNftCollection(collectionID: string): Promise<NftCollection> {
+    try {
+        const filePath: string = "./src/api/responses/nftCollection.response.json";
+        const jsonObject = createJsonObject(filePath);  
+        //valid collection identifier = ONXCRDS-ab712e 
+        if(jsonObject.collection === collectionID)
+            return new NftCollection(jsonObject);
+        else
+            throw new Error("Invalid identifier !");
+    } catch (error) {
+        return undefined;
+    }
+}
 
-// async getTokensCountForUser(address: string): Promise<number> {
-//     return this.doGetGeneric<number>(
-//         this.getTokensCountForUser.name,
-//         `accounts/${address}/tokens/count`,
-//     );
-// }
+async getTokensCountForUser(address: string): Promise<number> {
+    // valid address = erd1rf4hv70arudgzus0ymnnsnc4pml0jkywg2xjvzslg0mz4nn2tg7q7k0t6p
+    if(address === "erd1rf4hv70arudgzus0ymnnsnc4pml0jkywg2xjvzslg0mz4nn2tg7q7k0t6p")
+        return 21;
+    else
+        return undefined;
+}
 
-// async getNftsCountForUser(address: string): Promise<number> {
-//     return this.doGetGeneric<number>(
-//         this.getNftsCountForUser.name,
-//         `accounts/${address}/nfts/count`,
-//     );
-// }
+async getNftsCountForUser(address: string): Promise<number> {
+    // valid address = erd1rf4hv70arudgzus0ymnnsnc4pml0jkywg2xjvzslg0mz4nn2tg7q7k0t6p
+    if(address === "erd1rf4hv70arudgzus0ymnnsnc4pml0jkywg2xjvzslg0mz4nn2tg7q7k0t6p")
+        return 9;
+    else
+        return undefined;
+}
 
-// async getTokensForUser(
-//     address: string,
-//     from = 0,
-//     size = 100,
-// ): Promise<EsdtToken[]> {
-//     const userTokens = await this.doGetGeneric<EsdtToken[]>(
-//         this.getTokensForUser.name,
-//         `accounts/${address}/tokens?from=${from}&size=${size}`,
-//     );
-
-//     for (const token of userTokens) {
-//         if (!isEsdtTokenValid(token)) {
-//             const gatewayToken = await this.mxProxy
-//                 .getService()
-//                 .getDefinitionOfFungibleToken(token.identifier);
-//             token.decimals = gatewayToken.decimals;
-//         }
-//     }
-
-//     return userTokens;
-// }
+async getTokensForUser(
+    address: string,
+    from = 0,
+    size = 100,
+): Promise<EsdtToken[]> {
+    const filePath: string = "./src/api/responses/esdtTokensForUser.response.json";
+    const jsonObject  = createJsonObject(filePath);
+    
+    //valid address for user = erd1rf4hv70arudgzus0ymnnsnc4pml0jkywg2xjvzslg0mz4nn2tg7q7k0t6p 
+    if(address === "erd1rf4hv70arudgzus0ymnnsnc4pml0jkywg2xjvzslg0mz4nn2tg7q7k0t6p") {
+        const userTokens: EsdtToken[] = jsonObject.map(token => new EsdtToken(token));
+        return userTokens;
+    } else
+        return undefined;
+}
 
 // async getTokenForUser(
 //     address: string,
