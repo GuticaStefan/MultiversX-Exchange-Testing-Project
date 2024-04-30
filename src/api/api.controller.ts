@@ -3,10 +3,10 @@ import { ApiService } from './api.service';
 import { CreateApiDto } from './dto/create-api.dto';
 import { UpdateApiDto } from './dto/update-api.dto';
 import { Stats } from './dto/stats.dto'
-import { EsdtToken } from './dto/EsdtToken.dto';
+import { EsdtToken } from './dto/esdtToken.dto';
 import { NftCollection } from './dto/nftCollection.dto';
 import { NftToken } from './dto/nftToken.dto';
-import { ApiQuery } from '@nestjs/swagger';
+import { ApiQuery, ApiResponse } from '@nestjs/swagger';
 
 @Controller('api')
 export class ApiController {
@@ -30,7 +30,7 @@ export class ApiController {
   @Get('accounts/:address')
   async getAccountStats(
     @Param('address') address: string
-  ): Promise<Stats> {
+  ): Promise<any | undefined> {
     return await this.apiService.getAccountStats(address);
   }
 
