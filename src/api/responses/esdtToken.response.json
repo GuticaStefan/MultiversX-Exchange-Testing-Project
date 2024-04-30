@@ -1,0 +1,218 @@
+{
+    "type": "FungibleESDT",
+    "identifier": "MEX-455c57",
+    "name": "MEX",
+    "ticker": "MEX",
+    "owner": "erd1ss6u80ruas2phpmr82r42xnkd6rxy40g9jl69frppl4qez9w2jpsqj8x97",
+    "minted": "35369901137836215493861181274872",
+    "burnt": "31085463479493770230894351919876",
+    "initialMinted": "1000000000000000000",
+    "decimals": 18,
+    "isPaused": false,
+    "assets": {
+      "website": "https://xexchange.com",
+      "description": "MEX is the utility token of the xExchange.",
+      "status": "active",
+      "pngUrl": "https://media.elrond.com/tokens/asset/MEX-455c57/logo.png",
+      "svgUrl": "https://media.elrond.com/tokens/asset/MEX-455c57/logo.svg",
+      "ledgerSignature": "304402207c9727bf3a0af254052154bceefe835856e4a7f6538cb6f5c3ef12422c6ab5dd02207d7a6c88777032079cd57b5b859a6e8dee4b73bb4fa699f0340f99fb70080a8d"
+    },
+    "transactions": 1881884,
+    "transfersCount": 12639985,
+    "accounts": 102439,
+    "canUpgrade": true,
+    "canMint": true,
+    "canBurn": true,
+    "canChangeOwner": true,
+    "canAddSpecialRoles": true,
+    "canPause": true,
+    "canFreeze": true,
+    "canWipe": true,
+    "price": 0.000004497860105180438,
+    "marketCap": 19270801.699282933,
+    "supply": "4284437658343",
+    "circulatingSupply": "4284437658343",
+    "mexPairType": "core",
+    "totalLiquidity": 9077041.11108531,
+    "totalVolume24h": 33902.71338704164,
+    "roles": [
+      {
+        "canLocalMint": true,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalMint",
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqjpt0qqgsrdhp2xqygpjtfrpwf76f9nvg2jpsg4q7th"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalMint",
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqye633y7k0zd7nedfnp3m48h24qygm5jl2jpslxallh"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalMint",
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqsw9pssy8rchjeyfh8jfafvl3ynum0p9k2jps6lwewp"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalMint",
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqv4ks4nzn2cw96mm06lt7s2l3xfrsznmp2jpsszdry5"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalMint",
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqrc4pg2xarca9z34njcxeur622qmfjp8w2jps89fxnl"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalMint",
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqs2puacesqywt84jawqenmmree20uj80d2jpsefuka9"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalMint",
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqs2mmvzpu6wz83z3vthajl4ncpwz67ctu2jpsrcl0ct"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": false,
+        "roles": [
+          "ESDTRoleLocalMint"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqnqvjnn4haygsw2hls2k9zjjadnjf9w7g2jpsmc60a4"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": false,
+        "roles": [
+          "ESDTRoleLocalMint"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqutddd7dva0x4xmehyljp7wh7ecynag0u2jpskxx6xt"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalMint",
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqe9v45fnpkv053fj0tk7wvnkred9pms892jps9lkqrn"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": false,
+        "roles": [
+          "ESDTRoleLocalMint"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgq6xp2uvdk22frgqkwm9pwa564gqg2gxfm2jpszggzgw"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": false,
+        "roles": [
+          "ESDTRoleLocalMint"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqmaj6qc4c6f9ldkuwllqh7pyd8e9yu3m82jpscc6f9s"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": false,
+        "roles": [
+          "ESDTRoleLocalMint"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqc3p5xkj656h2ts649h4f447se4clns662jpsccq7rx"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": false,
+        "roles": [
+          "ESDTRoleLocalMint"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqzy0qwv0jf0yk8tysll0y6ea0fhpfqlp32jpsder9ne"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalMint",
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgq0tajepcazernwt74820t8ef7t28vjfgukp2sw239f3"
+      },
+      {
+        "canLocalMint": true,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalMint",
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqt6ltx52ukss9d2qag2k67at28a36xc9lkp2sr06394"
+      },
+      {
+        "canLocalMint": false,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2"
+      },
+      {
+        "canLocalMint": false,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgq5e2m9df5yxxkmr86rusejc979arzayjk2jpsz2q43s"
+      },
+      {
+        "canLocalMint": false,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgq7qhsw8kffad85jtt79t9ym0a4ycvan9a2jps0zkpen"
+      },
+      {
+        "canLocalMint": false,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqxv0y4p6vvszrknaztatycac77yvsxqrrkp2sghd86c"
+      },
+      {
+        "canLocalMint": false,
+        "canLocalBurn": true,
+        "roles": [
+          "ESDTRoleLocalBurn"
+        ],
+        "address": "erd1qqqqqqqqqqqqqpgqxetccmv9rjefu2fwtw7a6kkx0tsqtqxpp4ssj8shz4"
+      }
+    ]
+  }

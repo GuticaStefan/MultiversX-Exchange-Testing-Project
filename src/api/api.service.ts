@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { Stats } from './dto/stats.dto'
-import { EsdtToken } from './dto/EsdtToken.dto';
+import { EsdtToken } from './dto/esdtToken.dto';
+import { createJsonObject } from './utils/readJsonFile';
 
 @Injectable()
 export class ApiService {
@@ -27,7 +28,7 @@ async getShardBlockCountInEpoch(
     //     this.getStats.name,
     //     `blocks/count?epoch=${epoch}&shard=${shardId}`,
     // );
-    return 19709768;
+    return 19709768; 
 }
 
 async getAccountStats(address: string): Promise<any | undefined> {
@@ -35,11 +36,22 @@ async getAccountStats(address: string): Promise<any | undefined> {
     //     this.getAccountStats.name,
     //     `accounts/${address}`,
     // );
-    return new Stats();
+    return {
+        "address": address,
+        "balance": "162486906126924046",
+        "nonce": 45,
+        "timestamp": 1694012940,
+        "shard": 0,
+        "rootHash": "9B2w5VHA7jm3cgAsZEmBVfz7XSGDwVzwFIWau6yRFgw=",
+        "username": "alice.elrond",
+        "developerReward": "0",
+        "txCount": 55,
+        "scrCount": 52
+      };
 }
 
 async getToken(tokenID: string): Promise<EsdtToken> {
-    try {
+    //try {
         // const rawToken = await this.doGetGeneric<EsdtToken>(
         //     this.getToken.name,
         //     `tokens/${tokenID}`,
@@ -57,11 +69,16 @@ async getToken(tokenID: string): Promise<EsdtToken> {
         //     esdtToken.identifier = gatewayToken.identifier;
         //     esdtToken.decimals = gatewayToken.decimals;
         // }
-
-        return new EsdtToken();
-    } catch (error) {
-        return undefined;
-    }
+        try {
+            const filePath: string = "./src/api/responses/esdtToken.response.json";
+            const jsonObject = createJsonObject(filePath);
+            if(jsonObject.identifier === tokenID)
+                return new EsdtToken(jsonObject);
+            else
+                throw new Error("Invalid identifier !");
+        } catch (error) {
+            return undefined;
+        }
 }
 
 // async getNftCollection(tokenID: string): Promise<NftCollection> {
