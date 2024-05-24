@@ -74,15 +74,15 @@ export class ApiController {
     @Param('address') address: string,
     @Param('tokenID') tokenID: string,
   ): Promise<EsdtToken> {
-    return new EsdtToken();
+    return this.apiService.getTokenForUser(address, tokenID);
   }
 
-  @Get('accounts/:address/tokens/:tokenID')
+  @Get('accounts/:address/tokens/:tokenID/balance')
   async getTokenBalanceForUser(
     @Param('address') address: string,
     @Param('tokenID') tokenID: string,
   ): Promise<string> {
-    return 'token balance for user';
+    return this.apiService.getTokenBalanceForUser(address, tokenID);
   }
 
   // @Get('accounts/:address/')

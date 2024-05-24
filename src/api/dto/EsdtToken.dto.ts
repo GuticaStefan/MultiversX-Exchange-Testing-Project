@@ -7,30 +7,30 @@ export enum EsdtTokenType {
 }
 
 export class EsdtToken {
-    identifier: string;
-    name: string;
-    ticker: string;
-    owner: string;
+    identifier?: string;
+    name?: string;
+    ticker?: string;
+    owner?: string;
     minted?: string;
     burnt?: string;
     initialMinted?: string;
-    decimals: number;
-    derivedEGLD: string;
+    decimals?: number;
+    derivedEGLD?: string;
     price?: number;
     supply?: string;
     circulatingSupply?: string;
     assets?: AssetsModel;
-    transactions: number;
-    transfersCount: number;
-    accounts: number;
-    isPaused: boolean;
-    canUpgrade: boolean;
-    canMint: boolean;
-    canBurn: boolean;
-    canChangeOwner: boolean;
-    canPause: boolean;
-    canFreeze: boolean;
-    canWipe: boolean;
+    transactions?: number;
+    transfersCount?: number;
+    accounts?: number;
+    isPaused?: boolean;
+    canUpgrade?: boolean;
+    canMint?: boolean;
+    canBurn?: boolean;
+    canChangeOwner?: boolean;
+    canPause?: boolean;
+    canFreeze?: boolean;
+    canWipe?: boolean;
     roles?: RolesModel[];
     type?: string;
     balance?: string;
@@ -39,10 +39,13 @@ export class EsdtToken {
     mexPairType?: string;
     totalLiquidity?: number;
     totalVolume24h?: number;
+    valueUsd?: number;
 
     constructor(init?: Partial<EsdtToken>) {
         Object.assign(this, init);
-        this.assets = new AssetsModel(init.assets);
+        if (init?.assets) {
+            this.assets = new AssetsModel(init.assets);
+        }
         if (init?.roles) {
             this.roles = init.roles.map(role => new RolesModel(role));
         }

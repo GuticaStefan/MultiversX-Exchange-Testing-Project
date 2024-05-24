@@ -25,10 +25,6 @@ async getShardBlockCountInEpoch(
     epoch: number,
     shardId: number,
 ): Promise<number> {
-    // return await this.doGetGeneric<Stats>(
-    //     this.getStats.name,
-    //     `blocks/count?epoch=${epoch}&shard=${shardId}`,
-    // );
     return 19709768; 
 }
 
@@ -121,27 +117,35 @@ async getTokensForUser(
         return undefined;
 }
 
-// async getTokenForUser(
-//     address: string,
-//     tokenID: string,
-// ): Promise<EsdtToken> {
-//     return this.doGetGeneric<EsdtToken>(
-//         this.getTokenForUser.name,
-//         `accounts/${address}/tokens/${tokenID}`,
-//     );
-// }
+async getTokenForUser(
+    address: string,
+    tokenID: string,
+): Promise<EsdtToken> {
+    // valid address for user = erd1rf4hv70arudgzus0ymnnsnc4pml0jkywg2xjvzslg0mz4nn2tg7q7k0t6p
+    // valid tokenId for user = AERO-458bbf
+    if(address === "erd1rf4hv70arudgzus0ymnnsnc4pml0jkywg2xjvzslg0mz4nn2tg7q7k0t6p" && 
+        tokenID === "AERO-458bbf") {
+            const filePath: string = "./src/api/responses/esdtTokenForUser.response.json";
+            const jsonObject  = createJsonObject(filePath);
+            return new EsdtToken(jsonObject);
+        }
+    else 
+        return undefined;
+}
 
-// async getTokenBalanceForUser(
-//     address: string,
-//     tokenID: string,
-// ): Promise<string> {
-//     try {
-//         const token = await this.getTokenForUser(address, tokenID);
-//         return token.balance;
-//     } catch (error) {
-//         return '0';
-//     }
-// }
+async getTokenBalanceForUser(
+    address: string,
+    tokenID: string,
+): Promise<string> {
+    // valid address for user = erd1rf4hv70arudgzus0ymnnsnc4pml0jkywg2xjvzslg0mz4nn2tg7q7k0t6p
+    // valid tokenId for user = AERO-458bbf
+    try {
+        const token = await this.getTokenForUser(address, tokenID);
+        return token.balance;
+    } catch (error) {
+        return '0';
+    }
+}
 
 // async getNftsForUser(
 //     address: string,
