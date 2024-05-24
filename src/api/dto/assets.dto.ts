@@ -9,7 +9,7 @@ export class AssetsModel {
     lockedAccounts?: {[address: string]: string};
     extraTokens?: string[];
     ledgerSignature?: string;
-    social?: SocialModel;
+    social?: {[key: string]: string};
     constructor(init?: Partial<AssetsModel>) {
         Object.assign(this, init);
     }
