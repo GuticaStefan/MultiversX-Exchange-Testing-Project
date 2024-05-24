@@ -1,7 +1,7 @@
 import { Controller, Get, Query, Post, Body, Patch, Param, Delete } from '@nestjs/common';
 import { ApiService } from './api.service';
 import { Stats } from './dto/stats.dto'
-import { EsdtToken } from './dto/esdtToken.dto';
+import { EsdtToken } from './dto/esdtToken';
 import { NftCollection } from './dto/nftCollection.dto';
 import { NftToken } from './dto/nftToken.dto';
 import { ApiQuery, ApiResponse } from '@nestjs/swagger';
@@ -74,15 +74,15 @@ export class ApiController {
     @Param('address') address: string,
     @Param('tokenID') tokenID: string,
   ): Promise<EsdtToken> {
-    return new EsdtToken();
+    return this.apiService.getTokenForUser(address, tokenID);
   }
 
-  @Get('accounts/:address/tokens/:tokenID')
+  @Get('accounts/:address/tokens/:tokenID/balance')
   async getTokenBalanceForUser(
     @Param('address') address: string,
     @Param('tokenID') tokenID: string,
   ): Promise<string> {
-    return 'token balance for user';
+    return this.apiService.getTokenBalanceForUser(address, tokenID);
   }
 
   // @Get('accounts/:address/')
