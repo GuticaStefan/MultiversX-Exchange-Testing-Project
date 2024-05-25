@@ -9,6 +9,6 @@ export class StakeController {
 
   @Get('/stake')
   async getStake(): Promise<any> {
-    return undefined;
+    return this.stakeService.getStake();
   }
 }

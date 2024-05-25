@@ -9,7 +9,7 @@ export class ProvidersController {
 
   @Get('/providers')
   async getProviders(): Promise<any> {
-    return undefined;
+    return this.providersService.getProviders();
   }
 
   @Get('/providers/:address/accounts')

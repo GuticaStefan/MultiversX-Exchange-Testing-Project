@@ -9,12 +9,12 @@ export class RoundsController {
 
   @Get('/rounds')
   async getRounds(): Promise<any> {
-    return undefined;
+    return this.roundsService.getRounds();
   }
 
   @Get('/rounds/count')
   async getRoundsCount(): Promise<number> {
-    return undefined;
+    return this.roundsService.getRoundsCount();
   }
 
   @Get('/rounds/:shard/:round')

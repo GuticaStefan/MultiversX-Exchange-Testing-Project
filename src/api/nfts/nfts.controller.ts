@@ -8,13 +8,13 @@ export class NftsController {
   constructor(private readonly nftsService: NftsService) {}
 
   @Get('/nfts')
-  async getGlobalNFTs(): Promise<any> {
-    return undefined;
+  async getNfts(): Promise<any> {
+    return this.nftsService.getNfts();
   }
 
   @Get('/nfts/count')
-  async getGlobalNFTCount(): Promise<number> {
-    return undefined;
+  async getNftsCount(): Promise<number> {
+    return this.nftsService.getNftsCount();
   }
 
   @Get('/nfts/:identifier')

@@ -5,7 +5,7 @@ import { ApiTags } from '@nestjs/swagger';
 @Controller()
 @ApiTags('xexchange')
 export class MexController {
-  constructor(private readonly xExchangeService: MexService) {}
+  constructor(private readonly mexService: MexService) {}
 
   @Get('/mex/economics')
   async getXExchangeEconomics(): Promise<any> {

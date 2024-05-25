@@ -1,0 +1,1035 @@
+[
+    {
+      "txHash": "d64ea1268072b9d536e0312c5c9d6d40d6ef2d83742dac55c838d67716497e1b",
+      "gasLimit": 40000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 11861290,
+      "miniBlockHash": "f64a6806110383dc0b0ece5010cb486324576fca76f3f55abc6fe14deb2a01a3",
+      "nonce": 92493,
+      "receiver": "erd1qqqqqqqqqqqqqpgqnjmyp62wxh5x89ttpcxvwueujeu4tqrygcwsg7pwpc",
+      "receiverAssets": {
+        "name": "Hatom: Price Aggregator",
+        "description": "Hatom's Price Aggregator module",
+        "tags": [
+          "hatom",
+          "money-market",
+          "lending",
+          "borrowing",
+          "oracle",
+          "pricing"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085853,
+      "sender": "erd1rlpea9sjpmfskrgh8yl9030fnuclmtykwyq8df0vdv3pzqevp3msudvsue",
+      "senderShard": 1,
+      "signature": "74ffb202eca592af0a6c9a9526c3600072594694523164ac1fa8e5e5258fb972e5ee56e56e279429f7421e5d36242f604f97f080ae1d9721ebc00bb60388fd00",
+      "status": "success",
+      "value": "0",
+      "fee": "249787900000000",
+      "timestamp": 1716632718,
+      "data": "c3VibWl0QmF0Y2hANTc1NDQxNGZANTU1MzQ0QDY2NTFiYzg5QDE3YmJkNTkzNjIxOWM1MDAwMA==",
+      "function": "submitBatch",
+      "action": {
+        "category": "scCall",
+        "name": "submitBatch"
+      },
+      "type": "Transaction"
+    },
+    {
+      "txHash": "2886078c67bb3fdb1f59f49c485085ba61f7d69d4ed2970238746ed9b85ac648",
+      "miniBlockHash": "bcfa381e8271e948456a8e8a24b4caf3d6803d93b8b7e64ae886b8e3606f11c7",
+      "receiver": "erd1l87yylf2mv39z4qat8g3738htg4rf33ltrvh7jc6t0k28gv4nw3qzhh3y6",
+      "receiverAssets": {
+        "name": "xPortal: Registration Relayer",
+        "social": {
+          "twitter": "https://twitter.com/xPortalApp",
+          "facebook": "https://www.facebook.com/xPortalApp",
+          "instagram": "https://www.instagram.com/xportalapp",
+          "telegram": "https://t.me/xPortalApp",
+          "youtube": "https://www.youtube.com/@xportalapp",
+          "website": "https://xportal.com"
+        },
+        "tags": [
+          "xportal",
+          "registration",
+          "relayer"
+        ]
+      },
+      "receiverShard": 2,
+      "sender": "erd1qqqqqqqqqqqqqpgq5cmmpmawjrnkvy0sfj9ztuyrtxp4mpvxsaaqaswkgt",
+      "senderAssets": {
+        "name": "xPortal: Registration Contract",
+        "social": {
+          "twitter": "https://twitter.com/xPortalApp",
+          "facebook": "https://www.facebook.com/xPortalApp",
+          "instagram": "https://www.instagram.com/xportalapp",
+          "telegram": "https://t.me/xPortalApp",
+          "youtube": "https://www.youtube.com/@xportalapp",
+          "website": "https://xportal.com"
+        },
+        "tags": [
+          "xportal",
+          "attestation"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/multiversx.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/multiversx.svg"
+      },
+      "senderShard": 2,
+      "status": "success",
+      "value": "115345060000000",
+      "timestamp": 1716632718,
+      "function": "transfer",
+      "type": "SmartContractResult",
+      "originalTxHash": "5e7495db4574343614c03e705070d290cb69db999f5b86b1b855bcdeadf31f88"
+    },
+    {
+      "txHash": "591ee66ef33a6f879553d946f2f9ff4baacc4d4894b80df68aac128967b5a91d",
+      "miniBlockHash": "bcfa381e8271e948456a8e8a24b4caf3d6803d93b8b7e64ae886b8e3606f11c7",
+      "receiver": "erd1qqqqqqqqqqqqqpgq5cmmpmawjrnkvy0sfj9ztuyrtxp4mpvxsaaqaswkgt",
+      "receiverAssets": {
+        "name": "xPortal: Registration Contract",
+        "social": {
+          "twitter": "https://twitter.com/xPortalApp",
+          "facebook": "https://www.facebook.com/xPortalApp",
+          "instagram": "https://www.instagram.com/xportalapp",
+          "telegram": "https://t.me/xPortalApp",
+          "youtube": "https://www.youtube.com/@xportalapp",
+          "website": "https://xportal.com"
+        },
+        "tags": [
+          "xportal",
+          "attestation"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/multiversx.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/multiversx.svg"
+      },
+      "receiverShard": 2,
+      "sender": "erd1q0gq23jlz2krsqet7taz3pegp5wqypecknqwn3pvked9jjdrkerq7llk7c",
+      "senderShard": 2,
+      "status": "success",
+      "value": "0",
+      "timestamp": 1716632718,
+      "data": "cmVnaXN0ZXJAZTRlNzMxMDhmNWI4NTFmZDgxMjFlYzMzNjY3ZGU1OGYwZWU4MWVhZGYwOGE2OTA1MjUwOTczNGIxYzA3MjYwMQ==",
+      "function": "register",
+      "action": {
+        "category": "scCall",
+        "name": "register"
+      },
+      "type": "SmartContractResult",
+      "originalTxHash": "5e7495db4574343614c03e705070d290cb69db999f5b86b1b855bcdeadf31f88"
+    },
+    {
+      "txHash": "5e7495db4574343614c03e705070d290cb69db999f5b86b1b855bcdeadf31f88",
+      "gasLimit": 16322000,
+      "gasPrice": 1000000000,
+      "gasUsed": 4787494,
+      "miniBlockHash": "101ecfb0be2bc5e79a42ec7088c13268b88f153dedc76a665c022232f4a676c5",
+      "nonce": 51852,
+      "receiver": "erd1q0gq23jlz2krsqet7taz3pegp5wqypecknqwn3pvked9jjdrkerq7llk7c",
+      "receiverShard": 2,
+      "round": 20085853,
+      "sender": "erd1l87yylf2mv39z4qat8g3738htg4rf33ltrvh7jc6t0k28gv4nw3qzhh3y6",
+      "senderAssets": {
+        "name": "xPortal: Registration Relayer",
+        "social": {
+          "twitter": "https://twitter.com/xPortalApp",
+          "facebook": "https://www.facebook.com/xPortalApp",
+          "instagram": "https://www.instagram.com/xportalapp",
+          "telegram": "https://t.me/xPortalApp",
+          "youtube": "https://www.youtube.com/@xportalapp",
+          "website": "https://xportal.com"
+        },
+        "tags": [
+          "xportal",
+          "registration",
+          "relayer"
+        ]
+      },
+      "senderShard": 2,
+      "signature": "48f2a70b20f3d1f9e827f5e380ab25757d31d635f954b3a438dd636266e578349291ae81a81a9cd15ad2bc33349aa4902c0ac9c1521e5728f55dcbdb64f47b04",
+      "status": "success",
+      "value": "0",
+      "fee": "1356654940000000",
+      "timestamp": 1716632718,
+      "data": "cmVsYXllZFR4QDdiMjI2ZTZmNmU2MzY1MjIzYTMwMmMyMjczNjU2ZTY0NjU3MjIyM2EyMjQxMzk0MTQ2NTI2YzM4NTM3MjQ0Njc0NDRiMmY0YzM2NGI0OTYzNmY0NDUyNzc0MzQyN2E2OTMwNzc0ZjZlNDU0YzRjNWE2MTU3NTU2ZDZhNzQ2YjU5M2QyMjJjMjI3MjY1NjM2NTY5NzY2NTcyMjIzYTIyNDE0MTQxNDE0MTQxNDE0MTQxNDE0MTQ2NDE0YjU5MzM3MzRmMmI3NTZiNGY2NDZkNDU2NjQyNGQ2OTY5NTg3NzY3MzE2ZDQ0NTg1OTU3NDc2ODMzNmYzZDIyMmMyMjc2NjE2Yzc1NjUyMjNhMzAyYzIyNjc2MTczNTA3MjY5NjM2NTIyM2EzMTMwMzAzMDMwMzAzMDMwMzAzMDJjMjI2NzYxNzM0YzY5NmQ2OTc0MjIzYTMxMzUzMDMwMzAzMDMwMzAyYzIyNjQ2MTc0NjEyMjNhMjI2MzZkNTY2ZTYxNTg0ZTMwNWE1ODRhNDE1YTU0NTI2YzRlN2E0ZDc4NGQ0NDY4NmQ0ZTU3NDkzNDRlNTQ0NjZkNWE0NDY3Nzg0ZDZhNDY2YzU5N2E0ZDdhNGU2YTU5MzM1YTQ3NTUzMTRmNDc1OTc3NWE1NzU1MzQ0ZDU3NTY2ODVhNDc1OTc3NGY0NzQ1MzI0ZjU0NDEzMTRkNmE1NTc3NGY1NDYzN2E0ZTQ3NDk3ODU5N2E0MTMzNGQ2YTU5Nzc0ZDUxM2QzZDIyMmMyMjczNjk2NzZlNjE3NDc1NzI2NTIyM2EyMjZkNmM2NjQ1NzUzMTQ5NDM0ODcyMzk3ODYzNzU3MDJmMzQ1YTY5NmQ0ZTU5NTkzNzVhNTc0NjY0NDg0OTcwNDY0NjU3NmY2MTZjNDQ0NjZkMzczMjc1NzM0OTM1NTc2ODc5NjU3NTc3NGM1YTY3NTg2MzY5NTA2NjQ5NjU0MTM2NmY0MjY4NTAzOTRmNTQ2YTZkNDE3NjcyMmY3NzZkNzM0ZTU4Mzc0MTQxNjczZDNkMjIyYzIyNjM2ODYxNjk2ZTQ5NDQyMjNhMjI0ZDUxM2QzZDIyMmMyMjc2NjU3MjczNjk2ZjZlMjIzYTMxN2Q=",
+      "function": "register",
+      "action": {
+        "category": "scCall",
+        "name": "register"
+      },
+      "type": "Transaction",
+      "isRelayed": true
+    },
+    {
+      "txHash": "6a8426cc8514cf891f11177f379547500351f2a6f525b7eb2460750ef0782eda",
+      "gasLimit": 60000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 68000,
+      "miniBlockHash": "7733dd33f66534000f119386fa6ffa8fda36e7391f51a850c0540759accaf333",
+      "nonce": 5633,
+      "receiver": "erd1qqqqqqqqqqqqqpgqjsnxqprks7qxfwkcg2m2v9hxkrchgm9akp2segrswt",
+      "receiverAssets": {
+        "name": "xExchange: Fees Collector",
+        "social": {
+          "website": "https://xexchange.com",
+          "twitter": "https://twitter.com/xExchangeApp",
+          "telegram": "https://t.me/xExchangeApp",
+          "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+        },
+        "tags": [
+          "xexchange",
+          "energy",
+          "fees",
+          "collector"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085853,
+      "sender": "erd1ujk9gfnlwzd7crs67ssjwefc8caxljfmqj8fjvj69ftrssh59snqsgc9uj",
+      "senderShard": 2,
+      "signature": "bd0c9751a1dbe0be80b456aa815951e4e584ce2248247b572ada85623f5683a0406d85f612a98896f4478c50b6dae61c725acc803c1a549ef77c1bed6b467406",
+      "status": "pending",
+      "value": "0",
+      "fee": "68000000000000",
+      "timestamp": 1716632718,
+      "data": "Y2xhaW1SZXdhcmRz",
+      "function": "claimRewards",
+      "action": {
+        "category": "scCall",
+        "name": "claimRewards"
+      },
+      "type": "Transaction"
+    },
+    {
+      "txHash": "0fbd5d60ca7ca680d0b392f2d789673e75b03e0b6d4a9e6d28e0da8a96a4a523",
+      "gasLimit": 50000,
+      "gasPrice": 1000000000,
+      "gasUsed": 50000,
+      "miniBlockHash": "adf02775e881759fa005aae996b792d2f27026af2a5663ea8c145f3b4c4a2c6f",
+      "nonce": 598,
+      "receiver": "erd144zsvvp59544d4p70lpt8n9aldyz33zevx6te29re8v6k8h62g3syd9vzz",
+      "receiverShard": 1,
+      "round": 20085853,
+      "sender": "erd1g0mav3zh0jn6t3lf5pjddc663qelsz233c3efu5w88tmu3rus8xqaqldgz",
+      "senderShard": 0,
+      "signature": "da54e3609c60e3b9864d6beeb8faecd3a6d3c422ddf14bd99aadae89bc70cce0af797378a598e7145d827792455b9b46e273693f3050b08c05456125abc9ca09",
+      "status": "pending",
+      "value": "97215065061974009",
+      "fee": "50000000000000",
+      "timestamp": 1716632718,
+      "function": "transfer",
+      "type": "Transaction"
+    },
+    {
+      "txHash": "40953a7a432100990d34aad8680e67a10cccd855c04cff8952a26be93cf01359",
+      "gasLimit": 50000,
+      "gasPrice": 1000000000,
+      "gasUsed": 50000,
+      "miniBlockHash": "c4edd1dc29654d1642861b032ca12dd215b2b389a4bf191848de968f6cf875ca",
+      "nonce": 16,
+      "receiver": "erd1gq6vsky9zcq2rkplc4hf5gswwkd99pvcp4jf7u5yk7seyrdvwups3awzqs",
+      "receiverShard": 1,
+      "round": 20085853,
+      "sender": "erd1d2axzd5k4upmwpartsy0eyty2eeypwc0sdtn9d5j062x87fgyk9qfc6604",
+      "senderShard": 2,
+      "signature": "1d57646397169b1d7d277dfdffc8518f441fbed598ca5039d9e82ea436f2c4865e975bd577294f98a96fb76fe38027f824407457560a3fa216f00eb1a3779d02",
+      "status": "success",
+      "value": "1135980000000000000",
+      "fee": "50000000000000",
+      "timestamp": 1716632718,
+      "function": "transfer",
+      "type": "Transaction"
+    },
+    {
+      "txHash": "35d91f8d93ccc100bcee0c83cb586adcf49fab464e4f49795f7adca1be1a46a6",
+      "miniBlockHash": "7ed54c19f013682a5a25d0578e26d9e3173fa1ec3208ad69f8f8d8cff3b6131f",
+      "receiver": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+      "receiverAssets": {
+        "name": "xExchange: MEX/WEGLD Liquidity Pool",
+        "tags": [
+          "xexchange",
+          "liquiditypool"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "receiverShard": 1,
+      "sender": "erd1qqqqqqqqqqqqqpgqxhgs55hpdqll93nnvf0nwnt3wmh62u692jps5wm8uj",
+      "senderAssets": {
+        "name": "xExchange: HTM/WEGLD Liquidity Pool",
+        "tags": [
+          "xexchange",
+          "liquiditypool"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "senderShard": 1,
+      "status": "success",
+      "value": "0",
+      "timestamp": 1716632718,
+      "data": "RVNEVFRyYW5zZmVyQDU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOUAwNDliZGJhMmJmMDFhM0A3Mzc3NjE3MDRlNmY0NjY1NjU0MTZlNjQ0NjZmNzI3NzYxNzI2NEA0ZDQ1NTgyZDM0MzUzNTYzMzUzN0AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw",
+      "function": "swapNoFeeAndForward",
+      "action": {
+        "category": "esdtNft",
+        "name": "transfer",
+        "description": "Transfer",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "FungibleESDT",
+              "name": "WrappedEGLD",
+              "ticker": "WEGLD",
+              "svgUrl": "https://media.elrond.com/tokens/asset/WEGLD-bd4d79/logo.svg",
+              "token": "WEGLD-bd4d79",
+              "decimals": 18,
+              "value": "1297267537412515"
+            }
+          ],
+          "receiver": "erd1qqqqqqqqqqqqqpgqa0fsfshnff4n76jhcye6k7uvd7qacsq42jpsp6shh2",
+          "functionName": "swapNoFeeAndForward",
+          "functionArgs": [
+            "4d45582d343535633537",
+            "0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "receiverAssets": {
+            "name": "xExchange: MEX/WEGLD Liquidity Pool",
+            "tags": [
+              "xexchange",
+              "liquiditypool"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+          }
+        }
+      },
+      "type": "SmartContractResult",
+      "originalTxHash": "df79539b53501c330e4818864cac536842681a9d82669fba548e5da3324f701e"
+    },
+    {
+      "txHash": "7e7f4fd4ada3df37e64851092a571a42566ace5a1262556d527b0a43ddb9dec2",
+      "miniBlockHash": "7ed54c19f013682a5a25d0578e26d9e3173fa1ec3208ad69f8f8d8cff3b6131f",
+      "receiver": "erd1938z7at0ja0wrr4xd88p3944dsg0nwkax9s8pf7vz20uelpzl5ts8zrk4r",
+      "receiverShard": 1,
+      "sender": "erd1qqqqqqqqqqqqqpgqxhgs55hpdqll93nnvf0nwnt3wmh62u692jps5wm8uj",
+      "senderAssets": {
+        "name": "xExchange: HTM/WEGLD Liquidity Pool",
+        "tags": [
+          "xexchange",
+          "liquiditypool"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "senderShard": 1,
+      "status": "success",
+      "value": "0",
+      "timestamp": 1716632718,
+      "data": "RVNEVFRyYW5zZmVyQDU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOUAyM2U2OTE1NmU4MmZhNmQ2",
+      "function": "ESDTTransfer",
+      "action": {
+        "category": "esdtNft",
+        "name": "transfer",
+        "description": "Transfer",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "FungibleESDT",
+              "name": "WrappedEGLD",
+              "ticker": "WEGLD",
+              "svgUrl": "https://media.elrond.com/tokens/asset/WEGLD-bd4d79/logo.svg",
+              "token": "WEGLD-bd4d79",
+              "decimals": 18,
+              "value": "2586914838419580630"
+            }
+          ],
+          "receiver": "erd1938z7at0ja0wrr4xd88p3944dsg0nwkax9s8pf7vz20uelpzl5ts8zrk4r"
+        }
+      },
+      "type": "SmartContractResult",
+      "originalTxHash": "df79539b53501c330e4818864cac536842681a9d82669fba548e5da3324f701e"
+    },
+    {
+      "txHash": "931d32321dfc56135e270755acfe89e1fd7d56baba91be891af6ed57df3a69c9",
+      "miniBlockHash": "7ed54c19f013682a5a25d0578e26d9e3173fa1ec3208ad69f8f8d8cff3b6131f",
+      "receiver": "erd1qqqqqqqqqqqqqpgqjsnxqprks7qxfwkcg2m2v9hxkrchgm9akp2segrswt",
+      "receiverAssets": {
+        "name": "xExchange: Fees Collector",
+        "social": {
+          "website": "https://xexchange.com",
+          "twitter": "https://twitter.com/xExchangeApp",
+          "telegram": "https://t.me/xExchangeApp",
+          "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+        },
+        "tags": [
+          "xexchange",
+          "energy",
+          "fees",
+          "collector"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "receiverShard": 1,
+      "sender": "erd1qqqqqqqqqqqqqpgqxhgs55hpdqll93nnvf0nwnt3wmh62u692jps5wm8uj",
+      "senderAssets": {
+        "name": "xExchange: HTM/WEGLD Liquidity Pool",
+        "tags": [
+          "xexchange",
+          "liquiditypool"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "senderShard": 1,
+      "status": "success",
+      "value": "0",
+      "timestamp": 1716632718,
+      "data": "RVNEVFRyYW5zZmVyQDQ4NTQ0ZDJkNjYzNTMxNjQzNTM1QDhmNTEwNDJhM2Q0MDAwQDY0NjU3MDZmNzM2OTc0NTM3NzYxNzA0NjY1NjU3Mw==",
+      "function": "depositSwapFees",
+      "action": {
+        "category": "esdtNft",
+        "name": "transfer",
+        "description": "Transfer",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "FungibleESDT",
+              "name": "Hatom",
+              "ticker": "HTM",
+              "svgUrl": "https://media.elrond.com/tokens/asset/HTM-f51d55/logo.svg",
+              "token": "HTM-f51d55",
+              "decimals": 18,
+              "value": "40340000000000000"
+            }
+          ],
+          "receiver": "erd1qqqqqqqqqqqqqpgqjsnxqprks7qxfwkcg2m2v9hxkrchgm9akp2segrswt",
+          "functionName": "depositSwapFees",
+          "receiverAssets": {
+            "name": "xExchange: Fees Collector",
+            "social": {
+              "website": "https://xexchange.com",
+              "twitter": "https://twitter.com/xExchangeApp",
+              "telegram": "https://t.me/xExchangeApp",
+              "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+            },
+            "tags": [
+              "xexchange",
+              "energy",
+              "fees",
+              "collector"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+          }
+        }
+      },
+      "type": "SmartContractResult",
+      "originalTxHash": "df79539b53501c330e4818864cac536842681a9d82669fba548e5da3324f701e"
+    },
+    {
+      "txHash": "6ca386e143cd157e28fe941cf23c6eb592420ea432ecbe2ccb2a0b20890f5725",
+      "miniBlockHash": "4707b5fd200637ae3864df49d42145729ba2f81d2304cfbf758fb8e4ce4b09df",
+      "receiver": "erd1sdrjn0uuulydacwjam3v5afl427ptk797fpcujpfcsakfck8aqjquq9afc",
+      "receiverShard": 0,
+      "sender": "erd1qqqqqqqqqqqqqpgq7rwhny4mx6dhuzcsymrhdsv2vmvarecgh4vq687aqr",
+      "senderAssets": {
+        "name": "Knights of Cathena: Rewardpool",
+        "description": "The rewardpool ensures a fair distribution of $CGO after each match",
+        "social": {
+          "website": "https://knights-of-cathena.com",
+          "email": "info@knights-of-cathena.com",
+          "blog": "https://knights-of-cathena.com/blog",
+          "twitter": "https://twitter.com/CathenaKnights",
+          "telegram": "https://telegram.knights-of-cathena.com",
+          "discord": "https://discord.com/invite/r8BwB8UaWx",
+          "instagram": "https://instagram.knights-of-cathena.com",
+          "community": "https://egld.community/projects/knights-of-cathena"
+        },
+        "tags": [
+          "koc",
+          "knights",
+          "cathena",
+          "knights of cathena",
+          "rewardpool"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/knightsofcathena.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/knightsofcathena.svg"
+      },
+      "senderShard": 0,
+      "status": "success",
+      "value": "16243990000000",
+      "timestamp": 1716632712,
+      "data": "QDZmNmI=",
+      "function": "transfer",
+      "type": "SmartContractResult",
+      "originalTxHash": "5aabf7acce4d4cfd184b658b08ff2decf486dfc12f16d116d02c91f7bea16e8c"
+    },
+    {
+      "txHash": "5aabf7acce4d4cfd184b658b08ff2decf486dfc12f16d116d02c91f7bea16e8c",
+      "gasLimit": 5000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 3375601,
+      "miniBlockHash": "4ad220d3b77423ff7f242b62d53b93db2de8d970e07dea7a8e72a0790148edd8",
+      "nonce": 1110663,
+      "receiver": "erd1qqqqqqqqqqqqqpgq7rwhny4mx6dhuzcsymrhdsv2vmvarecgh4vq687aqr",
+      "receiverAssets": {
+        "name": "Knights of Cathena: Rewardpool",
+        "description": "The rewardpool ensures a fair distribution of $CGO after each match",
+        "social": {
+          "website": "https://knights-of-cathena.com",
+          "email": "info@knights-of-cathena.com",
+          "blog": "https://knights-of-cathena.com/blog",
+          "twitter": "https://twitter.com/CathenaKnights",
+          "telegram": "https://telegram.knights-of-cathena.com",
+          "discord": "https://discord.com/invite/r8BwB8UaWx",
+          "instagram": "https://instagram.knights-of-cathena.com",
+          "community": "https://egld.community/projects/knights-of-cathena"
+        },
+        "tags": [
+          "koc",
+          "knights",
+          "cathena",
+          "knights of cathena",
+          "rewardpool"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/knightsofcathena.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/knightsofcathena.svg"
+      },
+      "receiverShard": 0,
+      "round": 20085852,
+      "sender": "erd1sdrjn0uuulydacwjam3v5afl427ptk797fpcujpfcsakfck8aqjquq9afc",
+      "senderShard": 0,
+      "signature": "4dc94a25d1357defc4c3a0f340c595ef6729f1c4df5f809066f3ca5d56cd23ca5a3fd2444285bf49496e3c4e9f61e838c53773ca760ad9b8f543e43172bfef0a",
+      "status": "success",
+      "value": "0",
+      "fee": "221361010000000",
+      "timestamp": 1716632712,
+      "data": "Y2xhaW1Vc2VyQDJlNDhlZGM1MDdmYTFhYTk4ZTMyZDQyNjliZjNmZTNiNWQ4MmZlODNhYzQ3OTk0MjAxMmJjZjg2N2IyZDVhYzBAMzU4MTU2ODJjNWEzZTgwM2Vm",
+      "function": "claimUser",
+      "action": {
+        "category": "scCall",
+        "name": "claimUser"
+      },
+      "type": "Transaction"
+    },
+    {
+      "txHash": "716ab3b0656ebd47ce82fa8ec0b7c77f1e2f90e2d4399b5a9520ea5529b05916",
+      "miniBlockHash": "7947ea77709fbc62043fb8a170942356857e591214ac7bd9983019bdb87f16a4",
+      "receiver": "erd1uu966lk4a068n052fmdq6up5dvcz5dyqgegxg0p4gmz4zl4jpnhspnfdz2",
+      "receiverShard": 1,
+      "sender": "erd1qqqqqqqqqqqqqpgqnjmyp62wxh5x89ttpcxvwueujeu4tqrygcwsg7pwpc",
+      "senderAssets": {
+        "name": "Hatom: Price Aggregator",
+        "description": "Hatom's Price Aggregator module",
+        "tags": [
+          "hatom",
+          "money-market",
+          "lending",
+          "borrowing",
+          "oracle",
+          "pricing"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.svg"
+      },
+      "senderShard": 1,
+      "status": "success",
+      "value": "281991850000000",
+      "timestamp": 1716632712,
+      "data": "QDZmNmI=",
+      "function": "transfer",
+      "type": "SmartContractResult",
+      "originalTxHash": "6a5fef0e2ea149f1810ae71394fbaeb5a34536684485a01a991a5fea88cb7399"
+    },
+    {
+      "txHash": "6a5fef0e2ea149f1810ae71394fbaeb5a34536684485a01a991a5fea88cb7399",
+      "gasLimit": 40000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 11800815,
+      "miniBlockHash": "9f3284f62ad3120ab98ad8128b353bcf6685154f80dcf2b46e687c0e4b132a28",
+      "nonce": 134337,
+      "receiver": "erd1qqqqqqqqqqqqqpgqnjmyp62wxh5x89ttpcxvwueujeu4tqrygcwsg7pwpc",
+      "receiverAssets": {
+        "name": "Hatom: Price Aggregator",
+        "description": "Hatom's Price Aggregator module",
+        "tags": [
+          "hatom",
+          "money-market",
+          "lending",
+          "borrowing",
+          "oracle",
+          "pricing"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085852,
+      "sender": "erd1uu966lk4a068n052fmdq6up5dvcz5dyqgegxg0p4gmz4zl4jpnhspnfdz2",
+      "senderShard": 1,
+      "signature": "1f6d88c735c0e3e853ac183d80c272cb3e5d2c00da6aa05f6de8d04159165ff19a75ea9a4db7f6b982dc5c06679fa6708fc16793b315d2da1c4d8a1738dc7f06",
+      "status": "success",
+      "value": "0",
+      "fee": "249183150000000",
+      "timestamp": 1716632712,
+      "data": "c3VibWl0QmF0Y2hANTc1NDQxNGZANTU1MzQ0QDY2NTFiYzg0QDE3YjkyMjU1Y2IwNTA1YjVlMA==",
+      "function": "submitBatch",
+      "action": {
+        "category": "scCall",
+        "name": "submitBatch"
+      },
+      "type": "Transaction"
+    },
+    {
+      "txHash": "537548fee3f39fd2016597eb844056921cebb08c44f301376c57cce9f98d4e4d",
+      "miniBlockHash": "7947ea77709fbc62043fb8a170942356857e591214ac7bd9983019bdb87f16a4",
+      "receiver": "erd1gkxq6p6u8zp3eqf8dglrjgglwg39jhyjwac82h5xempglv4rq8wsmxj945",
+      "receiverShard": 1,
+      "sender": "erd1qqqqqqqqqqqqqpgqnjmyp62wxh5x89ttpcxvwueujeu4tqrygcwsg7pwpc",
+      "senderAssets": {
+        "name": "Hatom: Price Aggregator",
+        "description": "Hatom's Price Aggregator module",
+        "tags": [
+          "hatom",
+          "money-market",
+          "lending",
+          "borrowing",
+          "oracle",
+          "pricing"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.svg"
+      },
+      "senderShard": 1,
+      "status": "success",
+      "value": "281622340000000",
+      "timestamp": 1716632712,
+      "data": "QDZmNmI=",
+      "function": "transfer",
+      "type": "SmartContractResult",
+      "originalTxHash": "a601801167b1788276d367eb2e9797dffa31c6af665b8291cc16beb4024522c3"
+    },
+    {
+      "txHash": "a601801167b1788276d367eb2e9797dffa31c6af665b8291cc16beb4024522c3",
+      "gasLimit": 40000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 11837766,
+      "miniBlockHash": "9f3284f62ad3120ab98ad8128b353bcf6685154f80dcf2b46e687c0e4b132a28",
+      "nonce": 132034,
+      "receiver": "erd1qqqqqqqqqqqqqpgqnjmyp62wxh5x89ttpcxvwueujeu4tqrygcwsg7pwpc",
+      "receiverAssets": {
+        "name": "Hatom: Price Aggregator",
+        "description": "Hatom's Price Aggregator module",
+        "tags": [
+          "hatom",
+          "money-market",
+          "lending",
+          "borrowing",
+          "oracle",
+          "pricing"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085852,
+      "sender": "erd1gkxq6p6u8zp3eqf8dglrjgglwg39jhyjwac82h5xempglv4rq8wsmxj945",
+      "senderShard": 1,
+      "signature": "10aa31f01d585631f9660db89d7723226bcaa4292c1f7ab7ba1123b07135732a323a4f883f58c7a3fc9df935c8af253b3e87af0dab8361bad6b0e72ee458b909",
+      "status": "success",
+      "value": "0",
+      "fee": "249552660000000",
+      "timestamp": 1716632712,
+      "data": "c3VibWl0QmF0Y2hANTc1NDQxNGZANTU1MzQ0QDY2NTFiYzgzQDE3Yjg3YmU4ZTg0NzY4MWJlMA==",
+      "function": "submitBatch",
+      "action": {
+        "category": "scCall",
+        "name": "submitBatch"
+      },
+      "type": "Transaction"
+    },
+    {
+      "txHash": "dd96d5f3a46df59eaf1181776fa7a165600de09b767e1777b7c1961fb03a3ece",
+      "miniBlockHash": "7947ea77709fbc62043fb8a170942356857e591214ac7bd9983019bdb87f16a4",
+      "receiver": "erd1pvqpa5lymax5eaqkywh9yh0tezgmmzrl9x79w5fwzujh6q7js3mshddse9",
+      "receiverShard": 1,
+      "sender": "erd1qqqqqqqqqqqqqpgqnjmyp62wxh5x89ttpcxvwueujeu4tqrygcwsg7pwpc",
+      "senderAssets": {
+        "name": "Hatom: Price Aggregator",
+        "description": "Hatom's Price Aggregator module",
+        "tags": [
+          "hatom",
+          "money-market",
+          "lending",
+          "borrowing",
+          "oracle",
+          "pricing"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.svg"
+      },
+      "senderShard": 1,
+      "status": "success",
+      "value": "281305290000000",
+      "timestamp": 1716632712,
+      "data": "QDZmNmI=",
+      "function": "transfer",
+      "type": "SmartContractResult",
+      "originalTxHash": "23eff99d59047a7a9cdddbc337cc4747eb997b35b2b944fc5e51033266c4a89c"
+    },
+    {
+      "txHash": "23eff99d59047a7a9cdddbc337cc4747eb997b35b2b944fc5e51033266c4a89c",
+      "gasLimit": 40000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 11869471,
+      "miniBlockHash": "9f3284f62ad3120ab98ad8128b353bcf6685154f80dcf2b46e687c0e4b132a28",
+      "nonce": 131355,
+      "receiver": "erd1qqqqqqqqqqqqqpgqnjmyp62wxh5x89ttpcxvwueujeu4tqrygcwsg7pwpc",
+      "receiverAssets": {
+        "name": "Hatom: Price Aggregator",
+        "description": "Hatom's Price Aggregator module",
+        "tags": [
+          "hatom",
+          "money-market",
+          "lending",
+          "borrowing",
+          "oracle",
+          "pricing"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085852,
+      "sender": "erd1pvqpa5lymax5eaqkywh9yh0tezgmmzrl9x79w5fwzujh6q7js3mshddse9",
+      "senderShard": 1,
+      "signature": "7f38e25054fda212c53d54f6201be1f32b2ceb9e42fd3e2cd38d17f2e3f0fbcac94741ef52043b5d2287f68c96b52712b4d4dad35b71ad0dc54b60b3a105f109",
+      "status": "success",
+      "value": "0",
+      "fee": "249869710000000",
+      "timestamp": 1716632712,
+      "data": "c3VibWl0QmF0Y2hANTc1NDQxNGZANTU1MzQ0QDY2NTFiYzg2QDE3YmJkNTkzNjIxOWM1MDAwMA==",
+      "function": "submitBatch",
+      "action": {
+        "category": "scCall",
+        "name": "submitBatch"
+      },
+      "type": "Transaction"
+    },
+    {
+      "txHash": "ee772dab9a7a744ca8bc6b89dfd7b3e3458c36a758125c63e0281a3c9e5ca285",
+      "miniBlockHash": "7947ea77709fbc62043fb8a170942356857e591214ac7bd9983019bdb87f16a4",
+      "receiver": "erd1938z7at0ja0wrr4xd88p3944dsg0nwkax9s8pf7vz20uelpzl5ts8zrk4r",
+      "receiverShard": 1,
+      "sender": "erd1qqqqqqqqqqqqqpgqxhgs55hpdqll93nnvf0nwnt3wmh62u692jps5wm8uj",
+      "senderAssets": {
+        "name": "xExchange: HTM/WEGLD Liquidity Pool",
+        "tags": [
+          "xexchange",
+          "liquiditypool"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "senderShard": 1,
+      "status": "success",
+      "value": "68489940000000",
+      "timestamp": 1716632712,
+      "data": "QDZmNmJAMDAwMDAwMGM1NzQ1NDc0YzQ0MmQ2MjY0MzQ2NDM3MzkwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDgyOGJkMTM5NzgzNTYyMWI5",
+      "function": "transfer",
+      "type": "SmartContractResult",
+      "originalTxHash": "9167ab218b8307ca741453e43f11d95c2645aa954a6a9af24e9cc0f48eda7dcd"
+    },
+    {
+      "txHash": "9167ab218b8307ca741453e43f11d95c2645aa954a6a9af24e9cc0f48eda7dcd",
+      "gasLimit": 30000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 23151006,
+      "miniBlockHash": "9f3284f62ad3120ab98ad8128b353bcf6685154f80dcf2b46e687c0e4b132a28",
+      "nonce": 7261,
+      "receiver": "erd1qqqqqqqqqqqqqpgqxhgs55hpdqll93nnvf0nwnt3wmh62u692jps5wm8uj",
+      "receiverAssets": {
+        "name": "xExchange: HTM/WEGLD Liquidity Pool",
+        "tags": [
+          "xexchange",
+          "liquiditypool"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085852,
+      "sender": "erd1938z7at0ja0wrr4xd88p3944dsg0nwkax9s8pf7vz20uelpzl5ts8zrk4r",
+      "senderShard": 1,
+      "signature": "91af3ed3c0a865ebb45cc666afa4d5b78ba8fb0479b91ab49d2163759c6877b7cad656704ab00d7696bd7f9a47f9b2b9c03d7fb617a4f4e4caa53f1b56603d02",
+      "status": "success",
+      "value": "0",
+      "fee": "481485060000000",
+      "timestamp": 1716632712,
+      "data": "RVNEVFRyYW5zZmVyQDQ4NTQ0RDJENjYzNTMxNjQzNTM1QDA0RjY1RjY5MDAxMzQyMDAwMEA3Mzc3NjE3MDU0NkY2QjY1NkU3MzQ2Njk3ODY1NjQ0OTZFNzA3NTc0QDU3NDU0NzRDNDQyRDYyNjQzNDY0MzczOUAyODU0QjM3QUU2QzcxMDAw",
+      "function": "swapTokensFixedInput",
+      "action": {
+        "category": "mex",
+        "name": "swap",
+        "description": "Swap 91.54 HTM for a minimum of 2.906145 WEGLD",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "FungibleESDT",
+              "name": "Hatom",
+              "ticker": "HTM",
+              "svgUrl": "https://media.elrond.com/tokens/asset/HTM-f51d55/logo.svg",
+              "token": "HTM-f51d55",
+              "decimals": 18,
+              "value": "91540000000000000000"
+            },
+            {
+              "type": "FungibleESDT",
+              "name": "WrappedEGLD",
+              "ticker": "WEGLD",
+              "svgUrl": "https://media.elrond.com/tokens/asset/WEGLD-bd4d79/logo.svg",
+              "token": "WEGLD-bd4d79",
+              "decimals": 18,
+              "value": "2906145000000000000"
+            }
+          ],
+          "receiver": "erd1qqqqqqqqqqqqqpgqxhgs55hpdqll93nnvf0nwnt3wmh62u692jps5wm8uj",
+          "functionName": "swapTokensFixedInput",
+          "functionArgs": [
+            "5745474C442D626434643739",
+            "2854B37AE6C71000"
+          ],
+          "receiverAssets": {
+            "name": "xExchange: HTM/WEGLD Liquidity Pool",
+            "tags": [
+              "xexchange",
+              "liquiditypool"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+          }
+        }
+      },
+      "type": "Transaction"
+    },
+    {
+      "txHash": "c13f350fd4081c948bd88e878460f0f52ed226e39bb8cbdd3eb847d87565110e",
+      "miniBlockHash": "7947ea77709fbc62043fb8a170942356857e591214ac7bd9983019bdb87f16a4",
+      "receiver": "erd1x9xul5wej5st2t3xd68lmheuzpne7qxezum0vv3pyfmfs566gwqs06jlvw",
+      "receiverShard": 1,
+      "sender": "erd1qqqqqqqqqqqqqpgq0tajepcazernwt74820t8ef7t28vjfgukp2sw239f3",
+      "senderAssets": {
+        "name": "xExchange: Energy Factory",
+        "social": {
+          "website": "https://xexchange.com",
+          "twitter": "https://twitter.com/xExchangeApp",
+          "telegram": "https://t.me/xExchangeApp",
+          "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+        },
+        "tags": [
+          "xexchange",
+          "energy",
+          "factory"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "senderShard": 1,
+      "status": "success",
+      "value": "27990580000000",
+      "timestamp": 1716632712,
+      "data": "QDZmNmJAMDAwMDAwMGI1ODRkNDU1ODJkNjY2NDYxMzMzNTM1MDAwMDAwMDAwMDAwMDAzZjAwMDAwMDA5Yjc1YzQ5ZmU0YzM1YjJmZjcw",
+      "function": "transfer",
+      "type": "SmartContractResult",
+      "originalTxHash": "150de436baf43b7d22aaa7a6607a79b592df343ac621342b71bd40151dd4401c"
+    },
+    {
+      "txHash": "150de436baf43b7d22aaa7a6607a79b592df343ac621342b71bd40151dd4401c",
+      "gasLimit": 10000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 7200942,
+      "miniBlockHash": "9f3284f62ad3120ab98ad8128b353bcf6685154f80dcf2b46e687c0e4b132a28",
+      "nonce": 4731,
+      "receiver": "erd1qqqqqqqqqqqqqpgq0tajepcazernwt74820t8ef7t28vjfgukp2sw239f3",
+      "receiverAssets": {
+        "name": "xExchange: Energy Factory",
+        "social": {
+          "website": "https://xexchange.com",
+          "twitter": "https://twitter.com/xExchangeApp",
+          "telegram": "https://t.me/xExchangeApp",
+          "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+        },
+        "tags": [
+          "xexchange",
+          "energy",
+          "factory"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085852,
+      "sender": "erd1x9xul5wej5st2t3xd68lmheuzpne7qxezum0vv3pyfmfs566gwqs06jlvw",
+      "senderShard": 1,
+      "signature": "70054e7b6667d85fa8cc8c7a987cd1b3c38b6116c4209215ba0cad6681d686bb5cd97e091d7426f44530e491d855f2cf6c6578b0285034885aced652d37e1c0a",
+      "status": "success",
+      "value": "0",
+      "fee": "237339420000000",
+      "timestamp": 1716632712,
+      "data": "RVNEVFRyYW5zZmVyQDRkNDU1ODJkMzQzNTM1NjMzNTM3QGI3NWM0OWZlNGMzNWIyZmY3MEA2YzZmNjM2YjU0NmY2YjY1NmU3M0AwNWEw",
+      "function": "lockTokens",
+      "action": {
+        "category": "esdtNft",
+        "name": "transfer",
+        "description": "Transfer",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "FungibleESDT",
+              "name": "MEX",
+              "ticker": "MEX",
+              "svgUrl": "https://media.elrond.com/tokens/asset/MEX-455c57/logo.svg",
+              "token": "MEX-455c57",
+              "decimals": 18,
+              "value": "3382404291416909086576"
+            }
+          ],
+          "receiver": "erd1qqqqqqqqqqqqqpgq0tajepcazernwt74820t8ef7t28vjfgukp2sw239f3",
+          "functionName": "lockTokens",
+          "functionArgs": [
+            "05a0"
+          ],
+          "receiverAssets": {
+            "name": "xExchange: Energy Factory",
+            "social": {
+              "website": "https://xexchange.com",
+              "twitter": "https://twitter.com/xExchangeApp",
+              "telegram": "https://t.me/xExchangeApp",
+              "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+            },
+            "tags": [
+              "xexchange",
+              "energy",
+              "factory"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+          }
+        }
+      },
+      "type": "Transaction"
+    },
+    {
+      "txHash": "428101e23f29b4a663239efd120609bba76dae84912aec4ae54aa00890af7542",
+      "miniBlockHash": "d8b077da17c84f26f9aa5439a60c908ed04f6eb0da0aaf95825099621eabedd2",
+      "receiver": "erd1wd4kcmx2wms3dxc8pgxg5h3phatmcspnfs9a38zh98ws87hpnvlqhxs4ky",
+      "receiverShard": 2,
+      "sender": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+      "senderAssets": {
+        "name": "AshSwap: Aggregator v2",
+        "social": {
+          "website": "https://ashswap.io",
+          "email": "hello@ashswap.io",
+          "blog": "https://medium.com/@ashswap",
+          "twitter": "https://twitter.com/ash_swap",
+          "telegram": "https://t.me/ash_swap",
+          "discord": "https://discord.gg/apmhYCPDbW",
+          "facebook": "https://www.facebook.com/ashswap.io",
+          "commmunity": "https://egld.community/projects/ashswap"
+        },
+        "tags": [
+          "ashswap",
+          "swap",
+          "aggregator",
+          "dexaggregator"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+      },
+      "senderShard": 1,
+      "status": "success",
+      "value": "103317830000000",
+      "timestamp": 1716632712,
+      "data": "QDZmNmI=",
+      "function": "transfer",
+      "type": "SmartContractResult",
+      "originalTxHash": "d4f771d3c26c0993bbcd75d1125d08200bb01f65be37b2dd43df67738b791138"
+    },
+    {
+      "txHash": "ef9e6554aa30d68b07c5e95026c431b53752c77a068f92bb3dc56be198a2c4fd",
+      "miniBlockHash": "360596f3175327d91851de229d9bf24c0380173050c1bc60a381a7cfb8888da9",
+      "receiver": "erd1cmkg3r37dqxaeue6w9emmfjfqxzy804f4ew3zhy6gxywy0yrnurq8e7yn5",
+      "receiverShard": 2,
+      "sender": "erd1qqqqqqqqqqqqqpgquk2g3w3k75673rvxk3dn3h439uw6tyw32xuqfgul5g",
+      "senderAssets": {
+        "name": "QoWatt: Cars Staking",
+        "description": "Contract for staking and charging QoWatt cars.",
+        "social": {
+          "website": "https://qowatt.com",
+          "email": "esdt@qowatt.com",
+          "blog": "https://medium.com/qowatt",
+          "twitter": "https://twitter.com/QoWattEcosystem",
+          "whitepaper": "https://qowatt.network/_doc/QoWatt_Whitepaper_EN.pdf",
+          "linkedin": "https://fr.linkedin.com/company/qowatt",
+          "facebook": "https://www.facebook.com/QoWatt"
+        },
+        "tags": [
+          "qowatt",
+          "staking",
+          "QoWattEVCar"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/qowatt.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/qowatt.svg"
+      },
+      "senderShard": 0,
+      "status": "success",
+      "value": "979489120000000",
+      "timestamp": 1716632712,
+      "data": "QDZmNmI=",
+      "function": "transfer",
+      "type": "SmartContractResult",
+      "originalTxHash": "0818394592ed4bdc167941a71c1fa50f1845e11d4314fb9bedf2f76ac4ae022c"
+    },
+    {
+      "txHash": "906d4675b97f88f5636ab282fb33cbee9240d8a2beb24cb0248253e2b35da6ff",
+      "miniBlockHash": "73fd97999e8a228a30aacc1220e5d65a895b78862d6818d47f52fdb73822d52d",
+      "receiver": "erd1erha72fy0p0y3uepysfqxx230vxd7va5mc9xefxfun9z0h5k7q6q8t2gr4",
+      "receiverShard": 0,
+      "sender": "erd1qqqqqqqqqqqqqpgqw4dsh8j9xafw45uwr2f6a48ajvcqey8s78sstvn7xd",
+      "senderAssets": {
+        "name": "Hatom: Booster",
+        "description": "Hatom's rewards Booster module",
+        "social": {
+          "website": "https://hatom.com",
+          "discord": "https://discord.com/invite/WekwfUDXGp",
+          "github": "https://github.com/HatomProtocol",
+          "blog": "https://blog.hatom.com",
+          "telegram": "https://t.me/HatomLabs",
+          "twitter": "https://twitter.com/HatomProtocol",
+          "whitepaper": "https://docs.hatom.com/getting-started/learn-more-about-hatom-token/whitepaper",
+          "linkedin": "https://www.linkedin.com/company/hatomlabs"
+        },
+        "tags": [
+          "hatom",
+          "rewards",
+          "booster"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-booster.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-booster.svg"
+      },
+      "senderShard": 1,
+      "status": "success",
+      "value": "3910744010000000",
+      "timestamp": 1716632712,
+      "data": "QDZmNmI=",
+      "function": "transfer",
+      "type": "SmartContractResult",
+      "originalTxHash": "e200bd80681ce987bb3644db30ffb993fc81ee16157aa73726e52d2676d9a44d"
+    }
+  ]

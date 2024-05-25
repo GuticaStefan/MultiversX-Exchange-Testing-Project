@@ -9,17 +9,17 @@ export class TransactionsController {
 
   @Get('/transactions')
   async getTransactionList(): Promise<any> {
-    return undefined;
+    return this.transactionsService.getTransactionList();
   }
 
   @Post('/transactions')
   async sendTransaction(): Promise<any> {
-    return undefined;
+    return undefined;;
   }
 
   @Get('/transactions/count')
   async getTransactionsCount(): Promise<number> {
-    return undefined;
+    return this.transactionsService.getTransactionsCount();
   }
 
   @Get('/transactions/:txHash')

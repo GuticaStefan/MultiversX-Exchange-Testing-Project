@@ -9,12 +9,12 @@ export class TokensController {
 
   @Get('/tokens')
   async getTokens(): Promise<any> {
-    return undefined;
+    return this.tokensService.getTokens();
   }
 
   @Get('/tokens/count')
   async getTokensCount(): Promise<number> {
-    return undefined;
+    return this.tokensService.getTokensCount();
   }
 
   @Get('/tokens/:identifier')

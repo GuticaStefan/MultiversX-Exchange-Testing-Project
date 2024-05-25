@@ -1,0 +1,22 @@
+[
+    {
+      "shard": 0,
+      "validators": 720,
+      "activeValidators": 715
+    },
+    {
+      "shard": 2,
+      "validators": 720,
+      "activeValidators": 715
+    },
+    {
+      "shard": 4294967295,
+      "validators": 720,
+      "activeValidators": 706
+    },
+    {
+      "shard": 1,
+      "validators": 720,
+      "activeValidators": 713
+    }
+  ]

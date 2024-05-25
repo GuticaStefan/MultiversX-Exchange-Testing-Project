@@ -9,7 +9,7 @@ export class NodesController {
 
   @Get('/nodes')
   async getNodes(): Promise<any> {
-    return undefined;
+    return this.nodesService.getNodes();
   }
 
   @Get('/nodes/versions')
@@ -19,7 +19,7 @@ export class NodesController {
 
   @Get('/nodes/count')
   async getNodesCount(): Promise<number> {
-    return undefined;
+    return this.nodesService.getNodesCount();
   }
 
   @Get('/nodes/auctions')

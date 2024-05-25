@@ -8,12 +8,12 @@ export class TransfersController {
   constructor(private readonly transfersService: TransfersService) {}
 
   @Get('/transfers')
-  async getValueTransfers(): Promise<any> {
-    return undefined;
+  async getTransfers(): Promise<any> {
+    return this.transfersService.getTransfers();
   }
 
   @Get('/transfers/count')
-  async getAccountTransferCount(): Promise<number> {
-    return undefined;
+  async getTransfersCount(): Promise<number> {
+    return this.transfersService.getTransfersCount();
   }
 }

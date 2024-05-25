@@ -9,7 +9,7 @@ export class IdentitiesController {
 
   @Get('/identities')
   async getIdentities(): Promise<any> {
-    return undefined;
+    return this.identitiesService.getIdentities();
   }
 
   @Get('/identities/:identifier')

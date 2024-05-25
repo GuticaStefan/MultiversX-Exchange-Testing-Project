@@ -8,13 +8,13 @@ export class TagsController {
   constructor(private readonly tagsService: TagsService) {}
 
   @Get('/tags')
-  async getNFTTags(): Promise<any> {
-    return undefined;
+  async getNftTags(): Promise<any> {
+    return this.tagsService.getNftTags();
   }
 
   @Get('/tags/count')
-  async getNFTTagsCount(): Promise<number> {
-    return undefined;
+  async getNftTagsCount(): Promise<number> {
+    return this.tagsService.getNftTagsCount();
   }
 
   @Get('/tags/:tag')

@@ -9,6 +9,6 @@ export class DappConfigController {
 
   @Get('/dapp/config')
   async getDappConfig(): Promise<any> {
-    return undefined;
+    return this.dappConfigService.getDappConfig();
   }
 }

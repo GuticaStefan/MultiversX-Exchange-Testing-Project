@@ -9,12 +9,12 @@ export class DelegationController {
 
   @Get('/delegation')
   async getDelegationStatistics(): Promise<any> {
-    return undefined;
+    return this.delegationService.getDelegationStatistics();
   }
 
   @Get('/delegation-legacy')
   async getLegacyDelegationStatistics(): Promise<any> {
-    return undefined;
+    return this.delegationService.getLegacyDelegationStatistics();
   }
 }
 

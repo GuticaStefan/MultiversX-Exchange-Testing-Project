@@ -9,12 +9,12 @@ export class MarketplaceController {
 
   @Get('/auctions')
   async getAuctions(): Promise<any> {
-    return undefined;
+    return this.marketplaceService.getAuctions();
   }
 
   @Get('/auctions/count')
   async getAuctionsCount(): Promise<number> {
-    return undefined;
+    return this.marketplaceService.getAuctionsCount();
   }
 
   @Get('/auctions/:id')

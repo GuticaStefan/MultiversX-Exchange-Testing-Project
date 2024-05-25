@@ -9,6 +9,6 @@ export class WebsocketController {
 
   @Get('/websocket/config')
   async getWebsocketConfig(): Promise<any> {
-    return undefined;
+    return this.websocketService.getWebSocketConfig();
   }
 }

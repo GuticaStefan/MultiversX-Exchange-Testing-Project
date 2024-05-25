@@ -9,12 +9,12 @@ export class ResultsController {
 
   @Get('/results')
   async getSmartContractResults(): Promise<any> {
-    return undefined;
+    return this.resultsService.getSmartContractResults();
   }
 
   @Get('/results/count')
   async getSmartContractsCount(): Promise<number> {
-    return undefined;
+    return this.resultsService.getSmartContractsCount();
   }
 
   @Get('/results/:scHash')

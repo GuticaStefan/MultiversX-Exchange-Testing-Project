@@ -9,12 +9,12 @@ export class BlocksController {
 
   @Get('/blocks')
   async getBlocks(): Promise<any> {
-    return undefined;
+    return this.blocksService.getBlocks();
   }
 
   @Get('/blocks/count')
   async getBlocksCount(): Promise<number> {
-    return undefined;
+    return this.blocksService.getBlocksCount();
   }
 
   @Get('/blocks/latest')

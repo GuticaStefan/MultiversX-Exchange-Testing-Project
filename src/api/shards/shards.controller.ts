@@ -9,7 +9,7 @@ export class ShardsController {
 
   @Get('/shards')
   async getShards(): Promise<any> {
-    return undefined;
+    return this.shardsService.getShards();
   }
 }
 

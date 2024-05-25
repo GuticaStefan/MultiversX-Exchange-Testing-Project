@@ -1,0 +1,20 @@
+[
+    {
+      "address": "erd1yretr3lusy43jxpqrd42gck0e3nt5uytsksj0gdywwsedglkkdssqx95qa",
+      "value": "6710020164458024279603",
+      "nonce": 20065475,
+      "rank": 1
+    },
+    {
+      "address": "erd1u242apmhk9ljcdjt5uxc6clt4acfnnjf3knnu544eyhjdsadd0psnxkwyt",
+      "value": "37900000000000000000",
+      "nonce": 20067409,
+      "rank": 2
+    },
+    {
+      "address": "erd1uap33yfxmdccwx2z3r8zymmvld42lq8fmvfx98kf7rdq7xa03czqvzlc3k",
+      "value": "11000000000000000000",
+      "nonce": 20075273,
+      "rank": 3
+    }
+  ]

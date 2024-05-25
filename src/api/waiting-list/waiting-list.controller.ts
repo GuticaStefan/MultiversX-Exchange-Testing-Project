@@ -9,11 +9,11 @@ export class WaitingListController {
 
   @Get('/waiting-list')
   async getWaitingList(): Promise<any> {
-    return undefined;
+    return this.waitingListService.getWaitingList();
   }
 
   @Get('/waiting-list/count')
   async getWaitingListCount(): Promise<number> {
-    return undefined;
+    return this.waitingListService.getWaitingListCount();
   }
 }

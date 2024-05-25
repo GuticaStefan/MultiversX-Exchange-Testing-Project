@@ -8,8 +8,8 @@ export class MiniblocksController {
   constructor(private readonly miniblocksService: MiniblocksService) {}
 
   @Get('/miniblocks')
-  async getMiniblocksDetails(): Promise<any> {
-    return undefined;
+  async getMiniblocks(): Promise<any> {
+    return this.miniblocksService.getMiniblocks();
   }
 
   @Get('/miniblocks/:miniBlockHash')

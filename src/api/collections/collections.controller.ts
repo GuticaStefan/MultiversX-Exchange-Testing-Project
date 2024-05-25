@@ -9,12 +9,12 @@ export class CollectionsController {
 
   @Get('/collections')
   async getCollections(): Promise<any> {
-    return undefined;
+    return this.collectionsService.getCollections();
   }
 
   @Get('/collections/count')
   async getCollectionCount(): Promise<number> {
-    return undefined;
+    return this.collectionsService.getCollectionCount();
   }
 
   @Get('/collections/:collection')

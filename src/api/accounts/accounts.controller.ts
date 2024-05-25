@@ -9,12 +9,12 @@ export class AccountsController {
 
   @Get('/accounts')
   async getAccounts(): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccounts();
   }
 
   @Get('/accounts/count')
   async getAccountsCount(): Promise<number> {
-    return undefined;
+    return this.accountsService.getAccountsCount();
   }
 
   @Get('/accounts/:address')
