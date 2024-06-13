@@ -1,8 +1,4 @@
 import { Injectable } from '@nestjs/common';
-import { Stats } from './dto/stats.dto'
-import { EsdtToken } from './dto/esdtToken';
-import { createJsonObject } from './utils/readJsonFile';
-import { NftCollection } from './dto/nftCollection.dto';
 
 @Injectable()
 export class ApiService {

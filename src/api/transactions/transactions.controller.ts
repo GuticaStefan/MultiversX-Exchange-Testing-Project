@@ -14,7 +14,7 @@ export class TransactionsController {
 
   @Post('/transactions')
   async sendTransaction(): Promise<any> {
-    return undefined;;
+    return undefined;
   }
 
   @Get('/transactions/count')

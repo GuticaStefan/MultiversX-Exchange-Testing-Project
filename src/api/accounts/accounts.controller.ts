@@ -1,12 +1,13 @@
 import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
 import { AccountsService } from './accounts.service';
 import { ApiExcludeEndpoint, ApiOkResponse, ApiOperation, ApiQuery, ApiTags } from '@nestjs/swagger';
+import { RandomGenerator } from '../utils/seededRandomUtilities';
 
 @Controller()
 @ApiTags('accounts')
 export class AccountsController {
   constructor(private readonly accountsService: AccountsService) {}
-
+  
   @Get('/accounts')
   async getAccounts(): Promise<any> {
     return this.accountsService.getAccounts();
@@ -22,7 +23,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountDetailsByAddress(address);
   }
 
   @Get('/accounts/:address/deferred')
@@ -30,7 +31,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountVerificationDetails(address);
   }
 
   @Get('/accounts/:address/verification')
@@ -38,7 +39,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountVerificationDetails(address);
   }
 
   @Get('/accounts/:address/tokens')
@@ -46,7 +47,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountTokens(address);
   }
 
   @Get('/accounts/:address/tokens/count')
@@ -54,7 +55,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<number> {
-    return undefined;
+    return this.accountsService.getAccountTokens(address);
   }
 
   @Get('/accounts/:address/tokens/:token')
@@ -64,7 +65,7 @@ export class AccountsController {
     @Param('token')
     token: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountTokenDetails(address, token);
   }
 
   @Get('/accounts/:address/roles/collections')
@@ -72,7 +73,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountCollections(address);
   }
 
   @Get('/accounts/:address/roles/collections/count')
@@ -80,7 +81,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<number> {
-    return undefined;
+    return this.accountsService.getAccountCollectionCount(address);
   }
 
   @Get('/accounts/:address/roles/collections/:collection')
@@ -90,7 +91,7 @@ export class AccountsController {
     @Param('collection')
     collection: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountCollectionDetails(address, collection);
   }
 
   @Get('/accounts/:address/roles/tokens')
@@ -98,7 +99,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountTokenRoles(address);
   }
 
   @Get('/accounts/:address/roles/tokens/count')
@@ -106,7 +107,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<number> {
-    return undefined;
+    return this.accountsService.getAccountTokenRolesCount(address);
   }
 
   @Get('/accounts/:address/roles/tokens/:identifier')
@@ -116,7 +117,7 @@ export class AccountsController {
     @Param('identifier')
     identifier: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountTokenRolesDetails(address, identifier);
   }
 
   @Get('/accounts/:address/collections')
@@ -124,7 +125,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountCollectionsByAddress(address);
   }
 
   @Get('/accounts/:address/collections/count')
@@ -132,7 +133,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<number> {
-    return undefined;
+    return this.accountsService.getAccountCollectionCountByAddress(address);
   }
 
   @Get('/accounts/:address/collections/:collection')
@@ -142,7 +143,7 @@ export class AccountsController {
     @Param('collection')
     collection: string
   ): Promise<any> {
-    return undefined;
+    return this.getAccountCollectionDetailsByAddress(address, collection);
   }
 
   @Get('/accounts/:address/nfts')
@@ -150,7 +151,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountNFTs(address);
   }
 
   @Get('/accounts/:address/nfts/count')
@@ -158,7 +159,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<number> {
-    return undefined;
+    return this.accountsService.getAccountNFTCount(address);
   }
 
   @Get('/accounts/:address/nfts/:nft')
@@ -168,7 +169,7 @@ export class AccountsController {
     @Param('nft')
     nft: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountNFTDetails(address, nft);
   }
 
   @Get('/accounts/:address/stake')
@@ -176,7 +177,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountStakeDetails(address);
   }
 
   @Get('/accounts/:address/delegation')
@@ -184,7 +185,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountDelegations(address);
   }
 
   @Get('/accounts/:address/delegation-legacy')
@@ -192,7 +193,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountLegacyDelegationDetails(address);
   }
 
   @Get('/accounts/:address/keys')
@@ -200,7 +201,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountNodes(address);
   }
 
   @Get('/accounts/:address/waiting-list')
@@ -208,7 +209,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountQueuedNodes(address);
   }
 
   @Get('/accounts/:address/transactions')
@@ -216,7 +217,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountTransactionList(address);
   }
 
   @Get('/accounts/:address/transactions/count')
@@ -224,15 +225,15 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<number> {
-    return undefined;
+    return this.accountsService.getAccountTransactionCount(address);
   }
 
   @Get('/accounts/:address/transfers')
-  async getAccountValueTransfers(
+  async getAccountTransfers(
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountTransfers(address);
   }
 
   @Get('/accounts/:address/transfers/count')
@@ -240,7 +241,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<number> {
-    return undefined;
+    return this.accountsService.getAccountTransferCount(address);
   }
 
   @Get('/accounts/:address/contracts')
@@ -248,7 +249,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountContracts(address);
   }
 
   @Get('/accounts/:address/contracts/count')
@@ -256,7 +257,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<number> {
-    return undefined;
+    return this.accountsService.getAccountContractsCount(address);
   }
 
   @Get('/accounts/:address/upgrades')
@@ -264,7 +265,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountUpgradesDetails(address);
   }
 
   @Get('/accounts/:address/results')
@@ -272,7 +273,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountSmartContractResults(address);
   }
 
   @Get('/accounts/:address/results/count')
@@ -280,7 +281,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<number> {
-    return undefined;
+    return this.accountsService.getAccountSmartContractResultsCount(address);
   }
 
   @Get('/accounts/:address/results/:scHash')
@@ -290,7 +291,7 @@ export class AccountsController {
     @Param('scHash')
     scHash: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountSmartContractResult(address, scHash);
   }
 
   @Get('/accounts/:address/history')
@@ -298,7 +299,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountHistory(address);
   }
 
   @Get('/accounts/:address/history/count')
@@ -306,7 +307,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<number> {
-    return undefined;
+    return this.accountsService.getAccountHistoryCount(address);
   }
 
   @Get('/accounts/:address/history/:tokenIdentifier/count')
@@ -316,7 +317,7 @@ export class AccountsController {
     @Param('tokenIdentifier')
     tokenIdentifier: string
   ): Promise<number> {
-    return undefined;
+    return this.accountsService.getAccountTokenHistoryCount(address, tokenIdentifier);
   }
 
   @Get('/accounts/:address/history/:tokenIdentifier')
@@ -326,6 +327,6 @@ export class AccountsController {
     @Param('tokenIdentifier')
     tokenIdentifier: string
   ): Promise<any> {
-    return undefined;
+    return this.accountsService.getAccountTokenHistory(address, tokenIdentifier);
   }
 }

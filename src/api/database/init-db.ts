@@ -20,6 +20,8 @@ export let db = {
     transfers: createJsonObject("transfers.json"),
     websocket_config: createJsonObject("websocket-config.json"),
     miniblocks: createJsonObject("miniblocks.json"),
-    waiting_list: createJsonObject("waiting-list.json")
+    waiting_list: createJsonObject("waiting-list.json"),
+    contracts: createJsonObject("contracts.json"),
+    balance_history: createJsonObject("balance-history.json")
 };
 

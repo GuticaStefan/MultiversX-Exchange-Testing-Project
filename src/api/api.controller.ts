@@ -1,9 +1,5 @@
 import { Controller, Get, Query, Post, Body, Patch, Param, Delete } from '@nestjs/common';
 import { ApiService } from './api.service';
-import { Stats } from './dto/stats.dto'
-import { EsdtToken } from './dto/esdtToken';
-import { NftCollection } from './dto/nftCollection.dto';
-import { NftToken } from './dto/nftToken.dto';
 import { ApiQuery, ApiResponse } from '@nestjs/swagger';
 
 @Controller('')
