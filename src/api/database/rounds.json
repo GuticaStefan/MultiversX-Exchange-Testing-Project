@@ -1,0 +1,352 @@
+[
+    {
+      "blockWasProposed": true,
+      "round": 20085810,
+      "shard": 4294967295,
+      "epoch": 1394,
+      "timestamp": 1716632460
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085810,
+      "shard": 1,
+      "epoch": 1394,
+      "timestamp": 1716632460
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085810,
+      "shard": 2,
+      "epoch": 1394,
+      "timestamp": 1716632460
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085810,
+      "shard": 0,
+      "epoch": 1394,
+      "timestamp": 1716632460
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085809,
+      "shard": 4294967295,
+      "epoch": 1394,
+      "timestamp": 1716632454
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085809,
+      "shard": 2,
+      "epoch": 1394,
+      "timestamp": 1716632454
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085809,
+      "shard": 0,
+      "epoch": 1394,
+      "timestamp": 1716632454
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085809,
+      "shard": 1,
+      "epoch": 1394,
+      "timestamp": 1716632454
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085808,
+      "shard": 2,
+      "epoch": 1394,
+      "timestamp": 1716632448
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085808,
+      "shard": 4294967295,
+      "epoch": 1394,
+      "timestamp": 1716632448
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085808,
+      "shard": 0,
+      "epoch": 1394,
+      "timestamp": 1716632448
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085808,
+      "shard": 1,
+      "epoch": 1394,
+      "timestamp": 1716632448
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085807,
+      "shard": 1,
+      "epoch": 1394,
+      "timestamp": 1716632442
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085807,
+      "shard": 2,
+      "epoch": 1394,
+      "timestamp": 1716632442
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085807,
+      "shard": 4294967295,
+      "epoch": 1394,
+      "timestamp": 1716632442
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085807,
+      "shard": 0,
+      "epoch": 1394,
+      "timestamp": 1716632442
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085806,
+      "shard": 0,
+      "epoch": 1394,
+      "timestamp": 1716632436
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085806,
+      "shard": 2,
+      "epoch": 1394,
+      "timestamp": 1716632436
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085806,
+      "shard": 1,
+      "epoch": 1394,
+      "timestamp": 1716632436
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085806,
+      "shard": 4294967295,
+      "epoch": 1394,
+      "timestamp": 1716632436
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085805,
+      "shard": 0,
+      "epoch": 1394,
+      "timestamp": 1716632430
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085805,
+      "shard": 2,
+      "epoch": 1394,
+      "timestamp": 1716632430
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085805,
+      "shard": 1,
+      "epoch": 1394,
+      "timestamp": 1716632430
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085805,
+      "shard": 4294967295,
+      "epoch": 1394,
+      "timestamp": 1716632430
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085804,
+      "shard": 0,
+      "epoch": 1394,
+      "timestamp": 1716632424
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085804,
+      "shard": 4294967295,
+      "epoch": 1394,
+      "timestamp": 1716632424
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085804,
+      "shard": 1,
+      "epoch": 1394,
+      "timestamp": 1716632424
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085804,
+      "shard": 2,
+      "epoch": 1394,
+      "timestamp": 1716632424
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085803,
+      "shard": 4294967295,
+      "epoch": 1394,
+      "timestamp": 1716632418
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085803,
+      "shard": 1,
+      "epoch": 1394,
+      "timestamp": 1716632418
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085803,
+      "shard": 2,
+      "epoch": 1394,
+      "timestamp": 1716632418
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085803,
+      "shard": 0,
+      "epoch": 1394,
+      "timestamp": 1716632418
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085802,
+      "shard": 0,
+      "epoch": 1394,
+      "timestamp": 1716632412
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085802,
+      "shard": 2,
+      "epoch": 1394,
+      "timestamp": 1716632412
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085802,
+      "shard": 1,
+      "epoch": 1394,
+      "timestamp": 1716632412
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085802,
+      "shard": 4294967295,
+      "epoch": 1394,
+      "timestamp": 1716632412
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085801,
+      "shard": 2,
+      "epoch": 1394,
+      "timestamp": 1716632406
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085801,
+      "shard": 4294967295,
+      "epoch": 1394,
+      "timestamp": 1716632406
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085801,
+      "shard": 1,
+      "epoch": 1394,
+      "timestamp": 1716632406
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085801,
+      "shard": 0,
+      "epoch": 1394,
+      "timestamp": 1716632406
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085800,
+      "shard": 4294967295,
+      "epoch": 1394,
+      "timestamp": 1716632400
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085800,
+      "shard": 0,
+      "epoch": 1394,
+      "timestamp": 1716632400
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085800,
+      "shard": 2,
+      "epoch": 1394,
+      "timestamp": 1716632400
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085800,
+      "shard": 1,
+      "epoch": 1394,
+      "timestamp": 1716632400
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085799,
+      "shard": 2,
+      "epoch": 1394,
+      "timestamp": 1716632394
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085799,
+      "shard": 1,
+      "epoch": 1394,
+      "timestamp": 1716632394
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085799,
+      "shard": 4294967295,
+      "epoch": 1394,
+      "timestamp": 1716632394
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085799,
+      "shard": 0,
+      "epoch": 1394,
+      "timestamp": 1716632394
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085798,
+      "shard": 2,
+      "epoch": 1394,
+      "timestamp": 1716632388
+    },
+    {
+      "blockWasProposed": true,
+      "round": 20085798,
+      "shard": 1,
+      "epoch": 1394,
+      "timestamp": 1716632388
+    }
+  ]

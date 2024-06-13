@@ -1,0 +1,952 @@
+[
+    {
+      "owner": "erd1nqemy7kjamwx3wtasnapdx20eakszusj4nlt7f5tueht2ey8zzeqq4chdj",
+      "auctionId": 437881,
+      "identifier": "EGLDPUNKS-d18f02-80",
+      "collection": "EGLDPUNKS-d18f02",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045422,
+      "marketplaceAuctionId": 8618,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "2025000000",
+        "token": "USDC-c76f1f"
+      },
+      "maxBid": {
+        "amount": "2025000000",
+        "token": "USDC-c76f1f"
+      }
+    },
+    {
+      "owner": "erd1nqemy7kjamwx3wtasnapdx20eakszusj4nlt7f5tueht2ey8zzeqq4chdj",
+      "auctionId": 437880,
+      "identifier": "EGLDPUNKS-d18f02-8c",
+      "collection": "EGLDPUNKS-d18f02",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045422,
+      "marketplaceAuctionId": 8616,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "2024000000",
+        "token": "USDC-c76f1f"
+      },
+      "maxBid": {
+        "amount": "2024000000",
+        "token": "USDC-c76f1f"
+      }
+    },
+    {
+      "owner": "erd1nqemy7kjamwx3wtasnapdx20eakszusj4nlt7f5tueht2ey8zzeqq4chdj",
+      "auctionId": 437879,
+      "identifier": "EGLDPUNKS-d18f02-0154",
+      "collection": "EGLDPUNKS-d18f02",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045422,
+      "marketplaceAuctionId": 8615,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "2023000000",
+        "token": "USDC-c76f1f"
+      },
+      "maxBid": {
+        "amount": "2023000000",
+        "token": "USDC-c76f1f"
+      }
+    },
+    {
+      "owner": "erd1nqemy7kjamwx3wtasnapdx20eakszusj4nlt7f5tueht2ey8zzeqq4chdj",
+      "auctionId": 437878,
+      "identifier": "EGLDPUNKS-d18f02-0136",
+      "collection": "EGLDPUNKS-d18f02",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045422,
+      "marketplaceAuctionId": 8614,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "2018000000",
+        "token": "USDC-c76f1f"
+      },
+      "maxBid": {
+        "amount": "2018000000",
+        "token": "USDC-c76f1f"
+      }
+    },
+    {
+      "owner": "erd1nqemy7kjamwx3wtasnapdx20eakszusj4nlt7f5tueht2ey8zzeqq4chdj",
+      "auctionId": 437876,
+      "identifier": "EGLDPUNKS-d18f02-0120",
+      "collection": "EGLDPUNKS-d18f02",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045422,
+      "marketplaceAuctionId": 8611,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "2021000000",
+        "token": "USDC-c76f1f"
+      },
+      "maxBid": {
+        "amount": "2021000000",
+        "token": "USDC-c76f1f"
+      }
+    },
+    {
+      "owner": "erd1nqemy7kjamwx3wtasnapdx20eakszusj4nlt7f5tueht2ey8zzeqq4chdj",
+      "auctionId": 437875,
+      "identifier": "EGLDPUNKS-d18f02-0160",
+      "collection": "EGLDPUNKS-d18f02",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045421,
+      "marketplaceAuctionId": 8610,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "2022000000",
+        "token": "USDC-c76f1f"
+      },
+      "maxBid": {
+        "amount": "2022000000",
+        "token": "USDC-c76f1f"
+      }
+    },
+    {
+      "owner": "erd1nqemy7kjamwx3wtasnapdx20eakszusj4nlt7f5tueht2ey8zzeqq4chdj",
+      "auctionId": 437874,
+      "identifier": "EGLDPUNKS-d18f02-56",
+      "collection": "EGLDPUNKS-d18f02",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045421,
+      "marketplaceAuctionId": 8609,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "2020000000",
+        "token": "USDC-c76f1f"
+      },
+      "maxBid": {
+        "amount": "2020000000",
+        "token": "USDC-c76f1f"
+      }
+    },
+    {
+      "owner": "erd1z99u2652cgcl3agmsl58nw3pretvam5n072lskckezv5egc8eq7s489emc",
+      "auctionId": 437871,
+      "identifier": "DEAD-79f8d1-0b6e",
+      "collection": "DEAD-79f8d1",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045420,
+      "marketplaceAuctionId": 8581,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "2600000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "2600000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1rj9kmazau7rjtq0977qn3hm6kxwq98y4fy7h3ftzwnwfpp0uycvs7rq29u",
+      "auctionId": 437870,
+      "identifier": "XMAS3-c08bc0-61",
+      "collection": "XMAS3-c08bc0",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045418,
+      "marketplaceAuctionId": 8532,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "1000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "1000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1ynh8et5r580c54z2vxc5hhzcaz7yrpvd7d4lkfen5dfrf4j9u9qqwg2fgc",
+      "auctionId": 437869,
+      "identifier": "PARTY-705dcb-5c",
+      "collection": "PARTY-705dcb",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045418,
+      "marketplaceAuctionId": 8515,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1sfdusa2wf2pjhuzu4kj4exejhq079z4hrdlg5z0nf2tvgjj8qg3qms7aqs",
+      "auctionId": 437868,
+      "identifier": "HORSE-df81f7-28",
+      "collection": "HORSE-df81f7",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045417,
+      "marketplaceAuctionId": 8504,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "200000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "200000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1sfdusa2wf2pjhuzu4kj4exejhq079z4hrdlg5z0nf2tvgjj8qg3qms7aqs",
+      "auctionId": 437867,
+      "identifier": "HORSE-df81f7-29",
+      "collection": "HORSE-df81f7",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045417,
+      "marketplaceAuctionId": 8502,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "200000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "200000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1mrgxrax5pdnsjyjwlt7wktyraf4h4hptdnvv0594jhxqzruqn6zsfswyws",
+      "auctionId": 437866,
+      "identifier": "SANTARUDIE-929bda-010f",
+      "collection": "SANTARUDIE-929bda",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045417,
+      "marketplaceAuctionId": 8499,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "150000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "150000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1mrgxrax5pdnsjyjwlt7wktyraf4h4hptdnvv0594jhxqzruqn6zsfswyws",
+      "auctionId": 437865,
+      "identifier": "NAG-c18385-03d0",
+      "collection": "NAG-c18385",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045416,
+      "marketplaceAuctionId": 8498,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "120000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "120000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1mrgxrax5pdnsjyjwlt7wktyraf4h4hptdnvv0594jhxqzruqn6zsfswyws",
+      "auctionId": 437864,
+      "identifier": "AEROCIA-487b5f-0599",
+      "collection": "AEROCIA-487b5f",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045416,
+      "marketplaceAuctionId": 8497,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "120000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "120000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd109tux7g4kgtvm0cgtla86smmrm48f3uavucxmyk9v9ttk20h2tqsvr5wc3",
+      "auctionId": 437863,
+      "identifier": "NAG-c18385-02b6",
+      "collection": "NAG-c18385",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045416,
+      "marketplaceAuctionId": 8494,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "5000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "5000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd144fsv7cksrymamm0eltvg3ax7lzctx0sw7rqjassj7np64mz879qxlr3zc",
+      "auctionId": 437859,
+      "identifier": "LUCKY-4a814e-4b",
+      "collection": "LUCKY-4a814e",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045415,
+      "marketplaceAuctionId": 8483,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "1100000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "1100000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1qnxxamh5qfz2d69g33rxg85j9fqqra359ucaszzajn7737n2lp2q46krhj",
+      "auctionId": 437858,
+      "identifier": "PLATAXMAS-874bd3-05a4",
+      "collection": "PLATAXMAS-874bd3",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045414,
+      "marketplaceAuctionId": 8471,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1qnxxamh5qfz2d69g33rxg85j9fqqra359ucaszzajn7737n2lp2q46krhj",
+      "auctionId": 437857,
+      "identifier": "NAG-c18385-0373",
+      "collection": "NAG-c18385",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045414,
+      "marketplaceAuctionId": 8467,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "1000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "1000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1qnxxamh5qfz2d69g33rxg85j9fqqra359ucaszzajn7737n2lp2q46krhj",
+      "auctionId": 437856,
+      "identifier": "CYCLOP-fb46f3-9a",
+      "collection": "CYCLOP-fb46f3",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045414,
+      "marketplaceAuctionId": 8466,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "3000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "3000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1syg9pd2h2e5v87m40eskmpawf3v3rg6azt5qakq5exusqgkt8jmqamextv",
+      "auctionId": 437854,
+      "identifier": "GIFT-787c7d-0289",
+      "collection": "GIFT-787c7d",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045413,
+      "marketplaceAuctionId": 8455,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "250000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "250000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1mtxlndvs0qyt9jke6tw2s4vs6tgl4x00903v4qhl09uchdqkr9pq9awnhh",
+      "auctionId": 437853,
+      "identifier": "LEMUR-1f9dec-34",
+      "collection": "LEMUR-1f9dec",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045412,
+      "marketplaceAuctionId": 8422,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "150000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "150000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd19cwmht9s7kdr5ctskfj8ev68j44vvpmem2qpq4mptgf5vrvamrtqlwkj35",
+      "auctionId": 437852,
+      "identifier": "GIFT-787c7d-01ed",
+      "collection": "GIFT-787c7d",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045412,
+      "marketplaceAuctionId": 8421,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "100000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "100000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd124elnvrtdpvjhy24euscxxc7gms68ccqar09elkyacwx905f3l9q9mc89h",
+      "auctionId": 437849,
+      "identifier": "EGLDCOWSGA-bc98f8-ac",
+      "collection": "EGLDCOWSGA-bc98f8",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045410,
+      "marketplaceAuctionId": 8383,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "1200000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "1200000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd124elnvrtdpvjhy24euscxxc7gms68ccqar09elkyacwx905f3l9q9mc89h",
+      "auctionId": 437848,
+      "identifier": "AEROCIA-487b5f-010c",
+      "collection": "AEROCIA-487b5f",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045410,
+      "marketplaceAuctionId": 8382,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "1000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "1000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1pfe6uap6mchzrz3lwltj8glt09ewf5yqwusw90wrjvjhkqsu6dqsssnhtf",
+      "auctionId": 437847,
+      "identifier": "ETVS-738899-15",
+      "collection": "ETVS-738899",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045409,
+      "marketplaceAuctionId": 8355,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "200000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "200000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1sne459wm0kzqy4tjn3zfjak7ucmtalxu4pxqrrzj493rppwy6k6s70kr05",
+      "auctionId": 437846,
+      "identifier": "ESNT-610350-0123",
+      "collection": "ESNT-610350",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045409,
+      "marketplaceAuctionId": 8340,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "1000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "1000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1e7j54x0fwttgtmsgp7ez5zpfk5lagenv25js582h9lese49n0zcqkkqcsa",
+      "auctionId": 437845,
+      "identifier": "CATASS-bd8dba-49",
+      "collection": "CATASS-bd8dba",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045408,
+      "marketplaceAuctionId": 8339,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "25000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "25000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1wu44425sujf8n27rml47r35973xc0zeccuwtpqsznr4h9z30qspssqj4vc",
+      "auctionId": 437844,
+      "identifier": "SAVEME-1a9511-24",
+      "collection": "SAVEME-1a9511",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045408,
+      "marketplaceAuctionId": 8337,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "5000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "5000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd136pl7nrudvphq0mr4p0n8jdur492rydz7txwmcjj54sqycnpndwqh4sr4r",
+      "auctionId": 437841,
+      "identifier": "DEAD-79f8d1-0232",
+      "collection": "DEAD-79f8d1",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045406,
+      "marketplaceAuctionId": 8282,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "2000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "2000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd136pl7nrudvphq0mr4p0n8jdur492rydz7txwmcjj54sqycnpndwqh4sr4r",
+      "auctionId": 437840,
+      "identifier": "DEAD-79f8d1-03b4",
+      "collection": "DEAD-79f8d1",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045406,
+      "marketplaceAuctionId": 8281,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "2000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "2000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1jntm3d8jx5my99fnrzh9sarltfmqwnl0psz2kcvwla66eparqd9s6r47q2",
+      "auctionId": 437839,
+      "identifier": "DEAD-79f8d1-0712",
+      "collection": "DEAD-79f8d1",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045405,
+      "marketplaceAuctionId": 8268,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "5000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "5000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd18du7e04ptxxtyq9hxjev4hd5vndh2xvet3xhj0nvdex0697z769stapw2s",
+      "auctionId": 437838,
+      "identifier": "MOS-b9b4b2-1731",
+      "collection": "MOS-b9b4b2",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045405,
+      "marketplaceAuctionId": 8267,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "100000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "100000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1aca2xd0egz7fky9p74vt8ckj973g2e6xqfvfppew5gsajpyjvxesml6y5w",
+      "auctionId": 437837,
+      "identifier": "SANTARUDIE-929bda-0220",
+      "collection": "SANTARUDIE-929bda",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045404,
+      "marketplaceAuctionId": 8253,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1aca2xd0egz7fky9p74vt8ckj973g2e6xqfvfppew5gsajpyjvxesml6y5w",
+      "auctionId": 437836,
+      "identifier": "POL-1e9209-01d8",
+      "collection": "POL-1e9209",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045404,
+      "marketplaceAuctionId": 8252,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1k9q3a4r6vrf9rkfd0kkn50gzkzdh5qj7efsk3x203xgxuf2whgeqen0006",
+      "auctionId": 437834,
+      "identifier": "BEARS-367fe1-75",
+      "collection": "BEARS-367fe1",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045401,
+      "marketplaceAuctionId": 8147,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "450000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "450000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1k9q3a4r6vrf9rkfd0kkn50gzkzdh5qj7efsk3x203xgxuf2whgeqen0006",
+      "auctionId": 437833,
+      "identifier": "BEARS-367fe1-74",
+      "collection": "BEARS-367fe1",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045401,
+      "marketplaceAuctionId": 8145,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "300000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "300000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd15ckykkyc8mlwtq2f0s9k68yfs6rdafue2e8lnwg2l7fs94t6vlcs7uu8uu",
+      "auctionId": 437826,
+      "identifier": "EGIRL-443b95-0935",
+      "collection": "EGIRL-443b95",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045397,
+      "marketplaceAuctionId": 8094,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "5000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "5000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd15ckykkyc8mlwtq2f0s9k68yfs6rdafue2e8lnwg2l7fs94t6vlcs7uu8uu",
+      "auctionId": 437823,
+      "identifier": "ASTRO-509b7f-0719",
+      "collection": "ASTRO-509b7f",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045396,
+      "marketplaceAuctionId": 8091,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "2000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "2000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd12k7sk2h4nyg83ej96zjv3m4543ckym0s93ac7q9e9r3aacyeedlqlzs682",
+      "auctionId": 437822,
+      "identifier": "GIFT-787c7d-8d",
+      "collection": "GIFT-787c7d",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045396,
+      "marketplaceAuctionId": 8072,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "600000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "600000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1jz44ds5q8p95fdvv95z2z48ne5zezmrk0qal7nlhldzvetnaj2fqn7cvvj",
+      "auctionId": 437821,
+      "identifier": "PANDA-860964-01b9",
+      "collection": "PANDA-860964",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045395,
+      "marketplaceAuctionId": 8050,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "300000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "300000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd14keu0375rc9uk0zlkfru4gf427gvfmln2arpxav2h3kzj3adqy4q9qfgdy",
+      "auctionId": 437820,
+      "identifier": "GIFT-787c7d-0287",
+      "collection": "GIFT-787c7d",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045395,
+      "marketplaceAuctionId": 8046,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "20000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "20000000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1xdrtt6002yla7wrhfdj6l7kd2ff4h6lu9gd36al3mc7cj6z5l8vsf86kw8",
+      "auctionId": 437819,
+      "identifier": "MOS-b9b4b2-0674",
+      "collection": "MOS-b9b4b2",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045394,
+      "marketplaceAuctionId": 8042,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "3100000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "3100000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1xdrtt6002yla7wrhfdj6l7kd2ff4h6lu9gd36al3mc7cj6z5l8vsf86kw8",
+      "auctionId": 437818,
+      "identifier": "AEROCIA-487b5f-04e6",
+      "collection": "AEROCIA-487b5f",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045394,
+      "marketplaceAuctionId": 8041,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1xdrtt6002yla7wrhfdj6l7kd2ff4h6lu9gd36al3mc7cj6z5l8vsf86kw8",
+      "auctionId": 437817,
+      "identifier": "NAG-c18385-0302",
+      "collection": "NAG-c18385",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045394,
+      "marketplaceAuctionId": 8040,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1xdrtt6002yla7wrhfdj6l7kd2ff4h6lu9gd36al3mc7cj6z5l8vsf86kw8",
+      "auctionId": 437816,
+      "identifier": "EGLDCOWSGA-bc98f8-0290",
+      "collection": "EGLDCOWSGA-bc98f8",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045394,
+      "marketplaceAuctionId": 8039,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "500000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd140yplgjeheu0lhgzlsp7fw7tawtmz3ag90u0avjpt0vyn2jydkss2688hd",
+      "auctionId": 437815,
+      "identifier": "ELF-065a2e-0559",
+      "collection": "ELF-065a2e",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045393,
+      "marketplaceAuctionId": 8037,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "530000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "530000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd140yplgjeheu0lhgzlsp7fw7tawtmz3ag90u0avjpt0vyn2jydkss2688hd",
+      "auctionId": 437814,
+      "identifier": "DEAD-79f8d1-101d",
+      "collection": "DEAD-79f8d1",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045393,
+      "marketplaceAuctionId": 8035,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "1090000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "1090000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1f4a3lfhgyryan89hjpd9y7txw2hp0g7lq78uehqta8jw8q3gnw5sj8mw5k",
+      "auctionId": 437813,
+      "identifier": "ZOMBIE-c5dc15-08",
+      "collection": "ZOMBIE-c5dc15",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045392,
+      "marketplaceAuctionId": 7996,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "550000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "550000000000000000",
+        "token": "EGLD"
+      }
+    },
+    {
+      "owner": "erd1lmmjpvgczf3ngjkmpe0vvjy620hv4racd5p4q6u4dm4lhap8w5esjqmy9z",
+      "auctionId": 437811,
+      "identifier": "MOS-b9b4b2-22b1",
+      "collection": "MOS-b9b4b2",
+      "status": "running",
+      "auctionType": "Nft",
+      "createdAt": 1663045389,
+      "marketplaceAuctionId": 7874,
+      "marketplace": "xoxno",
+      "minBid": {
+        "amount": "10000000000000000000",
+        "token": "EGLD"
+      },
+      "maxBid": {
+        "amount": "10000000000000000000",
+        "token": "EGLD"
+      }
+    }
+  ]

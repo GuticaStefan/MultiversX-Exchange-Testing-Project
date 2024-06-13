@@ -1,0 +1,651 @@
+[
+    {
+      "address": "erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqplllst77y4l",
+      "balance": "16570760393455338018241603",
+      "nonce": 1,
+      "timestamp": 1716631446,
+      "shard": 4294967295,
+      "ownerAddress": "erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqplllst77y4l",
+      "assets": {
+        "name": "System: Staking Module",
+        "description": "Smart contract containing all staked eGLD on the network",
+        "social": {
+          "website": "http://multiversx.com",
+          "twitter": "https://twitter.com/intent/user?screen_name=multiversx",
+          "telegram": "https://t.me/MultiversX",
+          "youtube": "https://youtube.com/@MultiversXOfficial",
+          "github": "https://github.com/MultiversX"
+        },
+        "tags": [
+          "system",
+          "staking",
+          "module"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/multiversx.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/multiversx.svg"
+      },
+      "transfersLast24h": 60
+    },
+    {
+      "address": "erd1rf4hv70arudgzus0ymnnsnc4pml0jkywg2xjvzslg0mz4nn2tg7q7k0t6p",
+      "balance": "2841694393278434900912045",
+      "nonce": 164,
+      "timestamp": 1715944938,
+      "shard": 0,
+      "assets": {
+        "name": "Exchange: Binance Staking",
+        "description": "Account containing all staked amounts on the Binance platform",
+        "tags": [
+          "exchange",
+          "binance",
+          "staking"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/binance.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/binance.svg"
+      }
+    },
+    {
+      "address": "erd1fcxu3f0hlxyvnp7zvuqmf34zf5w782tst6vuqhm4dwq4ayjspdaqce0q49",
+      "balance": "776779842397859540829961",
+      "nonce": 126,
+      "timestamp": 1716206946,
+      "shard": 2,
+      "assets": {
+        "name": "Exchange: UPbit",
+        "social": {
+          "website": "https://sg.upbit.com/home"
+        },
+        "tags": [
+          "upbit",
+          "exchange"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/upbit.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/upbit.svg"
+      }
+    },
+    {
+      "address": "erd1v4ms58e22zjcp08suzqgm9ajmumwxcy4hfkdc23gvynnegjdflmsj6gmaq",
+      "balance": "300000050850000000000000",
+      "nonce": 3,
+      "timestamp": 1709262792,
+      "shard": 1,
+      "assets": {
+        "name": "Exchange: Binance.com",
+        "tags": [
+          "binance",
+          "exchange"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/binance.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/binance.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqvc7gdl0p4s97guh498wgz75k8sav6sjfjlwqh679jy",
+      "balance": "296523381341405077177640",
+      "nonce": 0,
+      "timestamp": 1716631836,
+      "shard": 0,
+      "ownerAddress": "erd1ss6u80ruas2phpmr82r42xnkd6rxy40g9jl69frppl4qez9w2jpsqj8x97",
+      "assets": {
+        "name": "ESDT: WrappedEGLD Contract Shard 0",
+        "tags": [
+          "xexchange",
+          "wegld"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "transfersLast24h": 391
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqhe8t5jewej70zupmh44jurgn29psua5l2jps3ntjj3",
+      "balance": "290128934082589978981016",
+      "nonce": 0,
+      "timestamp": 1716631866,
+      "shard": 1,
+      "ownerAddress": "erd1ss6u80ruas2phpmr82r42xnkd6rxy40g9jl69frppl4qez9w2jpsqj8x97",
+      "assets": {
+        "name": "ESDT: WrappedEGLD Contract Shard 1",
+        "tags": [
+          "xexchange",
+          "wegld"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "transfersLast24h": 1644
+    },
+    {
+      "address": "erd1nmtkpqzhkla5yreu2dlyzm9fm8v902wjhvzu7xjjkd8ppefmtlws7qvx2a",
+      "balance": "255263241646047270974145",
+      "nonce": 12886,
+      "timestamp": 1716631644,
+      "shard": 1,
+      "assets": {
+        "name": "Exchange: Kraken",
+        "social": {
+          "website": "https://www.kraken.com",
+          "twitter": "https://twitter.com/krakenfx",
+          "telegram": "https://t.me/kraken_exchange_official",
+          "instagram": "https://www.instagram.com/krakenfx",
+          "facebook": "https://www.facebook.com/KrakenFX",
+          "linkedin": "https://www.linkedin.com/company/krakenfx",
+          "youtube": "https://www.youtube.com/c/KrakenBitcoinExchange",
+          "tiktok": "https://www.tiktok.com/@krakenfx",
+          "reddit": "https://www.reddit.com/r/Kraken"
+        },
+        "tags": [
+          "kraken",
+          "exchange"
+        ]
+      }
+    },
+    {
+      "address": "erd1vj3efd5czwearu0gr3vjct8ef53lvtl7vs42vts2kh2qn3cucrnsj7ymqx",
+      "balance": "198328215835796423684274",
+      "nonce": 31665,
+      "timestamp": 1716631914,
+      "shard": 1,
+      "assets": {
+        "name": "Exchange: Bybit",
+        "tags": [
+          "exchange",
+          "bybit"
+        ]
+      }
+    },
+    {
+      "address": "erd1hzccjg25yqaqnr732x2ka7pj5glx72pfqzf05jj9hxqn3lxkramq5zu8h4",
+      "balance": "172164270505136042782531",
+      "nonce": 495,
+      "timestamp": 1716630366,
+      "shard": 2,
+      "assets": {
+        "name": "Exchange: Crypto.com",
+        "social": {
+          "website": "https://crypto.com",
+          "facebook": "https://www.facebook.com/CryptoComOfficial",
+          "telegram": "https://blog.crypto.com/official-crypto-com-telegram-communities",
+          "instagram": "https://www.instagram.com/cryptocomofficial"
+        },
+        "tags": [
+          "crypto",
+          "exchange"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/crypto.com.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/crypto.com.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqxwakt2g7u9atsnr03gqcgmhcv38pt7mkd94q6shuwt",
+      "balance": "154141641947240461160300",
+      "nonce": 0,
+      "timestamp": 1716631158,
+      "shard": 2,
+      "ownerAddress": "erd1ghg3vusfhy0wx92kvafw2kxhu2pdz8rrt3kr6yd3zapfwwwfd94qvnkddh",
+      "assets": {
+        "name": "Staking: MultiversX Community Delegation",
+        "social": {
+          "website": "http://multiversx.com",
+          "twitter": "https://twitter.com/intent/user?screen_name=multiversx",
+          "telegram": "https://t.me/MultiversX",
+          "youtube": "https://youtube.com/@MultiversXOfficial",
+          "github": "https://github.com/MultiversX"
+        },
+        "tags": [
+          "staking",
+          "delegation",
+          "community"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/multiversx.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/multiversx.svg"
+      },
+      "transfersLast24h": 180
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqmuk0q2saj0mgutxm4teywre6dl8wqf58xamqdrukln",
+      "balance": "128829311517280973812541",
+      "nonce": 0,
+      "timestamp": 1716630474,
+      "shard": 2,
+      "ownerAddress": "erd1ss6u80ruas2phpmr82r42xnkd6rxy40g9jl69frppl4qez9w2jpsqj8x97",
+      "assets": {
+        "name": "ESDT: WrappedEGLD Contract Shard 2",
+        "tags": [
+          "xexchange",
+          "wegld"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "transfersLast24h": 401
+    },
+    {
+      "address": "erd1lh08nq6j75s39vtgn2gtzed8p62nr77my8h3wyhdcv7xjql7gn9szasf5c",
+      "balance": "107296013292525611797050",
+      "nonce": 11,
+      "timestamp": 1716616764,
+      "shard": 1
+    },
+    {
+      "address": "erd1sdslvlxvfnnflzj42l8czrcngq3xjjzkjp3rgul4ttk6hntr4qdsv6sets",
+      "balance": "101633401275750174151681",
+      "nonce": 479229,
+      "timestamp": 1716631854,
+      "shard": 1,
+      "assets": {
+        "name": "Exchange: Binance.com",
+        "social": {
+          "website": "https://xexchange.com",
+          "twitter": "https://twitter.com/xExchangeApp",
+          "telegram": "https://t.me/xExchangeApp",
+          "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+        },
+        "tags": [
+          "binance",
+          "exchange"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/binance.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/binance.svg"
+      }
+    },
+    {
+      "address": "erd16xta8867juxzm0sqmfevpa5karkd3l5k9cspns6zj28auv7nugqqpph374",
+      "balance": "97771277893343835904927",
+      "nonce": 0,
+      "timestamp": 1716604542,
+      "shard": 0
+    },
+    {
+      "address": "erd1vtlpm6sxxvmgt43ldsrpswjrfcsudmradylpxn9jkp66ra3rkz4qruzvfw",
+      "balance": "91247593331643000000000",
+      "nonce": 86,
+      "timestamp": 1716517542,
+      "shard": 2
+    },
+    {
+      "address": "erd1qt827an62lztf74rx7cg2s6utx3dp6l8k9snlttd77zny4dlzr9qccdqgx",
+      "balance": "85638214056486894690200",
+      "nonce": 64153,
+      "timestamp": 1716629136,
+      "shard": 2,
+      "assets": {
+        "name": "Exchange: Okex.com",
+        "social": {
+          "website": "https://www.okx.com",
+          "instagram": "https://www.instagram.com/okx_official",
+          "telegram": "https://t.me/OKXOfficial_English",
+          "tiktok": "https://www.tiktok.com/@okx",
+          "discord": "https://discord.gg/e6EyvM5QwM"
+        },
+        "tags": [
+          "okex",
+          "exchange"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/okex.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/okex.svg"
+      }
+    },
+    {
+      "address": "erd1sxhameujglefnrzxyj8eha6uxqtclezmjz3t27s3e9tew0ufhqqqkxz37g",
+      "balance": "74607268643158542359724",
+      "nonce": 0,
+      "timestamp": 1713970362,
+      "shard": 0
+    },
+    {
+      "address": "erd135enn78u7fy352ny9mcl26a08wvu02mjdumfkt7cn587cwtnerksagqsfm",
+      "balance": "72710918902480369820985",
+      "nonce": 148,
+      "timestamp": 1716567588,
+      "shard": 1
+    },
+    {
+      "address": "erd1j7t00tq4jhcarcl2kuw3aywplnqlh9y6w9sxx2v6namc3jxvn5qq0jumrh",
+      "balance": "70390332377985708331221",
+      "nonce": 0,
+      "timestamp": 1713970404,
+      "shard": 0
+    },
+    {
+      "address": "erd1eae23a530qymlpvfrudzsge5wgl003wl92saax74cew7j549eqqq3jklut",
+      "balance": "65089999950000000000000",
+      "nonce": 1,
+      "timestamp": 1713970434,
+      "shard": 0,
+      "assets": {
+        "name": "Coinbase: Custody",
+        "tags": [
+          "coinbase",
+          "custody"
+        ]
+      }
+    },
+    {
+      "address": "erd1nzveqhkn2d9l5r6x8y0x2whu8wvayfacdmkg3klvpnqt3j7ltrwqs0h2g8",
+      "balance": "60892167956594113366922",
+      "nonce": 186,
+      "timestamp": 1715523408,
+      "shard": 0
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgq35qkf34a8svu4r2zmfzuztmeltqclapv78ss5jleq3",
+      "balance": "60301519089494038579232",
+      "nonce": 0,
+      "timestamp": 1716631830,
+      "shard": 1,
+      "ownerAddress": "erd1cc2yw3reulhshp3x73q2wye0pq8f4a3xz3pt7xj79phv9wm978ssu99pvt",
+      "assets": {
+        "name": "Hatom: EGLD Money Market",
+        "description": "Hatom's EGLD Lending & Borrowing Protocol Money Market",
+        "social": {
+          "website": "https://hatom.com",
+          "discord": "https://discord.com/invite/WekwfUDXGp",
+          "github": "https://github.com/HatomProtocol",
+          "blog": "https://blog.hatom.com",
+          "telegram": "https://t.me/HatomLabs",
+          "twitter": "https://twitter.com/HatomProtocol",
+          "whitepaper": "https://docs.hatom.com/getting-started/learn-more-about-hatom-token/whitepaper",
+          "linkedin": "https://www.linkedin.com/company/hatomlabs"
+        },
+        "tags": [
+          "hatom",
+          "money-market",
+          "lending",
+          "borrowing"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.svg"
+      },
+      "transfersLast24h": 101
+    },
+    {
+      "address": "erd1wtm3yl58vcnj089lqy3tatkdpwklffh4pjnf27zwsa2znjyk355sutafqh",
+      "balance": "59664847211160515115010",
+      "nonce": 240,
+      "timestamp": 1715722476,
+      "shard": 1
+    },
+    {
+      "address": "erd1p58fu6j78glh3aj7vgmaklneypyvj4f9kjrg7a49x68ftnq8vuqq2aalk3",
+      "balance": "55630094842403255154500",
+      "nonce": 0,
+      "timestamp": 1713970488,
+      "shard": 0
+    },
+    {
+      "address": "erd1vyhn62vj0lxpsmkdjuzple6qc3nnag4zwu733f0863fh87hgwltskca22m",
+      "balance": "52685928678416237239180",
+      "nonce": 141,
+      "timestamp": 1716624624,
+      "shard": 1
+    },
+    {
+      "address": "erd1w547kw69kpd60vlpr9pe0pn9nnqeljrcaz73znenjpgt0h3qlqqqm3szxj",
+      "balance": "47319185304225411176337",
+      "nonce": 7954,
+      "timestamp": 1716630936,
+      "shard": 0,
+      "assets": {
+        "name": "Exchange: Bitget",
+        "tags": [
+          "exchange",
+          "bitget"
+        ]
+      }
+    },
+    {
+      "address": "erd1eegw0pl3etxrpcycm5yza9gc3ytx4pvfhzegfc8gtmz5ycjv2qsq6z97mj",
+      "balance": "39001548905819556438407",
+      "nonce": 155,
+      "timestamp": 1716564324,
+      "shard": 0
+    },
+    {
+      "address": "erd1na62uxlpkql4kgzu7g40auzhtj0m0fhjkyp8u8mf5g0g0d8kvqsq9ckse6",
+      "balance": "38794126628740000000000",
+      "nonce": 31,
+      "timestamp": 1716304008,
+      "shard": 0
+    },
+    {
+      "address": "erd12zhclp9ar3hr8f9ya0s98txlwt0kmlawadq59pthp9gegyzg4vps7jchfn",
+      "balance": "35089999800000000000000",
+      "nonce": 2,
+      "timestamp": 1692257730,
+      "shard": 1
+    },
+    {
+      "address": "erd1s0p8hjnhhen9hfeer0gzm6ggjk73pgzjwshs0n6eglzu9u4st2jqkxyyjg",
+      "balance": "34753847529731432678560",
+      "nonce": 50,
+      "timestamp": 1716452328,
+      "shard": 0
+    },
+    {
+      "address": "erd1cgd7vesf45hpsg97mu99ux9w4q5dyyvasgh35tazj9zaqsmpff2qp8z4jm",
+      "balance": "34176339287500000000000",
+      "nonce": 13,
+      "timestamp": 1680763614,
+      "shard": 0
+    },
+    {
+      "address": "erd1p4vy5n9mlkdys7xczegj398xtyvw2nawz00nnfh4yr7fpjh297cqtsu7lw",
+      "balance": "30991519554181184051350",
+      "nonce": 36203,
+      "timestamp": 1716631422,
+      "shard": 0,
+      "assets": {
+        "name": "Exchange: Gate.io",
+        "social": {
+          "website": "https://www.gate.io",
+          "facebook": "https://www.facebook.com/gateioglobal",
+          "instagram": "https://www.instagram.com/gateioglobal"
+        },
+        "tags": [
+          "gate.io",
+          "exchange"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/gate.io.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/gate.io.svg"
+      }
+    },
+    {
+      "address": "erd1ezp86jwmcp4fmmu2mfqz0438py392z5wp6kzuqsjldgd68nwt89qshfs0y",
+      "balance": "29228455503226574201679",
+      "nonce": 47881,
+      "timestamp": 1716631536,
+      "shard": 2,
+      "assets": {
+        "name": "Exchange: MexC",
+        "social": {
+          "website": "https://www.mexc.com",
+          "facebook": "https://www.facebook.com/mexcofficial",
+          "telegram": "https://t.me/MEXCEnglish"
+        },
+        "tags": [
+          "mexc",
+          "exchange"
+        ]
+      }
+    },
+    {
+      "address": "erd1hcaps2cq6v3j2ke8ldnjxmnacuk6hhgwspuxpv3whpnnq4ldlxdq5cukqz",
+      "balance": "29048511377430480000000",
+      "nonce": 7,
+      "timestamp": 1712744532,
+      "shard": 2,
+      "assets": {
+        "name": "MultiversX Bridge: BEP2 Swap Bridge",
+        "tags": [
+          "multiversx",
+          "bridge",
+          "swap"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/multiversx.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/multiversx.svg"
+      }
+    },
+    {
+      "address": "erd1dhtpgm490pvt9av7tpcl8nwuj9sf2re9aqc5ktys8gwrg8hyaglqyucw2t",
+      "balance": "25656292395548867642744",
+      "nonce": 26,
+      "timestamp": 1708309044,
+      "shard": 2
+    },
+    {
+      "address": "erd1a56dkgcpwwx6grmcvw9w5vpf9zeq53w3w7n6dmxcpxjry3l7uh2s3h9dtr",
+      "balance": "24573648399700975917635",
+      "nonce": 9294,
+      "timestamp": 1716499122,
+      "shard": 1,
+      "assets": {
+        "name": "Exchange: Bitfinex.com",
+        "social": {
+          "website": "https://www.bitfinex.com",
+          "discord": "https://discord.gg/bitfinex",
+          "telegram": "https://t.me/bitfinex",
+          "facebook": "https://www.facebook.com/bitfinex",
+          "instagram": "https://www.instagram.com/bitfinex"
+        },
+        "tags": [
+          "bitfinex",
+          "exchange"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/bitfinex.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/bitfinex.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqc0llllsayxegu",
+      "balance": "21868594699616350830168",
+      "nonce": 0,
+      "timestamp": 1716627870,
+      "shard": 4294967295,
+      "ownerAddress": "erd1p3423t9rj5nxnqnyz2hzr43xrddxvzggwhp0amjgyhr4v939vstsmh6vtc",
+      "assets": {
+        "name": "Staking: Binance Staking",
+        "tags": [
+          "staking",
+          "provider"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/identities/binance_staking/logo.png"
+      },
+      "transfersLast24h": 28
+    },
+    {
+      "address": "erd12v3ek9tpqzshpdzy6hrnvf6ksc4ezsn3zv7sllxu3pl0kf7uhdts45tf08",
+      "balance": "20289095656206188975770",
+      "nonce": 4117,
+      "timestamp": 1716628272,
+      "shard": 1
+    },
+    {
+      "address": "erd1zj7vzv6fv4uuhza44m6763v2j6877wre4zajev5lkuyjn92dlqeqjwyk0x",
+      "balance": "17429348604874777366511",
+      "nonce": 194,
+      "timestamp": 1713797682,
+      "shard": 2
+    },
+    {
+      "address": "erd1ggv6aujzwfq63t9p4u0k32x7rsvs7c4swvu0vymehtk8yvj5hxpqyy2295",
+      "balance": "16921153335000000000000",
+      "nonce": 0,
+      "timestamp": 1710154632,
+      "shard": 2
+    },
+    {
+      "address": "erd1r3hnpuejprk6fsma2v0zp6vshs5we75x5kvhx9dhun55ucvhnnjq3x63nm",
+      "balance": "15580702100000000000000",
+      "nonce": 0,
+      "timestamp": 1689544236,
+      "shard": 0
+    },
+    {
+      "address": "erd100ke6jr4qw49xtp3a0ek8xfv8vye4pdrdptn83fht7ecd9ju7hhq9hqygj",
+      "balance": "15366407087423120522904",
+      "nonce": 16,
+      "timestamp": 1704428100,
+      "shard": 2
+    },
+    {
+      "address": "erd1u63zw4grjt48az6d2lrwc4jwrhy25ty5eavnjw83ty8er7s99ruquvd4av",
+      "balance": "15231871283240000000000",
+      "nonce": 131,
+      "timestamp": 1716486354,
+      "shard": 0
+    },
+    {
+      "address": "erd1hqamcl7hacu28q0l2kh7jt0vs6tjfhq4vp2tv7hufkx3phu0jn5ql3qw7x",
+      "balance": "14387428081300538904609",
+      "nonce": 4950,
+      "timestamp": 1716624126,
+      "shard": 0,
+      "assets": {
+        "name": "Exchange: UPbit",
+        "social": {
+          "website": "https://sg.upbit.com/home"
+        },
+        "tags": [
+          "upbit",
+          "exchange"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/upbit.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/upbit.svg"
+      }
+    },
+    {
+      "address": "erd1wthc36kdwkgpus4lh4y5y8thaknmfm07rmg4se3r0yzzffwzrw8qmungpg",
+      "balance": "13892747902231579313542",
+      "nonce": 4521,
+      "timestamp": 1716519198,
+      "shard": 2,
+      "assets": {
+        "name": "Exchange: UPbit",
+        "social": {
+          "website": "https://sg.upbit.com/home"
+        },
+        "tags": [
+          "upbit",
+          "exchange"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/upbit.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/upbit.svg"
+      }
+    },
+    {
+      "address": "erd1v9cp2j7huwhchqc35rehadzchs77uyrdge8dpvt9uxn924xssw0qx6xsh8",
+      "balance": "13773243450000000000000",
+      "nonce": 1,
+      "timestamp": 1703850126,
+      "shard": 2
+    },
+    {
+      "address": "erd1eae7uvkn4h57zy20vy5kwnm5sxn7n6haw8cenxza4fmhj83jz5qqdv7ynd",
+      "balance": "13423536244642972758200",
+      "nonce": 0,
+      "timestamp": 1714585926,
+      "shard": 0
+    },
+    {
+      "address": "erd174wnc5jlss2uxesrdn03dllegvpyd5cs476qewqym8c6eeqwu5qqr7pna8",
+      "balance": "13332421409376266405574",
+      "nonce": 0,
+      "timestamp": 1714590036,
+      "shard": 0
+    },
+    {
+      "address": "erd1u6jgu7dthyw929ws7p97ckp8kykr48rh04xc4xa89fprng2pcqqqre5yvv",
+      "balance": "13190130410790537861000",
+      "nonce": 0,
+      "timestamp": 1714627050,
+      "shard": 0
+    },
+    {
+      "address": "erd1wnsmu2cp6ru0gsk9s7u5dpf0ynae2x2vyzrn8nrxk3s0qvdjxvqqpvv76n",
+      "balance": "13190130410790537861000",
+      "nonce": 0,
+      "timestamp": 1714627092,
+      "shard": 0
+    }
+  ]

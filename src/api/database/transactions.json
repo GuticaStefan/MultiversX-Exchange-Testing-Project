@@ -1,0 +1,1294 @@
+[
+    {
+      "txHash": "bcbbeae9e1710f30530e8236307b829e98e59869b10c575156d3c2a481cef89b",
+      "gasLimit": 5000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 3375601,
+      "miniBlockHash": "e3c4a223e18151040d3fd8505275cb4a7252fe55c4780ea4da5e1a57ad47015d",
+      "nonce": 1110653,
+      "receiver": "erd1qqqqqqqqqqqqqpgq7rwhny4mx6dhuzcsymrhdsv2vmvarecgh4vq687aqr",
+      "receiverAssets": {
+        "name": "Knights of Cathena: Rewardpool",
+        "description": "The rewardpool ensures a fair distribution of $CGO after each match",
+        "social": {
+          "website": "https://knights-of-cathena.com",
+          "email": "info@knights-of-cathena.com",
+          "blog": "https://knights-of-cathena.com/blog",
+          "twitter": "https://twitter.com/CathenaKnights",
+          "telegram": "https://telegram.knights-of-cathena.com",
+          "discord": "https://discord.com/invite/r8BwB8UaWx",
+          "instagram": "https://instagram.knights-of-cathena.com",
+          "community": "https://egld.community/projects/knights-of-cathena"
+        },
+        "tags": [
+          "koc",
+          "knights",
+          "cathena",
+          "knights of cathena",
+          "rewardpool"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/knightsofcathena.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/knightsofcathena.svg"
+      },
+      "receiverShard": 0,
+      "round": 20085846,
+      "sender": "erd1sdrjn0uuulydacwjam3v5afl427ptk797fpcujpfcsakfck8aqjquq9afc",
+      "senderShard": 0,
+      "signature": "87fed9b0f1ace7cabc63d4309f716afde23e53101e0249da272bfcb29c1808f27ae74934536bc049d308043e60c6892172ebc1a171a25007b22b814e8cd45803",
+      "status": "success",
+      "value": "0",
+      "fee": "221361010000000",
+      "timestamp": 1716632676,
+      "data": "Y2xhaW1Vc2VyQDJkOTNhZGY3YmJlYjkxY2ViNmE5MDAxNmNmNjBhMzg0ZGIzNjFhMmEyMjhhYmY3MmRkMjNmYTNmOTI0ZmQzNjhAMzY5M2VlNDAxNzIxMjIwNjUz",
+      "function": "claimUser",
+      "action": {
+        "category": "scCall",
+        "name": "claimUser"
+      }
+    },
+    {
+      "txHash": "eb9d8218fd8a04b17dffc21b07f9bb08e3b3b525863c22868cd0a13561ec41cb",
+      "gasLimit": 10000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 10000000,
+      "miniBlockHash": "e3c4a223e18151040d3fd8505275cb4a7252fe55c4780ea4da5e1a57ad47015d",
+      "nonce": 1813,
+      "receiver": "erd1f6hllpyz8qyle2a5lzr2gzcd9lt6zwssav4qpf5zlwe65a7dfkcqhsj7lj",
+      "receiverShard": 0,
+      "round": 20085846,
+      "sender": "erd1f6hllpyz8qyle2a5lzr2gzcd9lt6zwssav4qpf5zlwe65a7dfkcqhsj7lj",
+      "senderShard": 0,
+      "signature": "7d2a9851ee4eb6a5f2ff7ddb1db777567db7c0a759c6be2be9a018f34c43c6057a191720ab4638cdf9dcbd5a874419474534f9533ee37722fb400d6f34c8c700",
+      "status": "pending",
+      "value": "0",
+      "fee": "498475000000000",
+      "timestamp": 1716632676,
+      "data": "TXVsdGlFU0RUTkZUVHJhbnNmZXJAMDAwMDAwMDAwMDAwMDAwMDA1MDA1Y2FmNzg1NGI3NzgxNTNjN2RiYWFmZTJiYmFlZGU4Nzg5Yzc1N2NjNTQ4M0AwMkA1YTUwNDE1OTJkMzIzNDM3MzgzNzM1QEA3M2EwNDc0ZDE0NWU5YjFmZDdANTc0NTQ3NGM0NDJkNjI2NDM0NjQzNzM5QEAwOGY2Mzg1NGFlY2ZkNmUyQDYxNjQ2NDRjNjk3MTc1Njk2NDY5NzQ3OUA3MzgyYWRhMTM5ZmIyZWVmZWZAMDhmM2VkMDJhZDljZjE4Yw==",
+      "function": "addLiquidity",
+      "action": {
+        "category": "mex",
+        "name": "addLiquidity",
+        "description": "Added liquidity for 2132.924852995895271383 ZPAY, 0.64576553293550973 WEGLD",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "FungibleESDT",
+              "name": "ZoidPay",
+              "ticker": "ZPAY",
+              "svgUrl": "https://media.elrond.com/tokens/asset/ZPAY-247875/logo.svg",
+              "token": "ZPAY-247875",
+              "decimals": 18,
+              "value": "2132924852995895271383"
+            },
+            {
+              "type": "FungibleESDT",
+              "name": "WrappedEGLD",
+              "ticker": "WEGLD",
+              "svgUrl": "https://media.elrond.com/tokens/asset/WEGLD-bd4d79/logo.svg",
+              "token": "WEGLD-bd4d79",
+              "decimals": 18,
+              "value": "645765532935509730"
+            }
+          ],
+          "receiver": "erd1qqqqqqqqqqqqqpgqtjhhs49h0q2ncld64l3thtk7s7yuw47v2jps8emt0v",
+          "functionName": "addLiquidity",
+          "functionArgs": [
+            "7382ada139fb2eefef",
+            "08f3ed02ad9cf18c"
+          ],
+          "receiverAssets": {
+            "name": "xExchange: ZPAY/WEGLD Liquidity Pool",
+            "tags": [
+              "xexchange",
+              "liquiditypool"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+          }
+        }
+      },
+      "pendingResults": true
+    },
+    {
+      "txHash": "cc8938a6f60a4a5354ed406981f002126557c7ea610a439f950eac0815441a2d",
+      "gasLimit": 4200000,
+      "gasPrice": 1000000000,
+      "gasUsed": 2156471,
+      "miniBlockHash": "e3c4a223e18151040d3fd8505275cb4a7252fe55c4780ea4da5e1a57ad47015d",
+      "nonce": 141,
+      "receiver": "erd1qqqqqqqqqqqqqpgqvc7gdl0p4s97guh498wgz75k8sav6sjfjlwqh679jy",
+      "receiverAssets": {
+        "name": "ESDT: WrappedEGLD Contract Shard 0",
+        "tags": [
+          "xexchange",
+          "wegld"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "receiverShard": 0,
+      "round": 20085846,
+      "sender": "erd1vgkt4lgajpz3hqfw6qmvrkhk9m9mjsxe874qwnlsqzycr9g3dyyqya54fr",
+      "senderShard": 0,
+      "signature": "5460462b96ff71d95e7e07c0728abab75dc9842a41b443c7b961682225e91f12c6aacfb2ee1d9e73beba54d57f05b654aebb9a0aeb4c59eb05563ca357a5ae01",
+      "status": "success",
+      "value": "500000000000000000",
+      "fee": "82944710000000",
+      "timestamp": 1716632676,
+      "data": "d3JhcEVnbGQ=",
+      "function": "wrapEgld",
+      "action": {
+        "category": "mex",
+        "name": "wrapEgld",
+        "description": "Wrap 0.5 EGLD",
+        "arguments": {
+          "token": {
+            "type": "FungibleESDT",
+            "name": "WrappedEGLD",
+            "token": "WEGLD-bd4d79",
+            "ticker": "WEGLD",
+            "decimals": 18,
+            "value": "500000000000000000"
+          },
+          "receiver": "erd1qqqqqqqqqqqqqpgqvc7gdl0p4s97guh498wgz75k8sav6sjfjlwqh679jy",
+          "receiverAssets": {
+            "name": "ESDT: WrappedEGLD Contract Shard 0",
+            "tags": [
+              "xexchange",
+              "wegld"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+          }
+        }
+      }
+    },
+    {
+      "txHash": "db25aadfac2f258e62e8c52336e8f1dadaa9d5667f411f858b09ecf74749b5fd",
+      "gasLimit": 6000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 1068000,
+      "miniBlockHash": "00a3fcd90488e205fc3a209d085b2e6f777c06a395f31617f4e909ba78f4bbd1",
+      "nonce": 79,
+      "receiver": "erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqx8llllsxavffq",
+      "receiverAssets": {
+        "name": "Staking: Primal Block One",
+        "description": "We focus on technology-induced black swans and investing in and supporting the companies and founders that are creating them.\r\nMatrix",
+        "tags": [
+          "staking",
+          "provider"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/identities/primal-block-one/logo.png"
+      },
+      "receiverShard": 4294967295,
+      "round": 20085846,
+      "sender": "erd1d7fmnyuy2kwv2fwctksrtaw0kvphxeg6v8jrzcknawv9v5r8fg4sc60lv4",
+      "senderShard": 1,
+      "signature": "01aa6e883264ff2ff812faa72cb52d44cbbf070c1ceb78e756937d9c0803c1714be94e312ce801d889cbbd82c7ba0319dd8a2e9662d69118fdbef61df2cf7c00",
+      "status": "pending",
+      "value": "0",
+      "fee": "78000000000000",
+      "timestamp": 1716632676,
+      "data": "Y2xhaW1SZXdhcmRz",
+      "function": "claimRewards",
+      "action": {
+        "category": "stake",
+        "name": "claimRewards",
+        "description": "Claim rewards from staking provider Primal Block One",
+        "arguments": {
+          "providerName": "Primal Block One",
+          "providerAvatar": "https://raw.githubusercontent.com/multiversx/mx-assets/master/identities/primal-block-one/logo.png"
+        }
+      },
+      "pendingResults": true
+    },
+    {
+      "txHash": "fec3a3b0092dd07528e1857a72ff0cc5b6f3c8da42d9660ca92a00a526e99ef6",
+      "gasLimit": 500000,
+      "gasPrice": 1000000000,
+      "gasUsed": 500000,
+      "miniBlockHash": "5cf9bdb2def52436d6aa1b1ef4967ca2c53f2758366990de1a89913fac137cf3",
+      "nonce": 47883,
+      "receiver": "erd1938z7at0ja0wrr4xd88p3944dsg0nwkax9s8pf7vz20uelpzl5ts8zrk4r",
+      "receiverShard": 1,
+      "round": 20085845,
+      "sender": "erd1ezp86jwmcp4fmmu2mfqz0438py392z5wp6kzuqsjldgd68nwt89qshfs0y",
+      "senderAssets": {
+        "name": "Exchange: MexC",
+        "social": {
+          "website": "https://www.mexc.com",
+          "facebook": "https://www.facebook.com/mexcofficial",
+          "telegram": "https://t.me/MEXCEnglish"
+        },
+        "tags": [
+          "mexc",
+          "exchange"
+        ]
+      },
+      "senderShard": 2,
+      "signature": "7d7a9bd0ab7326b0bf96566629f25867cb985cc8ae2d61c2c961b4231b0407d69f3de364c970424991c07457a38c22f92a70007ae3aa030bffc27179e311a900",
+      "status": "success",
+      "value": "0",
+      "fee": "131720000000000",
+      "timestamp": 1716632670,
+      "data": "RVNEVFRyYW5zZmVyQDQ4NTQ0ZDJkNjYzNTMxNjQzNTM1QDcxNDU1YzJkNzVlMzM0MDAwMA==",
+      "function": "ESDTTransfer",
+      "action": {
+        "category": "esdtNft",
+        "name": "transfer",
+        "description": "Transfer",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "FungibleESDT",
+              "name": "Hatom",
+              "ticker": "HTM",
+              "svgUrl": "https://media.elrond.com/tokens/asset/HTM-f51d55/logo.svg",
+              "token": "HTM-f51d55",
+              "decimals": 18,
+              "value": "2089480000000000000000"
+            }
+          ],
+          "receiver": "erd1938z7at0ja0wrr4xd88p3944dsg0nwkax9s8pf7vz20uelpzl5ts8zrk4r"
+        }
+      }
+    },
+    {
+      "txHash": "a10c9c45cc1e52cc610050a31825911fca7e328d73c546a2c6ec560c30c14bf8",
+      "gasLimit": 50000,
+      "gasPrice": 1000000000,
+      "gasUsed": 50000,
+      "miniBlockHash": "c27cb5f80f4a86106d830c3eccdf74cd38bad25821fba7cf258d1e11c139686e",
+      "nonce": 10172,
+      "receiver": "erd1x2hrxatkwymlrucfgtytymftx2ede4496pxe9fdpgl6vmm8vzz2qcp93p8",
+      "receiverShard": 0,
+      "round": 20085845,
+      "sender": "erd1vadknqe8tasfwz62sn5gre0ws8x08rnuy2lp6cw0np5aktl7sndsh9wtw7",
+      "senderShard": 1,
+      "signature": "118586ebb1adf3fce9659eb9ada4288ef3584e1e994069e612253f1dc36a52aea3c1ace5e6c7c913e337edc78a20bfdb5cd3dc3809b9d3035ab12ebaf4616802",
+      "status": "success",
+      "value": "46158406250000000000",
+      "fee": "50000000000000",
+      "timestamp": 1716632670,
+      "function": "transfer"
+    },
+    {
+      "txHash": "3d1efff4dcc077b06a5999e859c2cd3095862b50af25871d37e1d965eb3ee9ca",
+      "gasLimit": 4200000,
+      "gasPrice": 1000000000,
+      "gasUsed": 2156471,
+      "miniBlockHash": "f555871f1453ac8b56f64497dbb8244740017a79203e6dc519205b16e1884233",
+      "nonce": 1812,
+      "receiver": "erd1qqqqqqqqqqqqqpgqvc7gdl0p4s97guh498wgz75k8sav6sjfjlwqh679jy",
+      "receiverAssets": {
+        "name": "ESDT: WrappedEGLD Contract Shard 0",
+        "tags": [
+          "xexchange",
+          "wegld"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "receiverShard": 0,
+      "round": 20085845,
+      "sender": "erd1f6hllpyz8qyle2a5lzr2gzcd9lt6zwssav4qpf5zlwe65a7dfkcqhsj7lj",
+      "senderShard": 0,
+      "signature": "c56c929742a8e2417fa0c4e5e3a007b12358718b29d2245a18d960745a4e65e2dfd204d0c71a7e5edc43618b860a8b87dfa5c3b2e92524d406ba4df7c1a7ae07",
+      "status": "success",
+      "value": "645765532935509730",
+      "fee": "82944710000000",
+      "timestamp": 1716632670,
+      "data": "d3JhcEVnbGQ=",
+      "function": "wrapEgld",
+      "action": {
+        "category": "mex",
+        "name": "wrapEgld",
+        "description": "Wrap 0.64576553293550973 EGLD",
+        "arguments": {
+          "token": {
+            "type": "FungibleESDT",
+            "name": "WrappedEGLD",
+            "token": "WEGLD-bd4d79",
+            "ticker": "WEGLD",
+            "decimals": 18,
+            "value": "645765532935509730"
+          },
+          "receiver": "erd1qqqqqqqqqqqqqpgqvc7gdl0p4s97guh498wgz75k8sav6sjfjlwqh679jy",
+          "receiverAssets": {
+            "name": "ESDT: WrappedEGLD Contract Shard 0",
+            "tags": [
+              "xexchange",
+              "wegld"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+          }
+        }
+      }
+    },
+    {
+      "txHash": "2deb710f19726aa13570a7a111e148a52d39c7f15efe06e6927dc8f19fa8cf6b",
+      "gasLimit": 42000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 31704051,
+      "miniBlockHash": "5cf9bdb2def52436d6aa1b1ef4967ca2c53f2758366990de1a89913fac137cf3",
+      "nonce": 136,
+      "receiver": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+      "receiverAssets": {
+        "name": "AshSwap: Aggregator v2",
+        "social": {
+          "website": "https://ashswap.io",
+          "email": "hello@ashswap.io",
+          "blog": "https://medium.com/@ashswap",
+          "twitter": "https://twitter.com/ash_swap",
+          "telegram": "https://t.me/ash_swap",
+          "discord": "https://discord.gg/apmhYCPDbW",
+          "facebook": "https://www.facebook.com/ashswap.io",
+          "commmunity": "https://egld.community/projects/ashswap"
+        },
+        "tags": [
+          "ashswap",
+          "swap",
+          "aggregator",
+          "dexaggregator"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085845,
+      "sender": "erd1rp2kzga8tpgpqtwv8q7u7vkrh5es7nvqf43ypa36rky9p8mpdz8qs8ekyd",
+      "senderShard": 2,
+      "signature": "f5eb5959aa1f1ed756b3a1b69335aae269c6ba4c820d6a7b7840512dbe7e5c52bcb56534306c4ea3612ee8e544875b590ee1a95ae9c2ed69568b552e6866a60b",
+      "status": "pending",
+      "value": "395552000000000000",
+      "fee": "993210510000000",
+      "timestamp": 1716632670,
+      "data": "YWdncmVnYXRlRWdsZEAwMDAwMDAwYzU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOTAwMDAwMDBiNTQ0MTQ0NDEyZDM1NjMzMDMzMzI2MzAwMDAwMDA4MDU3OWM1MTEzMTExZTAwMDAwMDAwMDAwMDAwMDAwMDAwNTAwZWVmZWNiZmExY2ExNTU0MWY5YjJkYjYzYTMzNGIxNDEzZTkyNmNiMjU0ODMwMDAwMDAxNDczNzc2MTcwNTQ2ZjZiNjU2ZTczNDY2OTc4NjU2NDQ5NmU3MDc1NzQwMDAwMDAwMjAwMDAwMDBiNTQ0MTQ0NDEyZDM1NjMzMDMzMzI2MzAwMDAwMDAxMDFAMDAwMDAwMGM1NzQ1NDc0YzQ0MmQ2MjY0MzQ2NDM3MzkwMDAwMDAwMDAwMDAwMDBiNTQ0MTQ0NDEyZDM1NjMzMDMzMzI2MzAwMDAwMDA5MDg2ZmM0ODZlOWFkZDU2MjIzQGVhNTQ4ZDVjZDhiYWNhM2QxMTM5YTcyZGFmMzgwYWIwMGI3NWVkMGQxZWJmZjQzMGM0ZTJjMDQyODhjNmE3MDE=",
+      "function": "aggregateEgld",
+      "action": {
+        "category": "scCall",
+        "name": "aggregateEgld"
+      },
+      "pendingResults": true
+    },
+    {
+      "txHash": "6456fe4d986867441b3d0115efd4332c676b236def584ffff5b0bf2c30c3299e",
+      "gasLimit": 30000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 7574103,
+      "miniBlockHash": "bea22ccf436ce45f91784fb88b61bd402a935b9707a2433982dcaec0fb8b494c",
+      "nonce": 4730,
+      "receiver": "erd1qqqqqqqqqqqqqpgqg48z8qfm028ze6y3d6tamdfaw6vn774tkp2shg5dt5",
+      "receiverAssets": {
+        "name": "xExchange: Energy Updater",
+        "social": {
+          "website": "https://xexchange.com",
+          "twitter": "https://twitter.com/xExchangeApp",
+          "telegram": "https://t.me/xExchangeApp",
+          "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+        },
+        "tags": [
+          "xexchange",
+          "energy",
+          "updater"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085844,
+      "sender": "erd1x9xul5wej5st2t3xd68lmheuzpne7qxezum0vv3pyfmfs566gwqs06jlvw",
+      "senderShard": 1,
+      "signature": "b9a9e68b070092de1a94e00e36bfb2fe708de39ce7c39f2c4294a40488a758e0d83c7b5cfd54e3f86c648157c546166e0dd73890426d0022bddede433e56b605",
+      "status": "success",
+      "value": "0",
+      "fee": "353931030000000",
+      "timestamp": 1716632664,
+      "data": "dXBkYXRlRmFybXNFbmVyZ3lGb3JVc2VyQDMxNGRjZmQxZDk5NTIwYjUyZTI2NmU4ZmZkZGYzYzEwNjc5ZjAwZDkxNzM2ZjYzMjIxMjI3Njk4NTM1YTQzODFAMDAwMDAwMDAwMDAwMDAwMDA1MDA5NDI2NjAwNDc2ODc4MDY0YmFkODQyYjZhNjE2ZTZiMGYxNzQ2Y2JkYjA1NQ==",
+      "function": "updateFarmsEnergyForUser",
+      "action": {
+        "category": "scCall",
+        "name": "updateFarmsEnergyForUser"
+      }
+    },
+    {
+      "txHash": "d4f771d3c26c0993bbcd75d1125d08200bb01f65be37b2dd43df67738b791138",
+      "gasLimit": 42000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 42000000,
+      "miniBlockHash": "74587736fbe1f3b93d062f394272df34fde4de503153de1315973df08df90cb0",
+      "nonce": 2769,
+      "receiver": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+      "receiverAssets": {
+        "name": "AshSwap: Aggregator v2",
+        "social": {
+          "website": "https://ashswap.io",
+          "email": "hello@ashswap.io",
+          "blog": "https://medium.com/@ashswap",
+          "twitter": "https://twitter.com/ash_swap",
+          "telegram": "https://t.me/ash_swap",
+          "discord": "https://discord.gg/apmhYCPDbW",
+          "facebook": "https://www.facebook.com/ashswap.io",
+          "commmunity": "https://egld.community/projects/ashswap"
+        },
+        "tags": [
+          "ashswap",
+          "swap",
+          "aggregator",
+          "dexaggregator"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085844,
+      "sender": "erd1wd4kcmx2wms3dxc8pgxg5h3phatmcspnfs9a38zh98ws87hpnvlqhxs4ky",
+      "senderShard": 2,
+      "signature": "17a722a5c514282a124d3c3619b894ffde443de3a0c5300f58f8fc2696adfbf0c6b7051cae2799034ba5caac8445d948017c036fa89f65dda4a9951a9f1af100",
+      "status": "pending",
+      "value": "0",
+      "fee": "1195665000000000",
+      "timestamp": 1716632664,
+      "data": "RVNEVFRyYW5zZmVyQDQ4NTQ0ZDJkNjYzNTMxNjQzNTM1QDAxNWFmMWQ3OGI1OGM0MDAwMEA2MTY3Njc3MjY1Njc2MTc0NjU0NTczNjQ3NEAwMDAwMDAwYTQ4NTQ0ZDJkNjYzNTMxNjQzNTM1MDAwMDAwMGM1NzQ1NDc0YzQ0MmQ2MjY0MzQ2NDM3MzkwMDAwMDAwOTAxNWExM2NjMjAxZTRkYzAwMDAwMDAwMDAwMDAwMDAwMDAwNTAwMzVkMTBhNTJlMTY4M2ZmMmM2NzM2MjVmMzc0ZDcxNzZlZmE1NzM0NTU0ODMwMDAwMDAxNDczNzc2MTcwNTQ2ZjZiNjU2ZTczNDY2OTc4NjU2NDQ5NmU3MDc1NzQwMDAwMDAwMjAwMDAwMDBjNTc0NTQ3NGM0NDJkNjI2NDM0NjQzNzM5MDAwMDAwMDEwMUAwMDAwMDAwYTQ4NTQ0ZDJkNjYzNTMxNjQzNTM1MDAwMDAwMDAwMDAwMDAwYzU3NDU0NzRjNDQyZDYyNjQzNDY0MzczOTAwMDAwMDA4MGFmZDYwZDM2YjYxZDc3Y0AwMUBlYTU0OGQ1Y2Q4YmFjYTNkMTEzOWE3MmRhZjM4MGFiMDBiNzVlZDBkMWViZmY0MzBjNGUyYzA0Mjg4YzZhNzAx",
+      "function": "aggregateEsdt",
+      "action": {
+        "category": "esdtNft",
+        "name": "transfer",
+        "description": "Transfer",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "FungibleESDT",
+              "name": "Hatom",
+              "ticker": "HTM",
+              "svgUrl": "https://media.elrond.com/tokens/asset/HTM-f51d55/logo.svg",
+              "token": "HTM-f51d55",
+              "decimals": 18,
+              "value": "25000000000000000000"
+            }
+          ],
+          "receiver": "erd1qqqqqqqqqqqqqpgqcc69ts8409p3h77q5chsaqz57y6hugvc4fvs64k74v",
+          "functionName": "aggregateEsdt",
+          "functionArgs": [
+            "0000000a48544d2d6635316435350000000c5745474c442d62643464373900000009015a13cc201e4dc0000000000000000000050035d10a52e1683ff2c673625f374d7176efa5734554830000001473776170546f6b656e734669786564496e707574000000020000000c5745474c442d6264346437390000000101",
+            "0000000a48544d2d663531643535000000000000000c5745474c442d626434643739000000080afd60d36b61d77c",
+            "01",
+            "ea548d5cd8baca3d1139a72daf380ab00b75ed0d1ebff430c4e2c04288c6a701"
+          ],
+          "receiverAssets": {
+            "name": "AshSwap: Aggregator v2",
+            "social": {
+              "website": "https://ashswap.io",
+              "email": "hello@ashswap.io",
+              "blog": "https://medium.com/@ashswap",
+              "twitter": "https://twitter.com/ash_swap",
+              "telegram": "https://t.me/ash_swap",
+              "discord": "https://discord.gg/apmhYCPDbW",
+              "facebook": "https://www.facebook.com/ashswap.io",
+              "commmunity": "https://egld.community/projects/ashswap"
+            },
+            "tags": [
+              "ashswap",
+              "swap",
+              "aggregator",
+              "dexaggregator"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/ashswap.svg"
+          }
+        }
+      }
+    },
+    {
+      "txHash": "0818394592ed4bdc167941a71c1fa50f1845e11d4314fb9bedf2f76ac4ae022c",
+      "gasLimit": 150000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 113500,
+      "miniBlockHash": "88da4bc787d1b425e5624a6ceed84935c4a0873b5916d077c1bcbe3c4d06dffa",
+      "nonce": 1411,
+      "receiver": "erd1qqqqqqqqqqqqqpgquk2g3w3k75673rvxk3dn3h439uw6tyw32xuqfgul5g",
+      "receiverAssets": {
+        "name": "QoWatt: Cars Staking",
+        "description": "Contract for staking and charging QoWatt cars.",
+        "social": {
+          "website": "https://qowatt.com",
+          "email": "esdt@qowatt.com",
+          "blog": "https://medium.com/qowatt",
+          "twitter": "https://twitter.com/QoWattEcosystem",
+          "whitepaper": "https://qowatt.network/_doc/QoWatt_Whitepaper_EN.pdf",
+          "linkedin": "https://fr.linkedin.com/company/qowatt",
+          "facebook": "https://www.facebook.com/QoWatt"
+        },
+        "tags": [
+          "qowatt",
+          "staking",
+          "QoWattEVCar"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/qowatt.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/qowatt.svg"
+      },
+      "receiverShard": 0,
+      "round": 20085844,
+      "sender": "erd1cmkg3r37dqxaeue6w9emmfjfqxzy804f4ew3zhy6gxywy0yrnurq8e7yn5",
+      "senderShard": 2,
+      "signature": "5e2c403f0717aee4dee0685cbe639fc36be1bfe935fc656b65868899f584c629d898df2353742839ba9fef4bd731e2633ed674e0585a942259d0a93790f1c207",
+      "status": "pending",
+      "value": "0",
+      "fee": "113500000000000",
+      "timestamp": 1716632664,
+      "data": "Y2hhcmdlQ2Fy",
+      "function": "chargeCar",
+      "action": {
+        "category": "scCall",
+        "name": "chargeCar"
+      },
+      "guardianSignature": "54664b2e286af72ec38b2485cfa6acfe1403d1b6da287f0f96fbd75d4ba585fc31059666bfe005ee52d3c2a8c2a374b98fb61318ce175641db4d19cd2ee96805"
+    },
+    {
+      "txHash": "e200bd80681ce987bb3644db30ffb993fc81ee16157aa73726e52d2676d9a44d",
+      "gasLimit": 525000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 80000,
+      "miniBlockHash": "7f024b5f4e9017cbed8f61c77f58612b484524734a219fb53998e8fbd774e0d0",
+      "nonce": 1334,
+      "receiver": "erd1qqqqqqqqqqqqqpgqw4dsh8j9xafw45uwr2f6a48ajvcqey8s78sstvn7xd",
+      "receiverAssets": {
+        "name": "Hatom: Booster",
+        "description": "Hatom's rewards Booster module",
+        "social": {
+          "website": "https://hatom.com",
+          "discord": "https://discord.com/invite/WekwfUDXGp",
+          "github": "https://github.com/HatomProtocol",
+          "blog": "https://blog.hatom.com",
+          "telegram": "https://t.me/HatomLabs",
+          "twitter": "https://twitter.com/HatomProtocol",
+          "whitepaper": "https://docs.hatom.com/getting-started/learn-more-about-hatom-token/whitepaper",
+          "linkedin": "https://www.linkedin.com/company/hatomlabs"
+        },
+        "tags": [
+          "hatom",
+          "rewards",
+          "booster"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-booster.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-booster.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085844,
+      "sender": "erd1erha72fy0p0y3uepysfqxx230vxd7va5mc9xefxfun9z0h5k7q6q8t2gr4",
+      "senderShard": 0,
+      "signature": "242710ce8d17f28ee95af535b6a82fade3012d63e2fc5a31a90373e4647342b417d226c73f06d7d72c648625c055191eccda92f4d283715ef2e026c5115d8b0b",
+      "status": "pending",
+      "value": "0",
+      "fee": "80000000000000",
+      "timestamp": 1716632664,
+      "data": "cmViYWxhbmNlUG9ydGZvbGlvQEA=",
+      "function": "rebalancePortfolio",
+      "action": {
+        "category": "scCall",
+        "name": "rebalancePortfolio"
+      }
+    },
+    {
+      "txHash": "ae166165c7617d9e9aacf2dc2639119bba5d9b299ccc4813788e9a13e7f2736f",
+      "gasLimit": 10000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 119500,
+      "miniBlockHash": "88da4bc787d1b425e5624a6ceed84935c4a0873b5916d077c1bcbe3c4d06dffa",
+      "nonce": 1065,
+      "receiver": "erd1qqqqqqqqqqqqqpgq7vx5r7smhjv7c8vh8n6qnafk25f7w9mv2xuqtkahfy",
+      "receiverAssets": {
+        "name": "QoWatt: T&C Acceptance",
+        "description": "Contract that manages the acceptance of the terms and conditions of the QoWatt ecosystem.",
+        "social": {
+          "website": "https://qowatt.com",
+          "email": "esdt@qowatt.com",
+          "blog": "https://medium.com/qowatt",
+          "twitter": "https://twitter.com/QoWattEcosystem",
+          "whitepaper": "https://qowatt.network/_doc/QoWatt_Whitepaper_EN.pdf",
+          "linkedin": "https://fr.linkedin.com/company/qowatt",
+          "facebook": "https://www.facebook.com/QoWatt"
+        },
+        "tags": [
+          "qowatt",
+          "terms",
+          "t&c"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/qowatt.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/qowatt.svg"
+      },
+      "receiverShard": 0,
+      "round": 20085844,
+      "sender": "erd1pe397ty6efqgf8m0nyr6x3hwu4qtyjnleqpkzuk50ghdrslysteqrv4ee2",
+      "senderShard": 2,
+      "signature": "1e1e7b92c2da3fe4a523dff18545a23bd2305b16275f255746bebe0a1c8dfe5d52e230b03e2fdda9967f43262c561d0cf9ca54f615fd51b51b165c3ec3148200",
+      "status": "pending",
+      "value": "0",
+      "fee": "119500000000000",
+      "timestamp": 1716632664,
+      "data": "YWNjZXB0QDVjNThiOA==",
+      "function": "accept",
+      "action": {
+        "category": "scCall",
+        "name": "accept"
+      },
+      "guardianSignature": "0f48e12ded2cb197616389fb1a436b13f01e8b3fe56592297c8e51d4a069b9a21e70e8936e7bd582e49877798cf1dc399b45b06a593fb9575fad01b22282e302"
+    },
+    {
+      "txHash": "b905d6c98cbba0518c02b01fe27615fcc8630baee6ad22c1eb28d84005c84a46",
+      "gasLimit": 10000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 7418085,
+      "miniBlockHash": "bea22ccf436ce45f91784fb88b61bd402a935b9707a2433982dcaec0fb8b494c",
+      "nonce": 542,
+      "receiver": "erd1k99upptcvsrm65dymm0sg35xpe2e5qkdmez9k8h4t0wzt6r67dhsfkp5tg",
+      "receiverShard": 1,
+      "round": 20085844,
+      "sender": "erd1k99upptcvsrm65dymm0sg35xpe2e5qkdmez9k8h4t0wzt6r67dhsfkp5tg",
+      "senderShard": 1,
+      "signature": "f8ce26c4ab507943e36bac5f5c3bb2ee7e3b901ef183834562e2cc45f28e5fabd8b0d664c33ce167d779405fecc25fac0af957805431bc8aa8f1ff29b462e30d",
+      "status": "success",
+      "value": "0",
+      "fee": "350885850000000",
+      "timestamp": 1716632664,
+      "data": "RVNEVE5GVFRyYW5zZmVyQDU4NGQ0NTU4MmQ2NjY0NjEzMzM1MzVAM2RAOTA5ZjM5MDY4ZDUzYTBmNDJjZDNAMDAwMDAwMDAwMDAwMDAwMDA1MDA3YWZiMmM4NzFkMTY0NzM3MmZkNTNhOWViM2U1M2U1YThlYzkyNTFjYjA1NUA2YzZmNjM2YjU0NmY2YjY1NmU3M0AwNWEw",
+      "function": "lockTokens",
+      "action": {
+        "category": "esdtNft",
+        "name": "transfer",
+        "description": "Transfer",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "MetaESDT",
+              "name": "xMEX",
+              "ticker": "XMEX",
+              "svgUrl": "https://media.elrond.com/tokens/asset/XMEX-fda355/logo.svg",
+              "collection": "XMEX-fda355",
+              "decimals": 18,
+              "identifier": "XMEX-fda355-3d",
+              "value": "682957914968049073794259"
+            }
+          ],
+          "receiver": "erd1qqqqqqqqqqqqqpgq0tajepcazernwt74820t8ef7t28vjfgukp2sw239f3",
+          "functionName": "lockTokens",
+          "functionArgs": [
+            "05a0"
+          ],
+          "receiverAssets": {
+            "name": "xExchange: Energy Factory",
+            "social": {
+              "website": "https://xexchange.com",
+              "twitter": "https://twitter.com/xExchangeApp",
+              "telegram": "https://t.me/xExchangeApp",
+              "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+            },
+            "tags": [
+              "xexchange",
+              "energy",
+              "factory"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+          }
+        }
+      }
+    },
+    {
+      "txHash": "c7384030f6c1409a8cc076065113f92409d4c7cdde05e225ad1e6ff31efce05a",
+      "gasLimit": 10000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 7418085,
+      "miniBlockHash": "bea22ccf436ce45f91784fb88b61bd402a935b9707a2433982dcaec0fb8b494c",
+      "nonce": 541,
+      "receiver": "erd1k99upptcvsrm65dymm0sg35xpe2e5qkdmez9k8h4t0wzt6r67dhsfkp5tg",
+      "receiverShard": 1,
+      "round": 20085844,
+      "sender": "erd1k99upptcvsrm65dymm0sg35xpe2e5qkdmez9k8h4t0wzt6r67dhsfkp5tg",
+      "senderShard": 1,
+      "signature": "9ff41082c8734889cf673c98fa1c15e5f1084eb44c7f3a41f993052689276f7c150bda0409267c00e4a9236f3e9eae973986812c8054faaf7ca29b56cff57209",
+      "status": "success",
+      "value": "0",
+      "fee": "350885850000000",
+      "timestamp": 1716632664,
+      "data": "RVNEVE5GVFRyYW5zZmVyQDU4NGQ0NTU4MmQ2NjY0NjEzMzM1MzVAM2JAMTc4MjA1MmEwMWI1YmZhMmM5NmNAMDAwMDAwMDAwMDAwMDAwMDA1MDA3YWZiMmM4NzFkMTY0NzM3MmZkNTNhOWViM2U1M2U1YThlYzkyNTFjYjA1NUA2YzZmNjM2YjU0NmY2YjY1NmU3M0AwNWEw",
+      "function": "lockTokens",
+      "action": {
+        "category": "esdtNft",
+        "name": "transfer",
+        "description": "Transfer",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "MetaESDT",
+              "name": "xMEX",
+              "ticker": "XMEX",
+              "svgUrl": "https://media.elrond.com/tokens/asset/XMEX-fda355/logo.svg",
+              "collection": "XMEX-fda355",
+              "decimals": 18,
+              "identifier": "XMEX-fda355-3b",
+              "value": "111012877947383408937324"
+            }
+          ],
+          "receiver": "erd1qqqqqqqqqqqqqpgq0tajepcazernwt74820t8ef7t28vjfgukp2sw239f3",
+          "functionName": "lockTokens",
+          "functionArgs": [
+            "05a0"
+          ],
+          "receiverAssets": {
+            "name": "xExchange: Energy Factory",
+            "social": {
+              "website": "https://xexchange.com",
+              "twitter": "https://twitter.com/xExchangeApp",
+              "telegram": "https://t.me/xExchangeApp",
+              "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+            },
+            "tags": [
+              "xexchange",
+              "energy",
+              "factory"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+          }
+        }
+      }
+    },
+    {
+      "txHash": "8e8ff56ea3be698b84d2bea792657798771f48e2b2b5708e706b72d41b9cbd6d",
+      "gasLimit": 10000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 7422385,
+      "miniBlockHash": "bea22ccf436ce45f91784fb88b61bd402a935b9707a2433982dcaec0fb8b494c",
+      "nonce": 540,
+      "receiver": "erd1k99upptcvsrm65dymm0sg35xpe2e5qkdmez9k8h4t0wzt6r67dhsfkp5tg",
+      "receiverShard": 1,
+      "round": 20085844,
+      "sender": "erd1k99upptcvsrm65dymm0sg35xpe2e5qkdmez9k8h4t0wzt6r67dhsfkp5tg",
+      "senderShard": 1,
+      "signature": "b8ad46ee9c9e6b0c7007e8bec3499da43e74451e63203aa565ed32ed00e752efd860f6d539965f25ac72e9d4c074cfa36f920d89547e3d6adba7998a5156d909",
+      "status": "success",
+      "value": "0",
+      "fee": "353898850000000",
+      "timestamp": 1716632664,
+      "data": "RVNEVE5GVFRyYW5zZmVyQDU4NGQ0NTU4MmQ2NjY0NjEzMzM1MzVAM2FAMDZmNjY3Y2FkNDI4Y2U0MTJiMjRlNEAwMDAwMDAwMDAwMDAwMDAwMDUwMDdhZmIyYzg3MWQxNjQ3MzcyZmQ1M2E5ZWIzZTUzZTVhOGVjOTI1MWNiMDU1QDZjNmY2MzZiNTQ2ZjZiNjU2ZTczQDA1YTA=",
+      "function": "lockTokens",
+      "action": {
+        "category": "esdtNft",
+        "name": "transfer",
+        "description": "Transfer",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "MetaESDT",
+              "name": "xMEX",
+              "ticker": "XMEX",
+              "svgUrl": "https://media.elrond.com/tokens/asset/XMEX-fda355/logo.svg",
+              "collection": "XMEX-fda355",
+              "decimals": 18,
+              "identifier": "XMEX-fda355-3a",
+              "value": "8417171702464856900445412"
+            }
+          ],
+          "receiver": "erd1qqqqqqqqqqqqqpgq0tajepcazernwt74820t8ef7t28vjfgukp2sw239f3",
+          "functionName": "lockTokens",
+          "functionArgs": [
+            "05a0"
+          ],
+          "receiverAssets": {
+            "name": "xExchange: Energy Factory",
+            "social": {
+              "website": "https://xexchange.com",
+              "twitter": "https://twitter.com/xExchangeApp",
+              "telegram": "https://t.me/xExchangeApp",
+              "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+            },
+            "tags": [
+              "xexchange",
+              "energy",
+              "factory"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+          }
+        }
+      }
+    },
+    {
+      "txHash": "56ddb3dfaa0d66a8cf45f36395cc9d1104d6bf274cb65c18754c2bf9b337892d",
+      "gasLimit": 10000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 4838339,
+      "miniBlockHash": "bea22ccf436ce45f91784fb88b61bd402a935b9707a2433982dcaec0fb8b494c",
+      "nonce": 394,
+      "receiver": "erd1y0yu3ez0lmnc0w5qljp0zfj425dfgcqv5jv0hukcsdypr2z47cxs4sjn2w",
+      "receiverShard": 1,
+      "round": 20085844,
+      "sender": "erd1y0yu3ez0lmnc0w5qljp0zfj425dfgcqv5jv0hukcsdypr2z47cxs4sjn2w",
+      "senderShard": 1,
+      "signature": "260ba4c06d73b31e075b0d5c7dd0be1a2e0005fa628812ff419813c587c97acb6b3fc47609d9b067831c26af2fb0c8ac82bf30dbdbf6d2d40514991fa3329e0e",
+      "status": "success",
+      "value": "0",
+      "fee": "293903390000000",
+      "timestamp": 1716632664,
+      "data": "TXVsdGlFU0RUTkZUVHJhbnNmZXJAMDAwMDAwMDAwMDAwMDAwMDA1MDBkMDRkZWUwOGQ3YzQzYTg0ZDkxYzRhYjQ1YjQ4YjFmMzUxZWQ2OTQ3NTU4N0AwMUA1MzQ4NDE0YzQxNGUyZDM1MzU2MjM5NjEzOUAwYkAwMUA3Mzc0NjE2YjY1",
+      "function": "stake",
+      "action": {
+        "category": "esdtNft",
+        "name": "transfer",
+        "description": "Transfer",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "SemiFungibleESDT",
+              "name": "ShadowLands",
+              "ticker": "SHALAN",
+              "svgUrl": "https://media.elrond.com/tokens/asset/SHALAN-55b9a9/logo.svg",
+              "collection": "SHALAN-55b9a9",
+              "identifier": "SHALAN-55b9a9-0b",
+              "value": "1"
+            }
+          ],
+          "receiver": "erd1qqqqqqqqqqqqqpgq6px7uzxhcsagfkguf269kj937dg766282krscvp908",
+          "functionName": "stake",
+          "receiverAssets": {
+            "name": "Shadow Lands: Game",
+            "social": {
+              "website": "https://dustybones.xyz",
+              "twitter": "https://twitter.com/DBones_mvx",
+              "discord": "https://discord.com/invite/B5bYnvjFDP"
+            },
+            "tags": [
+              "dustybones",
+              "shadowlands"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "txHash": "0d9f2586f80eeb19aa14fc027e0cb5479435423032b99619b8ea6964ac9bba0b",
+      "gasLimit": 5000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 3375601,
+      "miniBlockHash": "dacee024c9ce2643f57abeadb3b440023870ab1ef5791cc5c95f9c1708521521",
+      "nonce": 1110652,
+      "receiver": "erd1qqqqqqqqqqqqqpgq7rwhny4mx6dhuzcsymrhdsv2vmvarecgh4vq687aqr",
+      "receiverAssets": {
+        "name": "Knights of Cathena: Rewardpool",
+        "description": "The rewardpool ensures a fair distribution of $CGO after each match",
+        "social": {
+          "website": "https://knights-of-cathena.com",
+          "email": "info@knights-of-cathena.com",
+          "blog": "https://knights-of-cathena.com/blog",
+          "twitter": "https://twitter.com/CathenaKnights",
+          "telegram": "https://telegram.knights-of-cathena.com",
+          "discord": "https://discord.com/invite/r8BwB8UaWx",
+          "instagram": "https://instagram.knights-of-cathena.com",
+          "community": "https://egld.community/projects/knights-of-cathena"
+        },
+        "tags": [
+          "koc",
+          "knights",
+          "cathena",
+          "knights of cathena",
+          "rewardpool"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/knightsofcathena.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/knightsofcathena.svg"
+      },
+      "receiverShard": 0,
+      "round": 20085843,
+      "sender": "erd1sdrjn0uuulydacwjam3v5afl427ptk797fpcujpfcsakfck8aqjquq9afc",
+      "senderShard": 0,
+      "signature": "14716bb39e8f282e9a278593930a56871f97485e4718ed723e76f859169878456b4062e6304354420601e13bad7940b167f3e448f7b505f5abc6b71c1da5070c",
+      "status": "success",
+      "value": "0",
+      "fee": "221361010000000",
+      "timestamp": 1716632658,
+      "data": "Y2xhaW1Vc2VyQGY3YmI5MTg1ZGQ3ODE5ZTk0ZDZkZmJjNmI0ZDMyODQ3MjNlYTBkNmY5ZmUzOTczZGRkZDY2NjBjODQ0Mzg5NGNANDlmOGVmOGJiZGE2YWM4MWQ3",
+      "function": "claimUser",
+      "action": {
+        "category": "scCall",
+        "name": "claimUser"
+      }
+    },
+    {
+      "txHash": "620cf7887fe7b4778f5e2b26489b72f620ba0adfa687455682febc00f2c26839",
+      "gasLimit": 150000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 179000,
+      "miniBlockHash": "37f053b24354f5502f202f868558df40cbc50422e344be757756373c9ca7892f",
+      "nonce": 1783,
+      "receiver": "erd1qqqqqqqqqqqqqpgqxp28qpnv7rfcmk6qrgxgw5uf2fnp84ar78ssqdk6hr",
+      "receiverAssets": {
+        "name": "Hatom: Controller",
+        "description": "Hatom's Lending & Borrowing Protocol Controller",
+        "social": {
+          "website": "https://hatom.com",
+          "discord": "https://discord.com/invite/WekwfUDXGp",
+          "github": "https://github.com/HatomProtocol",
+          "blog": "https://blog.hatom.com",
+          "telegram": "https://t.me/HatomLabs",
+          "twitter": "https://twitter.com/HatomProtocol",
+          "whitepaper": "https://docs.hatom.com/getting-started/learn-more-about-hatom-token/whitepaper",
+          "linkedin": "https://www.linkedin.com/company/hatomlabs"
+        },
+        "tags": [
+          "hatom",
+          "money-market",
+          "lending",
+          "borrowing"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085843,
+      "sender": "erd1xj9h4ym0pj3ms4hh88wgy5hg8xuvhx50e4meupu9mg0vkuca66rqnljyue",
+      "senderShard": 2,
+      "signature": "f40c3d066cc741f5f041f73e6b42bcef7f708af9861c4af89fec912ce719f5890b745e0e28f91a1aeb8e30199027510eccf236e70cc6c7995b62ad4212d7b30c",
+      "status": "pending",
+      "value": "0",
+      "fee": "179000000000000",
+      "timestamp": 1716632658,
+      "data": "ZXhpdE1hcmtldEAwMDAwMDAwMDAwMDAwMDAwMDUwMDhkMDE2NGM2YmQzYzE5Y2E4ZDQyZGE0NWMxMmY3OWZhYzE4ZmY0MmNmMWUxQDA2N2M3YzVkNDE=",
+      "function": "exitMarket",
+      "action": {
+        "category": "scCall",
+        "name": "exitMarket"
+      }
+    },
+    {
+      "txHash": "c45c699b22ecdb3905318250160730bb6a0513b1ffedc53fec8d4ddbea6e01b0",
+      "gasLimit": 120000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 46452528,
+      "miniBlockHash": "2e01f0982a0263bb9a9e5296a506aaaad94e87657bf9d17d5d2e46191394a37d",
+      "nonce": 1333,
+      "receiver": "erd1qqqqqqqqqqqqqpgqxp28qpnv7rfcmk6qrgxgw5uf2fnp84ar78ssqdk6hr",
+      "receiverAssets": {
+        "name": "Hatom: Controller",
+        "description": "Hatom's Lending & Borrowing Protocol Controller",
+        "social": {
+          "website": "https://hatom.com",
+          "discord": "https://discord.com/invite/WekwfUDXGp",
+          "github": "https://github.com/HatomProtocol",
+          "blog": "https://blog.hatom.com",
+          "telegram": "https://t.me/HatomLabs",
+          "twitter": "https://twitter.com/HatomProtocol",
+          "whitepaper": "https://docs.hatom.com/getting-started/learn-more-about-hatom-token/whitepaper",
+          "linkedin": "https://www.linkedin.com/company/hatomlabs"
+        },
+        "tags": [
+          "hatom",
+          "money-market",
+          "lending",
+          "borrowing"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085843,
+      "sender": "erd1erha72fy0p0y3uepysfqxx230vxd7va5mc9xefxfun9z0h5k7q6q8t2gr4",
+      "senderShard": 0,
+      "signature": "42a870262f91a311bc63d10eb7ffb72506ee7c4cbd4fe1876c70a1ea6d38466e093f68ea4248a652a8d150505fb380db473d1fc4b699625e4c347974727aaa0d",
+      "status": "success",
+      "value": "0",
+      "fee": "622430280000000",
+      "timestamp": 1716632658,
+      "data": "RVNEVFRyYW5zZmVyQDQ4NTU1MzQ0NDMyZDY0MzgzMDMwMzQzMkAxNTNlOTBhMGI0QDY1NmU3NDY1NzI0ZDYxNzI2YjY1NzQ3Mw==",
+      "function": "enterMarkets",
+      "action": {
+        "category": "esdtNft",
+        "name": "transfer",
+        "description": "Transfer",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "FungibleESDT",
+              "name": "HatomUSDC",
+              "ticker": "HUSDC",
+              "svgUrl": "https://media.elrond.com/tokens/asset/HUSDC-d80042/logo.svg",
+              "token": "HUSDC-d80042",
+              "decimals": 8,
+              "value": "91243978932"
+            }
+          ],
+          "receiver": "erd1qqqqqqqqqqqqqpgqxp28qpnv7rfcmk6qrgxgw5uf2fnp84ar78ssqdk6hr",
+          "functionName": "enterMarkets",
+          "receiverAssets": {
+            "name": "Hatom: Controller",
+            "description": "Hatom's Lending & Borrowing Protocol Controller",
+            "social": {
+              "website": "https://hatom.com",
+              "discord": "https://discord.com/invite/WekwfUDXGp",
+              "github": "https://github.com/HatomProtocol",
+              "blog": "https://blog.hatom.com",
+              "telegram": "https://t.me/HatomLabs",
+              "twitter": "https://twitter.com/HatomProtocol",
+              "whitepaper": "https://docs.hatom.com/getting-started/learn-more-about-hatom-token/whitepaper",
+              "linkedin": "https://www.linkedin.com/company/hatomlabs"
+            },
+            "tags": [
+              "hatom",
+              "money-market",
+              "lending",
+              "borrowing"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.svg"
+          }
+        }
+      }
+    },
+    {
+      "txHash": "14e9605e677c04465ec7576b690a49d1c48cef6ff32579f437636c23e2ea76ff",
+      "gasLimit": 30000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 7843206,
+      "miniBlockHash": "2e01f0982a0263bb9a9e5296a506aaaad94e87657bf9d17d5d2e46191394a37d",
+      "nonce": 276,
+      "receiver": "erd1qqqqqqqqqqqqqpgqg48z8qfm028ze6y3d6tamdfaw6vn774tkp2shg5dt5",
+      "receiverAssets": {
+        "name": "xExchange: Energy Updater",
+        "social": {
+          "website": "https://xexchange.com",
+          "twitter": "https://twitter.com/xExchangeApp",
+          "telegram": "https://t.me/xExchangeApp",
+          "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+        },
+        "tags": [
+          "xexchange",
+          "energy",
+          "updater"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085843,
+      "sender": "erd17emgj8z2rxkzp3awrz3mdqgp7pcyfzfvhlmzzzskxncp6y28tuxqmfph72",
+      "senderShard": 0,
+      "signature": "9fc8f4fde4cda94545c41361373666a352ee645ef50c1a72c421309f230f95751e46044907243b4954afd1901ef9e0c05a5e16b6d94f8b403a022062405a8e09",
+      "status": "success",
+      "value": "0",
+      "fee": "356622060000000",
+      "timestamp": 1716632658,
+      "data": "dXBkYXRlRmFybXNFbmVyZ3lGb3JVc2VyQGY2NzY4OTFjNGExOWFjMjBjN2FlMThhM2I2ODEwMWYwNzA0NDg5MmNiZmY2MjEwYTE2MzRmMDFkMTE0NzVmMGNAMDAwMDAwMDAwMDAwMDAwMDA1MDA5NDI2NjAwNDc2ODc4MDY0YmFkODQyYjZhNjE2ZTZiMGYxNzQ2Y2JkYjA1NQ==",
+      "function": "updateFarmsEnergyForUser",
+      "action": {
+        "category": "scCall",
+        "name": "updateFarmsEnergyForUser"
+      }
+    },
+    {
+      "txHash": "eba8f48540cec4aed434d3c08e2ba056c7462e46bcb768355d1640cc1262f818",
+      "gasLimit": 12000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 6075500,
+      "miniBlockHash": "cb9ed61de71f4b63a7c4335deda42c5849e49c86aeab5b727388a5fba6a30379",
+      "nonce": 274,
+      "receiver": "erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqy0lllls33dlmm",
+      "receiverAssets": {
+        "name": "Staking: Carpathian Stake",
+        "tags": [
+          "staking",
+          "provider"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/identities/carpathianstake/logo.png"
+      },
+      "receiverShard": 4294967295,
+      "round": 20085843,
+      "sender": "erd1z9085s99hvd3xgwwuhdn3e2vx4zzmc0g5z8w634mw957dafn3vtsqer6na",
+      "senderShard": 1,
+      "signature": "86385d5f133aca09dbd0e448f42b34298d5cfac396693a6437acfadb299088a57fd574d20a67c4e3c22cd4185f3a006a016713f75d487207ca877850505b690e",
+      "status": "success",
+      "value": "0",
+      "fee": "135500000000000",
+      "timestamp": 1716632658,
+      "data": "cmVEZWxlZ2F0ZVJld2FyZHM=",
+      "function": "reDelegateRewards",
+      "action": {
+        "category": "stake",
+        "name": "reDelegateRewards",
+        "description": "Redelegate rewards from staking provider Carpathian Stake",
+        "arguments": {
+          "providerName": "Carpathian Stake",
+          "providerAvatar": "https://raw.githubusercontent.com/multiversx/mx-assets/master/identities/carpathianstake/logo.png"
+        }
+      }
+    },
+    {
+      "txHash": "cfdf5d5095f9991f568d2d1e84fea3722a3d631868b2ae2b18971d2eba52a09d",
+      "gasLimit": 5000000,
+      "gasPrice": 1000000000,
+      "gasUsed": 3375601,
+      "miniBlockHash": "d2599ea31b18cc300e1e01d7fb9f59ee6734889ad300f04ea0f17bdb4f6fca63",
+      "nonce": 1110651,
+      "receiver": "erd1qqqqqqqqqqqqqpgq7rwhny4mx6dhuzcsymrhdsv2vmvarecgh4vq687aqr",
+      "receiverAssets": {
+        "name": "Knights of Cathena: Rewardpool",
+        "description": "The rewardpool ensures a fair distribution of $CGO after each match",
+        "social": {
+          "website": "https://knights-of-cathena.com",
+          "email": "info@knights-of-cathena.com",
+          "blog": "https://knights-of-cathena.com/blog",
+          "twitter": "https://twitter.com/CathenaKnights",
+          "telegram": "https://telegram.knights-of-cathena.com",
+          "discord": "https://discord.com/invite/r8BwB8UaWx",
+          "instagram": "https://instagram.knights-of-cathena.com",
+          "community": "https://egld.community/projects/knights-of-cathena"
+        },
+        "tags": [
+          "koc",
+          "knights",
+          "cathena",
+          "knights of cathena",
+          "rewardpool"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/knightsofcathena.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/knightsofcathena.svg"
+      },
+      "receiverShard": 0,
+      "round": 20085842,
+      "sender": "erd1sdrjn0uuulydacwjam3v5afl427ptk797fpcujpfcsakfck8aqjquq9afc",
+      "senderShard": 0,
+      "signature": "2049db0d5baec00324b6ab814f59e2f5a5ae7c15abbefc3bcebf42f02e6d0787cdc46d6527b2ccce2d42a1bb13b86ee3a7e18e2e7beabcf92d673d21588df20c",
+      "status": "success",
+      "value": "0",
+      "fee": "221361010000000",
+      "timestamp": 1716632652,
+      "data": "Y2xhaW1Vc2VyQDEwYTQyODliMzgxYTI2N2JkNzVhNDU5ZjE4NTI4ZTNiMzA2ODBlZDJkZmFmZWY0MWNmZGYzYWYxNWU1MDRkMDBAMzlkMjM5MjJjMWZlNTIzODRi",
+      "function": "claimUser",
+      "action": {
+        "category": "scCall",
+        "name": "claimUser"
+      }
+    },
+    {
+      "txHash": "52a7cfd68788f4390709394e432e5f72f521417ec9925de500b02aba057c2bd3",
+      "gasLimit": 6050000,
+      "gasPrice": 1000000000,
+      "gasUsed": 1118000,
+      "miniBlockHash": "13c852eb951ba82cb3dd45fcc9ee55c87990e76773eacda456f9d74140fa856d",
+      "nonce": 1645,
+      "receiver": "erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqq90llllslwfcr3",
+      "receiverAssets": {
+        "name": "Staking: Valid Blocks",
+        "description": "Valid Blocks helps you increase your cryptocurrency assets by participating in staking. \"Non-Custodial\" means you are always in control of your funds!",
+        "tags": [
+          "staking",
+          "provider"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/identities/validblocks/logo.png"
+      },
+      "receiverShard": 4294967295,
+      "round": 20085842,
+      "sender": "erd1j57he4u7stmhjhl59273xae05cpcvnyrr6sm2gq2zmx3tk5wekhqxj57he",
+      "senderShard": 2,
+      "signature": "7b46ff9822eeee92fb32d32e930bfd8eed08770d2e99283aca39efa4bd892284ce4207c932167bca57010f8d7fbe9a3fe4b4798ec2ef77846c7dd8f76f47a30b",
+      "status": "success",
+      "value": "0",
+      "fee": "128000000000000",
+      "timestamp": 1716632652,
+      "data": "Y2xhaW1SZXdhcmRz",
+      "function": "claimRewards",
+      "action": {
+        "category": "stake",
+        "name": "claimRewards",
+        "description": "Claim rewards from staking provider Valid Blocks",
+        "arguments": {
+          "providerName": "Valid Blocks",
+          "providerAvatar": "https://raw.githubusercontent.com/multiversx/mx-assets/master/identities/validblocks/logo.png"
+        }
+      },
+      "guardianSignature": "90b511423207d0596f78facd20fd58e3a085640137457f8d7ae9ac0e0dd7ed6a3bf5669b0540f0cb7663d347311d634ffb5373beb57a2f8879519c4c01773801"
+    },
+    {
+      "txHash": "7b2151c6e5c6fc5de2396ff14b543543f9b4c57a4e11e41c00b9f7292491d4f4",
+      "gasLimit": 19500000,
+      "gasPrice": 1000000000,
+      "gasUsed": 11275238,
+      "miniBlockHash": "71078de9e83f6121275c4a2965ebdc126b055e4aaf81310be31460f3acb90dfa",
+      "nonce": 448,
+      "receiver": "erd1qqqqqqqqqqqqqpgqz9pvuz22qvqxfqpk6r3rluj0u2can55c78ssgcqs00",
+      "receiverAssets": {
+        "name": "Hatom: wTAO Money Market",
+        "description": "Hatom's wTAO Lending & Borrowing Protocol Money Market",
+        "social": {
+          "website": "https://hatom.com",
+          "discord": "https://discord.com/invite/WekwfUDXGp",
+          "github": "https://github.com/HatomProtocol",
+          "blog": "https://mirror.xyz/0xDac8B6141d28C46765255607f3572c73A064383f",
+          "telegram": "https://t.me/HatomLabs",
+          "twitter": "https://twitter.com/HatomProtocol",
+          "whitepaper": "https://docs.hatom.com/getting-started/learn-more-about-hatom-token/whitepaper",
+          "linkedin": "https://www.linkedin.com/company/hatomlabs"
+        },
+        "tags": [
+          "hatom",
+          "money-market",
+          "lending",
+          "borrowing"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.svg"
+      },
+      "receiverShard": 1,
+      "round": 20085841,
+      "sender": "erd1l86c8s3saqq7kaerg04erhngmj87euup6yxtxpjzsrjsd74e0apsuuswpa",
+      "senderShard": 1,
+      "signature": "5e10bea8734d88cb598b1af4621af02082a3c7eee78c83886467e14682f7f02c0dc5e26fd94faf249beff852610145a37baf843e75f848995bad9e17c331b100",
+      "status": "success",
+      "value": "0",
+      "fee": "252837380000000",
+      "timestamp": 1716632646,
+      "data": "RVNEVFRyYW5zZmVyQDQ4NTc1NDQxNGYyZDMyNjUzOTMxMzMzNkAyZGZhODI0YjAwQDcyNjU2NDY1NjU2ZA==",
+      "function": "redeem",
+      "action": {
+        "category": "esdtNft",
+        "name": "transfer",
+        "description": "Transfer",
+        "arguments": {
+          "transfers": [
+            {
+              "type": "FungibleESDT",
+              "name": "HatomWTAO",
+              "ticker": "HWTAO",
+              "svgUrl": "https://media.elrond.com/tokens/asset/HWTAO-2e9136/logo.svg",
+              "token": "HWTAO-2e9136",
+              "decimals": 8,
+              "value": "197476371200"
+            }
+          ],
+          "receiver": "erd1qqqqqqqqqqqqqpgqz9pvuz22qvqxfqpk6r3rluj0u2can55c78ssgcqs00",
+          "functionName": "redeem",
+          "receiverAssets": {
+            "name": "Hatom: wTAO Money Market",
+            "description": "Hatom's wTAO Lending & Borrowing Protocol Money Market",
+            "social": {
+              "website": "https://hatom.com",
+              "discord": "https://discord.com/invite/WekwfUDXGp",
+              "github": "https://github.com/HatomProtocol",
+              "blog": "https://mirror.xyz/0xDac8B6141d28C46765255607f3572c73A064383f",
+              "telegram": "https://t.me/HatomLabs",
+              "twitter": "https://twitter.com/HatomProtocol",
+              "whitepaper": "https://docs.hatom.com/getting-started/learn-more-about-hatom-token/whitepaper",
+              "linkedin": "https://www.linkedin.com/company/hatomlabs"
+            },
+            "tags": [
+              "hatom",
+              "money-market",
+              "lending",
+              "borrowing"
+            ],
+            "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.png",
+            "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/hatom-lending.svg"
+          }
+        }
+      }
+    }
+  ]

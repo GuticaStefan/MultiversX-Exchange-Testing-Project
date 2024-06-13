@@ -1,0 +1,357 @@
+[
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqf6gmx6eu0pm26m0rq0g6dye3etu6u4nw2jpspmkqzf",
+      "deployTxHash": "afacf1ed2e4966468a227213724db2eee511fb64fae212fa5b2dd0d4b5ca2ff0",
+      "timestamp": 1707496710,
+      "assets": {
+        "name": "xExchange: MetaStakedTADALK Contract",
+        "tags": [
+          "xexchange",
+          "metastaking"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqjgtun0fhl2em5ayukvahm3myltaxc5tz2jpssz8axf",
+      "deployTxHash": "116dc3632b47ab0330e31d683073fb2e6c0bb80ef660ebb1afbeef7189362cbd",
+      "timestamp": 1707496536,
+      "assets": {
+        "name": "xExchange: TADAEGLDLPStakedLK Farm",
+        "tags": [
+          "xexchange",
+          "farm"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqk5xplswklltypmazcxx5mhn3jdvaxuf92jpsudss7r",
+      "deployTxHash": "0e4a084ac76aa8c0c397eb23f8c7039f974ef1a80564287694f3ba3f0edba0d5",
+      "timestamp": 1695401430,
+      "assets": {
+        "name": "xExchange: CYBEREGLDLPStakedLK Farm",
+        "tags": [
+          "xexchange",
+          "farm"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqm78a0zmuqlm7z5qw9nseg6ecdszafljp2jpsxkm4rp",
+      "deployTxHash": "f4f885cd9f4bc68785f8068d55031dd72ed6d8cbe97d8ba34ca3f5da48cf73d2",
+      "timestamp": 1695401340,
+      "assets": {
+        "name": "xExchange: QWTEGLDLPStakedLK Farm",
+        "tags": [
+          "xexchange",
+          "farm"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqc6fyckfxvehlwr2zvfl34dycwgtm988g2jpsrnyazn",
+      "deployTxHash": "50e0c674af7daf8de467f6591e19b25b187a665f85117fdeceff19e9ad8844af",
+      "timestamp": 1695401226,
+      "assets": {
+        "name": "xExchange: WETHEGLDLPStakedLK Farm",
+        "tags": [
+          "xexchange",
+          "farm"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqmvzrwmwkrrzug50e64kk7xerufncp47d2jpsf9m8rx",
+      "deployTxHash": "8f9e4caa7325828c3a04c80fcf5a574203faefc6f65c9afd880b8c2cba6b01f9",
+      "timestamp": 1695401106,
+      "assets": {
+        "name": "xExchange: WBTCEGLDLPStakedLK Farm",
+        "tags": [
+          "xexchange",
+          "farm"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqwcdc3ve8ww6psam9hhu5nqqjlt22nagw2jpspt9rev",
+      "deployTxHash": "d05ff4625008d39d024ec269c01789617dc690daa5fd05838343759dc510188e",
+      "timestamp": 1695400962,
+      "assets": {
+        "name": "xExchange: USDTEGLDLPStakedLK Farm",
+        "tags": [
+          "xexchange",
+          "farm"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqxjdlk9d8gap8q2ghey6q5cg69y7p4rkd2jpsv89u3n",
+      "deployTxHash": "730111fa4a716918f528e8e2735ba8b9ec57428503edcf42770606b9c9600549",
+      "timestamp": 1689956562,
+      "assets": {
+        "name": "xExchange: MetaStakedHTMLK Contract",
+        "tags": [
+          "xexchange",
+          "metastaking"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqqsx29p3fge7upkgup4mm5xsdsv4w7rh82jpsdcvdrt",
+      "deployTxHash": "f67f9ec4249204ba07e49a5e2e16674191fd05bbad898bc4dd26a47466f3a39d",
+      "timestamp": 1689956436,
+      "assets": {
+        "name": "xExchange: SHTM Farm",
+        "tags": [
+          "xexchange",
+          "farm"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqr9gx79xls33tnzt0a94uvnkf452fz26q2jpsau4ulw",
+      "deployTxHash": "f3d4abfa0a44f09dd266c7962f29df582bc9a5dfc163f92186e43ba32765ea61",
+      "timestamp": 1689956130,
+      "assets": {
+        "name": "xExchange: HTMEGLDLPStakedLK Farm",
+        "tags": [
+          "xexchange",
+          "farm"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqtce4z8zzz76xjht3hak0hseshcmj3ush2jps2exxjn",
+      "deployTxHash": "cdd7ac77a27b3525a85c9188356acf6efef382b05353ee94fee754838f9df86a",
+      "timestamp": 1689071700,
+      "assets": {
+        "name": "xExchange: Liquidity Pool SafePrice Views",
+        "social": {
+          "website": "https://xexchange.com",
+          "twitter": "https://twitter.com/xExchangeApp",
+          "telegram": "https://t.me/xExchangeApp",
+          "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+        },
+        "tags": [
+          "xexchange",
+          "liquidity",
+          "pool",
+          "safePrice",
+          "views"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqcfkmz2j0e8pj0nzuk9j6mzcav0wpthq52jpsg546ch",
+      "deployTxHash": "d355f2dc9e0aaaf7b087b84e9e3219699455d8546340ffff5bb002d14aa4db88",
+      "timestamp": 1684426002,
+      "assets": {
+        "name": "xExchange: BHATEGLDLPStakedLK Farm",
+        "tags": [
+          "xexchange",
+          "farm"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqqqckvlhd3n7ntt5w3vln4xh3tsfpj0hr2jpsxlzgcj",
+      "deployTxHash": "b5dca264a5f72e6e9ed25a46cdcf041c30ccac0a75aa8c6bbacca824e7a37e43",
+      "timestamp": 1684425804,
+      "assets": {
+        "name": "xExchange: ZPAYWEGLDLPStakedLK Farm",
+        "tags": [
+          "xexchange",
+          "farm"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqeh4yv09rmyg4xgn5ma03mvm4v5gndu8w2jpsglz3cn",
+      "deployTxHash": "89687c8a142400a67522b00f2048c6bcb2fa35df33b23fd7dd2facb1525521ec",
+      "timestamp": 1681375710,
+      "assets": {
+        "name": "xExchange: XMEX Escrow Contract",
+        "description": "Move XMEX tokens between accounts",
+        "social": {
+          "website": "https://xexchange.com",
+          "twitter": "https://twitter.com/xExchangeApp",
+          "telegram": "https://t.me/xExchangeApp",
+          "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+        },
+        "tags": [
+          "xexchange",
+          "energy",
+          "escrow"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgq6nu2t8lzakmcfmu4pu5trjdarca587hn2jpsyjapr5",
+      "deployTxHash": "ef182eea8b9b52ece4902275e8b8b6c051b1af5e7aed0378a94968331cf04b5e",
+      "timestamp": 1678274460
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqu64gygjs5ted4rupaewaszyhaxl9lv7m2jpsw47nzr",
+      "deployTxHash": "bfd06c77075270959c8030da2b93a77da0039dcf373249d9fbb89d7d19c9c99c",
+      "timestamp": 1672933866,
+      "assets": {
+        "name": "xExchange: XMEX Wrapper Contract",
+        "description": "Energize / Unergize XMEX tokens",
+        "social": {
+          "website": "https://xexchange.com",
+          "twitter": "https://twitter.com/xExchangeApp",
+          "telegram": "https://t.me/xExchangeApp",
+          "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+        },
+        "tags": [
+          "xexchange",
+          "energy",
+          "wrap",
+          "unwrap"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqdt9aady5jp7av97m7rqxh6e5ywyqsplz2jps5mw02n",
+      "deployTxHash": "80bb7f3523081d63ebe801c9a9deecd3c1ac5b9079265f99542b33bea6a84e11",
+      "timestamp": 1669651842,
+      "assets": {
+        "name": "xExchange: Governance Module",
+        "social": {
+          "website": "https://xexchange.com",
+          "twitter": "https://twitter.com/xExchangeApp",
+          "telegram": "https://t.me/xExchangeApp",
+          "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+        },
+        "tags": [
+          "mex",
+          "governance"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqq93kw6jngqjugfyd7pf555lwurfg2z5e2jpsnhhywk",
+      "deployTxHash": "0065d321be60843926826ce81347e31ba7d3d45e531de5d7a74e4d3be0288b38",
+      "timestamp": 1666720350
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqe9pvzd3yssaexdg3v8tqr7fh60utpz0h2jpsksum32",
+      "deployTxHash": "de46349eca450d49beb943d9137fd7ecd7f52df432b38b402021e712388cdb6a",
+      "timestamp": 1666615248
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqgqfrrkvvuu677u7lz74fhyyyhz7w63kz2jpsuh2wpz",
+      "deployTxHash": "a3231b65e13e5f766a02d81bf3c2cbeb3fc432491f9a85ff6ba56ef76cd7f465",
+      "timestamp": 1666615182
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqjdlnu9ggwfc79pygn5fjjgmdm6d7vu5e2jpsw59amp",
+      "deployTxHash": "6ec5808e2db3842e467989a1e0e910061a1b7a22faf4b772eb2b74ef1667c8e5",
+      "timestamp": 1666614324,
+      "assets": {
+        "name": "xExchange: StakedASH Farm",
+        "tags": [
+          "xexchange",
+          "farm"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqlu6vrtkgfjh68nycf5sdw4nyzudncns42jpsr7szch",
+      "deployTxHash": "dc8933dd0e72226785b3ca5ba69c63c75b2a913c5c762678c1cd7f85c08abbee",
+      "timestamp": 1666613460,
+      "assets": {
+        "name": "xExchange: ASHWEGLDLPStakedLK Farm",
+        "tags": [
+          "xexchange",
+          "farm"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqzy0qwv0jf0yk8tysll0y6ea0fhpfqlp32jpsder9ne",
+      "deployTxHash": "38ab38637e27b25034c72e71be235f01732ba2c00708871fc45c36a4b102880d",
+      "timestamp": 1666613388,
+      "assets": {
+        "name": "xExchange: ASHWEGLDLPStaked Farm",
+        "tags": [
+          "xexchange",
+          "farm"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqawujux7w60sjhm8xdx3n0ed8v9h7kpqu2jpsecw6ek",
+      "deployTxHash": "143ee81b9a3c30b99bafca2d9b0f3cf5296499bc8f2bf70eb11d23e267daa617",
+      "timestamp": 1666523334,
+      "assets": {
+        "name": "xExchange: AshSwap Locking SC",
+        "description": "LKASH locking and proxy contract",
+        "social": {
+          "website": "https://xexchange.com",
+          "twitter": "https://twitter.com/xExchangeApp",
+          "telegram": "https://t.me/xExchangeApp",
+          "blog": "https://multiversx.com/blog/maiar-exchange-mex-tokenomics"
+        },
+        "tags": [
+          "xexchange",
+          "ashswap",
+          "locking",
+          "proxy"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    },
+    {
+      "address": "erd1qqqqqqqqqqqqqpgqcg4knmq77wxlnkzjgqpjjyk582smte7e2jps3px0sk",
+      "deployTxHash": "fed829c28c722c1d5638eea5260c39134fa5032399faed9b1aab9269238f62ca",
+      "timestamp": 1658749032,
+      "assets": {
+        "name": "xExchange: MetaStakedCRTLK Contract",
+        "tags": [
+          "xexchange",
+          "metastaking"
+        ],
+        "iconPng": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.png",
+        "iconSvg": "https://raw.githubusercontent.com/multiversx/mx-assets/master/accounts/icons/xexchange.svg"
+      }
+    }
+  ]

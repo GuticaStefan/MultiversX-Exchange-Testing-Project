@@ -1,0 +1,16 @@
+{
+    "totalValidators": 3203,
+    "activeValidators": 2849,
+    "totalObservers": 2136,
+    "totalStaked": "15945357184733040139751291",
+    "minimumAuctionQualifiedTopUp": "986489524231831080320",
+    "minimumAuctionQualifiedStake": "3486489524231831080320",
+    "auctionValidators": 401,
+    "nakamotoCoefficient": 6,
+    "dangerZoneValidators": 113,
+    "eligibleValidators": 1600,
+    "waitingValidators": 1280,
+    "qualifiedAuctionValidators": 323,
+    "allStakedNodes": 3281,
+    "inactiveValidators": 78
+  }

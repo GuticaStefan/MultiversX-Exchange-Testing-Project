@@ -1,15 +1,11 @@
 import * as fs from 'fs';
 
-interface jsonObject {
-    [key: string]: any;
-}
-
-export function createJsonObject(filePath: string): jsonObject | null {
+export function createJsonObject(filePath: string): any {
     try {
     
-        const fileData: string = fs.readFileSync(filePath, 'utf8');
+        const fileData: string = fs.readFileSync("./src/api/database/" + filePath, 'utf8');
 
-        const jsonObject: jsonObject = JSON.parse(fileData);
+        const jsonObject = JSON.parse(fileData);
     
         return jsonObject;
     } catch (err) {
