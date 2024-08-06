@@ -33,6 +33,13 @@ class SetErrorDto {
   } = undefined;
 }
 
+class SetDataDto {
+  @ApiProperty({ example : "/accounts/:address/tokens"})
+  endpoint: string;
+  @ApiProperty({example:"Add whatever data you want the endpoint to response with or 'Internal data' to perform the internal response provided by the API"})
+  data: any
+}
+
 @Controller('/set')
 export class ActionController {
   constructor(private readonly actionService: ActionService) {}
@@ -41,7 +48,7 @@ export class ActionController {
   @Post('/delay')
   @ApiBody({type: SetDelayDto})
   async setDelay(@Body() body: SetDelayDto) {
-    await this.actionService.setAction(body.endpoint, {type: 'delay', value: body.value} );
+    await this.actionService.setDelay(body.endpoint, {type: 'delay', value: body.value} );
     return { message: 'Delay set successfully !' };
   }
 
@@ -57,6 +64,13 @@ export class ActionController {
   async setError(@Body() body: SetErrorDto) {
     await this.actionService.setAction(body.endpoint, {type: 'error', error: body.error} );
     return { message: 'Error set successfully !' };
+  }
+
+  @Post('/data')
+  @ApiBody({type: SetDataDto})
+  async setCustomResponse(@Body() body: SetDataDto) {
+    await this.actionService.setAction(body.endpoint, {type: 'data', data: body.data} );
+    return { message: 'Data set successfully !' };
   }
 
   @Get('/clear-actions')
