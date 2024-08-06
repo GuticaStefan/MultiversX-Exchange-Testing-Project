@@ -18,25 +18,25 @@ export class RandomGenerator {
         return hash;
     }
 
-    // Generează un număr întreg aleatoriu între 0 și maxValue
+    // Generează un numar intreg aleatoriu între 0 și maxValue
     public generateRandomInt(maxValue: number): number {
         // LCG parameters
         const a = 1664525;
         const c = 1013904223;
         const m = Math.pow(2, 32);
 
-        // Generează următorul număr aleatoriu
+        // Genereaza urmatorul numar aleatoriu
         this.seed = Math.abs((a * this.seed + c) % m);
-        // Normalizează valoarea între 1 și maxValue
+        // Normalizeaza valoarea între 1 și maxValue
         const randomInt = this.seed % maxValue + 1;
         return randomInt;
     }
 
     public generateRandomBool(): boolean {
-        return this.generateRandomInt(3) > 1 ? true : false;
+        return this.generateRandomInt(10) > 1 ? true : false;
     }
 
-    // Generează un șir de caractere aleatorii de o anumită lungime
+    // Generează un sir de caractere aleatorii de o anumită lungime
     public generateRandomString(length: number): string {
         const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
         let result = '';
@@ -47,11 +47,11 @@ export class RandomGenerator {
         return result;
     }
 
-    // Generează un șir de bytes aleatoare de o anumită lungime
+    // Generează un sir de bytes aleatoare de o anumită lungime
     public generateRandomBytes(length: number): String {
         const bytes = new Uint8Array(length);
         for (let i = 0; i < length; i++) {
-            bytes[i] = this.generateRandomInt(256); // Generează un număr întreg între 0 și 255 pentru bytes
+            bytes[i] = this.generateRandomInt(256); // Generează un numar intreg între 0 și 255 pentru bytes
         }
         const base64String = btoa(String.fromCharCode.apply(null, bytes));
         return base64String;

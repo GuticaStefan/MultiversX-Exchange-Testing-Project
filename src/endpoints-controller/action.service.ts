@@ -1,8 +1,10 @@
 import { Injectable, Inject } from '@nestjs/common';
+import { response } from 'express';
 import { RedisClientType } from 'redis';
+import { json } from 'stream/consumers';
 
 interface EndpointAction {
-  type: 'delay' | 'crash' | 'error';
+  type: 'delay' | 'crash' | 'data' | 'error';
 }
 
 
@@ -24,20 +26,36 @@ class ErrorAction implements EndpointAction {
   } = undefined;
 }
 
+class CustomData implements EndpointAction {
+  type: 'data';
+  data: any;
+}
+
 @Injectable()
 export class ActionService {
   constructor(
     @Inject('REDIS_CLIENT') private readonly redisClient: RedisClientType
   ) {}
 
-  async setAction(endpoint: string, action: DelayAction | CrashAction | ErrorAction): Promise<void> {
-    await this.redisClient.set(endpoint, JSON.stringify(action));
+  async setAction(endpoint: string, action: CrashAction | ErrorAction | CustomData): Promise<void> {
+    await this.redisClient.hSet(endpoint, 'action', JSON.stringify(action));
     await this.redisClient.expire(endpoint, 60);
   }
 
-  async getAction(endpoint: string): Promise<DelayAction | CrashAction | ErrorAction | null> {;
-    const action = await this.redisClient.get(endpoint);
+
+  async setDelay(endpoint: string, delay: DelayAction): Promise<void> {
+    await this.redisClient.hSet(endpoint, 'delay', JSON.stringify(delay));
+    await this.redisClient.expire(endpoint, 60);
+  }
+
+  async getAction(endpoint: string): Promise<CrashAction | ErrorAction | CustomData | null> {;
+    const action = await this.redisClient.hGet(endpoint, 'action');
     return action ? JSON.parse(action) : null;
+  }
+
+  async getDelay(endpoint: string): Promise<DelayAction> {;
+    const deelay = await this.redisClient.hGet(endpoint, 'delay');
+    return deelay ? JSON.parse(deelay) : null;
   }
 
   async clearActions() {

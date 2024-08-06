@@ -143,7 +143,7 @@ export class AccountsService {
     let hasNfts = rand.generateRandomBool();
     
     if(hasNfts){
-      let nftsCount = db.nfts.length();
+      let nftsCount = db.nfts.length;
       let from = rand.generateRandomInt(nftsCount - 1), to = rand.generateRandomInt(nftsCount - from) + from;
       return db.nfts.slice(from, to);
     }

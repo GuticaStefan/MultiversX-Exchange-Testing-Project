@@ -55,7 +55,7 @@ export class AccountsController {
     @Param('address')
     address: string
   ): Promise<number> {
-    return this.accountsService.getAccountTokens(address);
+    return this.accountsService.getTokensCountForUser(address);
   }
 
   @Get('/accounts/:address/tokens/:token')

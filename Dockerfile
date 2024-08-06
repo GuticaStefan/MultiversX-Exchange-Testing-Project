@@ -16,6 +16,8 @@ RUN npm install
 # Copiază restul codului sursă în container
 COPY . .
 
+RUN npm run build
+
 # Expune portul pe care rulează aplicația
 EXPOSE 3000
 
